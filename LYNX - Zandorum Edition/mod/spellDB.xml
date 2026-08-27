@@ -1,0 +1,306 @@
+	<spellDB>
+	<!-- Item effects -->
+<spell name="Iron Bomb Shield" type="self" >
+   <effect type="damage" blasting="17" affectscaster="1" />
+   <anim sprite="sprites/sfx/impactB/impactB" frames="5" framerate="100" centerEffect="1" sfx="explosion"/>
+   <effect type="trigger" spell="Iron Bomb SBlast" />
+   </spell>
+<spell name="Iron Bomb SBlast" type="template" templateID="10" >
+   <effect type="damage" blasting="1" blastingF="0.5" secondaryScale="7" affectscaster="1" />
+   <anim sprite="sprites/sfx/combust_hit/combust_hit" frames="9" framerate="80" centerEffect="1" sfx="blast"/>
+   </spell>
+ <spell name="Despair Smite" type="missile" icon="skills/placeholder32.png" wand="0">
+	<effect type="damage" righteous="6" />
+	<description text="Pew pew, zap!" monsterText="calls upon the righteous fury of its god!"/>
+   <anim sprite="sprites/sfx/energy_ball/energy_ball" frames="6" framerate="80" sfx="elec" />
+   <impact sprite="sprites/sfx/divine_hit/divine_hit" frames="8" sfx="choir" framerate="70" centerEffect="0"/>
+   <effect type="trigger" spell="Despair Curse" />
+   </spell>
+  <spell name="Despair Curse" type="missile" icon="skills/placeholder32.png" wand="0">
+	<effect type="damage" necromantic="6" />
+	<description text="Pew pew, zap!" monsterText="calls upon the righteous fury of its god!"/>
+   <anim sprite="sprites/sfx/energy_ball/energy_ball" frames="6" framerate="80" sfx="elec" />
+   <impact sprite="sprites/sfx/divine_hit/divine_hit" frames="8" sfx="choir" framerate="70" centerEffect="0"/>
+   </spell>
+ <spell name="Lightning Bolt Blast" type="template" templateID="8" >
+   <effect type="damage" blasting="2" blastingF="0.1" voltaic="3" voltaicF="0.15" />
+   <effect type="paralyze"  amount="3" turns="1" affectscaster="1"/>
+   <anim sprite="sprites/sfx/voltaic_hit/voltaic_hit" frames="8" framerate="90" sfx="elec" />
+   <effect type="trigger" spell="Lightning Bolt Blast 2" />
+   </spell>
+  <spell name="Lightning Bolt Blast 2" type="template" templateID="10" >
+   <effect type="damage" blasting="3" blastingF="0.1" voltaic="4" voltaicF="0.15" />
+   <effect type="paralyze"  amount="3" turns="1" affectscaster="1"/>
+   <anim sprite="sprites/sfx/voltaic_hit/voltaic_hit" frames="8" framerate="90" sfx="elec" />
+   </spell>
+	<spell name="Manabringer" type="self">
+		<buff usetimer="1" time="0" self="0" icon="skills/placeholder64.png" smallicon="skills/placeholder32.png">
+		</buff> 
+		<anim sprite="sprites/sfx/acid_burn/acid_burn" frames="7" sfx="magic" framerate="100" centerEffect="1"/>
+		<effect type="spellpoints" amount="2" />
+		</spell>
+	<spell name="Bloodstone Restore" type="self">
+		<buff usetimer="1" time="0" self="0" icon="skills/placeholder64.png" smallicon="skills/placeholder32.png">
+		</buff> 
+		<anim sprite="sprites/sfx/acid_burn/acid_burn" frames="7" sfx="magic" framerate="100" centerEffect="1"/>
+		<effect type="heal" amount="4" />
+		</spell>	
+	<spell name="Manabringer 2" type="self">
+		<buff usetimer="1" time="0" self="0" icon="skills/placeholder64.png" smallicon="skills/placeholder32.png">
+		</buff> 
+		<effect type="spellpoints" amount="5" />
+		</spell>
+	<spell name="Zorkmids R1" type="self" >
+	   <effect type="spawnitematlocation" itemname="zorkmids" amount="2" floorScaleF="1"/>
+	   </spell>
+	 <spell name="Zorkmids R2" type="self" >
+	   <effect type="spawnitematlocation" itemname="zorkmids" amount="4" floorScaleF="1"/>
+	   </spell>
+	 <spell name="Zorkmids R3" type="self" >
+	   <effect type="spawnitematlocation" itemname="zorkmids" amount="8" floorScaleF="1"/>
+	   </spell>
+	 <spell name="Zorkmids R3A" type="target" >
+	   <effect type="spawnitematlocation" itemname="zorkmids" amount="8" floorScaleF="1"/>
+	   </spell>
+	<spell name="Zorkmids S1" type="self" >
+	   <effect type="spawnitematlocation" itemname="zorkmids" amount="2" floorScaleF="1"/>
+	   </spell>	
+	<spell name="Zorkmids S1A" type="target" >
+	   <effect type="spawnitematlocation" itemname="zorkmids" amount="3" floorScaleF="1"/>
+	   </spell>	
+	<spell name="Zorkmids S2" type="self" >
+	   <effect type="spawnitematlocation" itemname="zorkmids" amount="5" floorScaleF="1"/>
+	   </spell>	
+	<spell name="Zorkmids S3" type="self" >
+	   <effect type="spawnitematlocation" itemname="zorkmids" amount="12" floorScaleF="1"/>
+	   </spell>	
+	<spell name="Rearden Staff Hit" type="target" >
+		<effect type="trigger" spell="Rearden Staff Hit 1"/>
+		<effect type="trigger" spell="Rearden Staff Hit 1" amount="1" percent="90"/>
+		<effect type="trigger" spell="Rearden Staff Hit 1" amount="1" percent="60"/>
+		<effect type="trigger" spell="Rearden Staff Hit 1" amount="1" percent="50"/>
+		<effect type="tri
+		gger" spell="Rearden Staff Hit 2" amount="1" percent="40"/>
+		<effect type="trigger" spell="Rearden Staff Hit 2" amount="1" percent="20"/>
+		</spell>
+	<spell name="Rearden Staff Hit 1" type="target" >
+		<effect type="damage" aethereal="1" aetherealF="0.11" secondaryScale="1"   affectsCaster="1" />
+		<effect type="spawnitematlocation" itemname="zorkmids" amount="2" floorScaleF="1"/>
+	   </spell>
+	<spell name="Rearden Staff Hit 2" type="target" >
+		<effect type="damage" aethereal="0" aetherealF="0.75" secondaryScale="2"   affectsCaster="1" />
+		<effect type="spawnitematlocation" itemname="zorkmids" amount="6" floorScaleF="1"/>
+	   </spell>
+	<spell name="Golden Staff Hit" type="target" >
+		<effect type="trigger" spell="Golden Staff Hit 1"/>
+	   </spell>
+	<spell name="Golden Staff Hit 1" type="target" >
+		<effect type="damage" transmutative="1" transmutativeF="0.2" secondaryScale="3" affectsCaster="1" />
+		<effect type="trigger" spell="Golden Staff Hit 1" amount="1" percent="63"/>
+	   </spell>
+	 <spell name="Subdimensional Staff Hit" attack="0" type="target" >
+		<effect type="damage" aethereal="0" aetherealF="2" secondaryScale="21" affectsCaster="1" />
+		<effect type="paralyze" turns="1" after="1" />
+		<effect type="swapwithmonster" skipanimation="1" after="1" resistable="0"/>
+	   </spell>
+	 <spell name="Brass Staff Hit" type="target" >
+	   <effect type="damage" bleed="1" slashing="6" />
+	   <anim sprite="sprites/sfx/impact_slash/impact_slash" frames="6" sfx="piercing" framerate="100" centerEffect="1"/>
+	   <buff useTimer="1" time="5" stacksize="1" allowstacking="0" self="0" icon="skills/spells/acid_burn64.png" smallicon="skills/spells/acid_burn32.png" bad="1"/>
+	   </spell> 
+	   
+	   <!-- Fungi -->
+	      <spell name="Fungal Heal 2" type="self" >
+   <effect type="heal" amount="4" />
+   </spell>	
+  <spell name="Spore Burn" type="targetfloor" 
+		mineTimer="7" 
+		mineUseGlints="0" 
+      mineSpriteDrawOrder="1"
+		mineSpritePNGSeries="sprites/sfx/spores/spores" 
+		mineSpritePNGFirst="0" 
+		mineSpritePNGNum="4" 
+		mineSpritePNGRate="100" 
+		mine="1" 
+		mineradius="1"
+      minePermanent="1" >  
+   <effect type="damage" toxic="5" acidic="2" />
+   </spell>
+
+ <spell name="Fungal Growth" downtime="99" type="self" icon="skills/batty32.png" wand="0">
+   <buff useTimer="0" manaUpkeep="4"  stacksize="1" allowstacking="0" removable="1" bad="0" icon="skills/batty64.png" smallicon="skills/batty32.png">    
+      <polymorph name="Mushy"/>
+	  <damagebuff toxic="10" />
+      <primarybuff id="3" amount="4"/> <!-- Cad -->
+      <secondarybuff id="2" amount="-10"/> <!-- melee -->
+      <secondarybuff id="10" amount="4"/> <!-- armour -->
+      <secondarybuff id="13" amount="4" /> <!-- dodge -->
+      <secondarybuff id="14" amount="-10" /> <!-- sneak -->
+	  <targetHitEffectBuffBuff name="Spore Burn" percentage="5" />
+      </buff>
+   <description text="..." />
+   <anim sprite="sprites/sfx/smokepuffbig/smokepuffbig" frames="6" framerate="100" sfx="magic" centerEffect="1" />  
+   </spell>
+	   
+	 <!-- Electric Warrior -->
+	 	 <spell name="Feedback" type="self" icon="skills/spells/rockburst32.png" wand="1">
+		<effect type="damage" blasting="7" affectscaster="1" />
+		<anim sprite="sprites/sfx/rockburst/rockburst" frames="9" sfx="earth" framerate="100"  centerEffect="0"/>  
+		<description text="Rocks explode from beneath an enemy's feet." />
+	   </spell> 
+	   <spell name="Weaker Rockburst" type="target" icon="skills/spells/rockburst32.png" wand="1">
+		<effect type="damage" blasting="6" affectscaster="1" />
+		<anim sprite="sprites/sfx/rockburst/rockburst" frames="9" sfx="earth" framerate="100"  centerEffect="0"/>  
+		<description text="Rocks explode from beneath an enemy's feet." />
+	   </spell> 
+	   <spell name="Weak Rockburst" type="target" icon="skills/spells/rockburst32.png" wand="1">
+		<effect type="damage" blasting="5" affectscaster="1" />
+		<anim sprite="sprites/sfx/rockburst/rockburst" frames="9" sfx="earth" framerate="100"  centerEffect="0"/>  
+		<description text="Rocks explode from beneath an enemy's feet." />
+	   </spell> 
+    <spell name="Power Chord" type="missile" icon="skills/powerchord32.png" downtime="2" >
+	<effect type="damage" blasting="6" blastingF="0.25" AetherealF="0.25" PrimaryScale="0" />
+	<effect type="trigger" spell="Weaker Rockburst" amount="0" />
+	<effect type="trigger" spell="Feedback" amount="0" />
+	<anim sprite="sprites/sfx/note_ball/note_ball" frames="12" firstframe="0" framerate="70" sfx="explosion" />
+    <impact sprite="sprites/sfx/rockburst/rockburst" frames="9" firstframe="0" framerate="90" centerEffect="1" sfx="earth" />
+	<description text="MEDELYMEDLYMEDLYWOWOWOW!" />
+   </spell>
+
+	<spell name="Raw Power" type="self" icon="skills/electric_warrior32.png" downtime="30">
+		<buff useTimer="1" time="14" stacksize="1" allowstacking="0" removable="1" bad="0" icon="skills/raw_power64.png" smallicon="skills/raw_power32.png">
+			<secondaryBuff id="2" amount="5" />
+			<secondaryBuff id="10" amount="-5" />
+			<description text="Raw power is much too much." />
+		</buff> 
+		
+	</spell>
+	<spell name="ALI Nip" type="target">
+		<effect type="damage" blasting="2" blastingF="0.25" secondaryScale="2" />
+		<anim sprite="sprites/sfx/rockburst/rockburst" frames="9" sfx="earth" framerate="100"  centerEffect="0"/> 
+	</spell>
+
+	<spell name="ALI Buzz" type="target">
+		<effect type="damage" blasting="4" blastingF="0.3" secondaryScale="2" />
+		<anim sprite="sprites/sfx/rockburst/rockburst" frames="9" sfx="earth" framerate="100"  centerEffect="0"/> 
+	</spell>
+
+	<spell name="ALI Krunk" type="target">
+		<effect type="damage" blasting="6" blastingF="0.35" secondaryScale="2" />
+		<anim sprite="sprites/sfx/rockburst/rockburst" frames="9" sfx="earth" framerate="100"  centerEffect="0"/> 
+	</spell>
+
+	<spell name="ALI Ballmer" type="target">
+		<effect type="damage" blasting="9" blastingF="0.4" secondaryScale="2" />
+		<anim sprite="sprites/sfx/rockburst2/rockburst2" frames="9" sfx="earth" framerate="100"  centerEffect="0"/> 
+	</spell>
+
+	<spell name="ALI Liquored" type="target">
+		<effect type="damage" blasting="13" blastingF="0.45" secondaryScale="2" />
+		<anim sprite="sprites/sfx/rockburst2/rockburst2" frames="9" sfx="earth" framerate="100"  centerEffect="0"/> 
+	</spell>
+
+	<spell name="ALI Blasted" type="target">
+		<effect type="damage" blasting="26" blastingF="0.5" secondaryScale="2" />
+		<anim sprite="sprites/sfx/rockburst3/rockburst3" frames="9" sfx="explosion" framerate="100"  centerEffect="0"/> 
+	</spell>
+
+	<spell name="ALI Poison" type="target">
+		<effect type="damage" blasting="4" Toxic="16" blastingF="0.5" secondaryScale="2" />
+		<anim sprite="sprites/sfx/rockburst4/rockburst4" frames="9" sfx="explosion" framerate="100"  centerEffect="0"/> 
+	</spell>
+
+	<spell name="A Lad Insane" type="adjacent" icon="skills/axe_smasher32.png" downtime="17" attack="1">
+		<effect type="trigger" spell="ALI Nip" requirebuffontrigger="1" requirebuffontriggername="Nip of Courage" />
+		<effect type="trigger" spell="ALI Buzz" requirebuffontrigger="1" requirebuffontriggername="Buzzing with Magic" />
+		<effect type="trigger" spell="ALI Krunk" requirebuffontrigger="1" requirebuffontriggername="Wizard Krunk" />
+		<effect type="trigger" spell="ALI Ballmer" requirebuffontrigger="1" requirebuffontriggername="The Ballmer Peak" />
+		<effect type="trigger" spell="ALI Liquored" requirebuffontrigger="1" requirebuffontriggername="Magically Liquoured" />
+		<effect type="trigger" spell="ALI Blasted" requirebuffontrigger="1" requirebuffontriggername="Dangerously Mana-blasted" />
+		<effect type="trigger" spell="ALI Poison" requirebuffontrigger="1" requirebuffontriggername="Alcohol Poisoning" />
+	</spell>
+
+	<spell name="Cosmic Dance Hit" type="target" >
+	   <effect type="damage" aethereal="7" affectscaster="1" />	
+	</spell>
+
+	<spell name="Unicorn Wizard" type="self" icon="skills/unicorn_wizard132.png" >
+	<requirements mp="30" burlinessBonus="0.5" mincost="15" />
+		<buff useTimer="0" manaUpkeep="3"  stacksize="1" allowstacking="0" removable="1" bad="0" icon="skills/unicorn_wizard264.png" smallicon="skills/unicorn_wizard232.png" >
+		<halo name="sprites/sfx/moondance/moondance" first="0" framerate="100" num="4" />
+			<secondaryBuff id="6" amount="10" />
+			<secondaryBuff id="8" amount="10" />
+			<playerHitEffectBuff percentage="75" name="Cosmic Dance Hit" />
+			<description text="This is what happens when you turn it up to 11 out of a possible 5." />
+		</buff>	
+	</spell>
+   <spell name="The King" type="self" icon="skills/placeholder64.png">
+	   <effect type="resetrandomcooldown" />
+	   </spell> 
+	 <spell name="Ukulele Strike Active" type="target" downtime="64" icon="skills/ukulele_champion32.png" >
+	   <effect type="trigger" spell="Ukulele Strike Visual" />
+	   <description text="Play your ukulele with a chance of a chain reaction"/>
+	   </spell>
+	   
+	 <spell name="Ukulele Strike Visual" type="target" icon="skills/ukulele_champion32.png" >
+	   <effect type="damage" affectsCaster="1" voltaic="2" blasting="1" resistable="0" />
+	   <anim sprite="sprites/sfx/ukulelering/ukulelering" frames="8" framerate="100" sfx="elect" />
+	   <effect type="trigger" spell="Ukulele Strike Hit" />
+	   <description text="A smaller, gentler lightning strike. Indoor use only."/>
+	   </spell>
+	   
+	 <spell name="Ukulele Strike Hit" type="target" icon="skills/ukulele_champion32.png" >
+	   <effect type="damage" affectsCaster="1" voltaic="2" voltaicF="0.33" secondaryScale="3" blasting="2" resistable="0" />
+	   <anim sprite="sprites/sfx/ukulelestrike/ukulelestrike" frames="6" framerate="100" sfx="elect" />
+	   <effect type="trigger" spell="Ukulele Strike Visual"  percent="50"/>
+	   <description text="A smaller, gentler lightning strike. Indoor use only."/>
+	   </spell>  
+
+	   
+	 <spell name="Ukulele Strike Passive" type="target" icon="skills/ukulele_champion32.png" >
+	   <effect type="trigger" spell="Ukulele Strike Visual Passive" />
+	   <description text="A smaller, gentler lightning strike. Indoor use only."/>
+	   </spell> 
+	   
+	 <spell name="Ukulele Strike Visual Passive" type="target" icon="skills/ukulele_champion32.png" >
+	   <effect type="damage" affectsCaster="1" voltaic="1" resistable="0" />
+	   <anim sprite="sprites/sfx/ukulelering/ukulelering" frames="8" framerate="100" sfx="elect" />
+	   <effect type="trigger" spell="Ukulele Strike Hit Passive" />
+	   <description text="A smaller, gentler lightning strike. Indoor use only."/>
+	   </spell>      
+	   
+	   
+	 <spell name="Ukulele Strike Hit Passive" type="template" templateID="08" icon="skills/ukulele_champion32.png" >
+	   <effect type="damage" affectsCaster="1" voltaic="5" voltaicF="0.2" secondaryScale="3" blasting="2" resistable="0" />
+	   <anim sprite="sprites/sfx/ukulelestrike/ukulelestrike" frames="6" framerate="100" sfx="elect" />
+	   <description text="A smaller, gentler lightning strike. Indoor use only."/>
+	   </spell>  
+   
+   
+	   <!-- dosen't work, not sure why. Lame.
+	<spell name="Holy Weapon" type="target" icon="skills/spell_white9_32.png" >
+		<effect type="damage" righteous="4" resistable="0" />
+		<effect type="trigger" spell="Holy Infusion" percent="11"/>
+	   <description text="A smaller, gentler lightning strike. Indoor use only."/>
+	   </spell> 
+	<spell name="Holy Infusion" type="self">
+		<buff useTimer="1" time="12" 
+			self="1" 
+			stacksize="3" 
+			allowstacking="1" 
+			icon="skills/spell_white9_64.png" 
+			smallicon="skills/spell_white9_32.png"
+			bad="0" >
+		<damagebuff righteous="2"/>
+		<resistbuff righteous="2"/>
+		<primarybuff id="0" amount="1"/>
+		<primarybuff id="1" amount="1"/>
+		<primarybuff id="2" amount="1"/>
+		<primarybuff id="3" amount="1"/>
+		<primarybuff id="4" amount="1"/>
+		<primarybuff id="5" amount="1"/>
+		<secondarybuff id="0" amount="5"/>
+	   </buff>
+	   <description text="You are infused with holy energies." />
+	   </spell>   -->
+	</spellDB>

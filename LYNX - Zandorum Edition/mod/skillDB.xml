@@ -1,0 +1,59 @@
+<skillDB>
+<!-- 
+Ideas for skill trees.
+Swedish Chef
+Scuba Fighter
+Irish Fist Wizard (Drunkard)
+Philosopher
+-->
+<ability name="The Last of Them" icon="skills/batty64.png" skill="28" level="5">
+	<description text="Spread your spores!"/>
+	<damagebuff toxic="2"/>
+	<resistbuff toxic="5"/>
+	<targetKillBuff name="Fungal Heal 2" percentage="100"/>
+	<targetKillBuff name="Summon Mushroom Beast" percentage="3"/>
+	<spell name="Fungal Growth"/>
+  </ability>
+<skill name="Electric Warrior" id="56" type="warrior" description="Are you ready to rock?">
+   <art icon="skills/electric_warrior64.png"/>
+   </skill>
+<ability name="Electric Warrior" icon="skills/electric_warrior64.png" skill="56" startSkill="1">
+   <description text="You will, you will rock them!"/>
+   </ability>
+<ability name="Axe Smasher" icon="skills/axe_smasher64.png" skill="56" level="0">
+   <description text="Rock out with a brutal attack that gets stronger as you get drunker."/>
+   <secondarybuff id="4" amount="4"/>
+   <primarybuff id="0" amount="2"/>
+   <spell name="A Lad Insane"/>
+   </ability>
+<ability name="Power Chord" icon="skills/powerchord64.png" skill="56" level="1" giveItem="Earmuffs">
+   <description text="You have learned to consentrate music into the form of a projectile. Beware of feedback!"/>
+   <primarybuff id="0" amount="1"/>
+   <spell name="Power Chord"/>
+   </ability>
+<ability name="Rock Out" icon="skills/electric_warrior64.png" skill="56" level="2">
+<primarybuff id="0" amount="2"/>
+   <description text="You've got the power. Boost your attack power at the expense of your defense."/>
+   <spell name="Raw Power"/>
+   </ability>
+<ability name="Unicorn Wizard" icon="skills/unicorn_wizard164.png" skill="56" level="3">
+<secondarybuff id="8" amount="4"/>
+   <description text="Become even more awesome than you already are!"/>
+   <spell name="Unicorn Wizard"/>
+   </ability>
+<ability name="Ukulele Champion" icon="skills/ukulele_champion64.png" skill="56" level="4">
+   <description text="And your music is electric..."/>
+    <primarybuff id="0" amount="1"/>
+    <damagebuff voltaic="1"/>
+	<targetHitEffectBuff name="Ukulele Strike Passive" percentage="11"/>
+	<spell name="Ukulele Strike Active"/>
+   </ability>
+<ability name="Royalty of Rock" icon="skills/the_king64.png" skill="56" level="5" giveItem="Axetar">
+   <description text="Mastering the art of rock allows you to sometimes reset your cooldowns when dodging an attack or killing an enemy. "/>
+   <secondarybuff id="0" amount="15"/>
+   <secondarybuff id="13" amount="2"/>
+	<secondarybuff id="12" amount="-15"/>
+	<triggerondodge percent="3" name="The King"/>
+	<targetKillBuff percentage="2" name="The King"/>
+    </ability>
+</skillDB>

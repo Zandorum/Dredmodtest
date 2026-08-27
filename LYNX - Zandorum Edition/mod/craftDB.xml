@@ -1,0 +1,484 @@
+<craftDB>
+<!---New items-->
+<craft hidden="0">
+	<output skill="2" name="Tuning Fork" amount="1"/>
+	<tool tag="tinkerer"/>
+	<input name="Steel Ingot"/>
+	</craft>
+<craft hidden="0">
+	<output skill="4" name="Triple Rearden" amount="1"/>
+	<tool tag="ingot"/>
+	<input name="Rearden Metal Ingot"/>
+	<input name="Rearden Metal Ingot"/>
+	<input name="Rearden Metal Ingot"/>
+	</craft>
+<craft hidden="0">
+	<output skill="4" name="Rearden Metal Ingot" amount="3"/>
+	<tool tag="ingot"/>
+	<input name="Triple Rearden"/>
+	</craft>
+<craft hidden="0">
+	<output skill="2" name="Herder's Staff" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Hefty Stick"/>
+	</craft>
+<craft hidden="0">
+	<output skill="1" name="Hefty Stick" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Herder's Staff"/>
+	</craft>
+<craft hidden="0">
+	<output skill="2" name="Scythe" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Aqua Vitae"/>
+	<input name="Iron Ingot"/>
+	<input name="Iron Ingot"/>
+	<input name="Hefty Stick"/>
+	</craft>
+<craft hidden="1">
+	<output skill="5" name="Elder Scythe" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Spatial Instability Infusion"/>
+	<input name="Potion of Dire Empowerment"/>
+	<input name="Scythe"/>
+	</craft>
+<craft hidden="0">
+	<output skill="2" name="Steel Staff" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Potion of Steeling"/>
+	<input name="Hefty Stick"/>
+	</craft>
+<craft hidden="1">
+	<output skill="6" name="Subdimensional Staff" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Steel Staff"/>
+	<input name="Spatial Instability Infusion"/>
+	<input name="Turquoise"/>
+	<input name="Turquoise"/>
+	</craft>
+<craft hidden="1">
+	<output skill="6" name="Diamond Rearden Metal Staff" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Bent Staff"/>
+	<input name="Triple Rearden"/>
+	<input name="Diamond"/>
+	<input name="Diamond"/>
+	</craft>
+<craft hidden="1">
+	<output skill="6" name="Diamond Rearden Metal Staff" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Bent Staff"/>
+	<input name="Triple Rearden"/>
+	<input name="Diamond"/>
+	<input name="Diamond"/>
+	</craft>
+<craft hidden="0">
+	<output skill="4" name="Copper Staff" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Steel Staff"/>
+	<input name="Iron Ingot"/>
+	<input name="Copper Ingot"/>
+	</craft>
+<craft hidden="0">
+	<output skill="4" name="Brass Staff" amount="1"/>
+	<tool tag="tinkerer"/>
+	<input name="Steel Staff"/>
+	<input name="Slotted Bronze Discs"/>
+	<input name="Slotted Bronze Discs"/>
+	<input name="Brass Ingot"/>
+	</craft>
+<craft hidden="0">
+	<output skill="5" name="Golden Staff" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Steel Staff"/>
+	<input name="Potion of Midas"/>
+	<input name="Solution of Gold"/>
+	</craft>
+<craft hidden="0">
+	<output skill="4" name="Zinc Staff" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Steel Staff"/>
+	<input name="Spatial Instability Infusion"/>
+	<input name="Zinc Ingot"/>
+	</craft>
+<craft hidden="0">
+	<output skill="5" name="Platinum Staff" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Steel Staff"/>
+	<input name="Herder's Staff"/>
+	<input name="Platinum Ingot"/>
+	</craft>
+<craft hidden="0">
+	<output skill="6" name="Electrum Staff" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Steel Staff"/>
+	<input name="Electrum Ingot"/>
+	<input name="Potion of Radiance"/>
+	</craft>
+<craft hidden="0">
+	<output skill="1" name="Lantern" amount="1"/>
+	<tool tag="tinkerer"/>
+	<input name="Iron Ingot"/>
+	<input name="Copper Wire"/>
+	</craft>
+<craft hidden="0">
+	<output skill="3" name="Mechanical Lantern" amount="1"/>
+	<tool tag="tinkerer"/>
+	<input name="Lantern"/>
+	<input name="Aetheric Power Cylinder"/>
+	<input name="Spring-loaded Power Core"/>
+	</craft>
+<craft hidden="0">
+	<output skill="3" name="Overgrown Lantern" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Lantern"/>
+	<input name="Plum"/>
+	<input name="Pear"/>
+	<input name="Apple"/>
+	</craft>
+<!--<craft hidden="0">
+	<output skill="4" name="Lunar Lantern" amount="1"/>
+	<tool tag="tinkerer"/>
+	<input name="Lantern"/>
+	<input name="Potion of Mana"/>
+	<input name="Pyrite Sun"/>
+	</craft>
+<craft hidden="0">
+	<output skill="4" name="Lunar Lantern" amount="1"/>
+	<tool tag="tinkerer"/>
+	<input name="Lantern"/>
+	<input name="Spatial Instability Infusion"/>
+	<input name="Black Pearl"/>
+	</craft>-->
+<craft hidden="0">
+	<output skill="3" name="Lunar Lantern" amount="1"/>
+	<tool tag="lathe"/>
+	<input name="Lantern"/>
+	<input name="Potion of Mana"/>
+	<input name="Pyrite Sun"/>
+	</craft>
+<craft hidden="0">
+	<output skill="3" name="Lunar Lantern" amount="1"/>
+	<tool tag="lathe"/>
+	<input name="Lantern"/>
+	<input name="Spatial Instability Infusion"/>
+	<input name="Black Pearl"/>
+	</craft>
+<craft hidden="1">
+	<output skill="7" name="The Radiance" amount="1"/>
+	<tool tag="tinkerer"/>
+	<input name="Lunar Lantern"/>
+	<input name="Overgrown Lantern"/>
+	<input name="Mechanical Lantern"/>
+	<input name="Potion of Radiance"/>
+	</craft>
+<craft hidden="0">
+	<output skill="2" name="Rough Rearden Bulwark" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Rearden Metal Ingot"/>
+	<input name="Rearden Metal Ingot"/>
+	</craft>
+<craft hidden="0">
+	<output skill="3" name="Rearden Bulwark" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Rough Rearden Bulwark"/>
+	<input name="Rearden Metal Ingot"/>
+	<input name="Rearden Metal Ingot"/>
+	</craft>
+<craft hidden="0">
+	<output skill="5" name="Rearden Bulwark of Wealth" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Rearden Bulwark"/>
+	<input name="Rearden Metal Ingot"/>
+	<input name="Rearden Metal Ingot"/>
+	<input name="Gold Ingot"/>
+	</craft>
+<craft hidden="0">
+	<output skill="4" name="Aluminum Buckler" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Aluminum Ingot"/>
+	<input name="Aluminum Ingot"/>
+	<input name="Aluminum Ingot"/>
+	<input name="Aluminum Ingot"/>
+	</craft>
+<craft hidden="0">
+	<output skill="0" name="Crude Silver Sword" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Silver Ingot"/>
+	<input name="Silver Ingot"/>
+	</craft>
+<craft hidden="0">
+	<output skill="1" name="Rough Silver Sword" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Crude Silver Sword" />
+	<input name="Silver Ingot" />
+	</craft>
+<craft hidden="0">
+	<output skill="1" name="Rough Silver Sword" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Silver Ingot" />
+	<input name="Silver Ingot" />
+	</craft>
+<craft hidden="0">
+	<output skill="2" name="Silver Sword" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Rough Silver Sword" />
+	<input name="Silver Ingot" />
+	</craft>
+<craft hidden="0">
+	<output skill="4" name="Fine Silver Sword" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Silver Sword" />
+	<input name="Silver Ingot" />
+	</craft>
+<craft hidden="0">
+	<output skill="3" name="Ruby Harmonized Silver Sword" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Rough Silver Sword" />
+	<input name="Silver Ingot"/>
+	<input name="Ruby"/>
+	<input name="Tuning Fork"/>
+	</craft>
+<craft hidden="0">
+	<output skill="3" name="Emerald Harmonized Silver Sword" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Rough Silver Sword"/>
+	<input name="Silver Ingot"/>
+	<input name="Emerald"/>
+	<input name="Tuning Fork"/>
+	</craft>
+<craft hidden="0">
+	<output skill="4" name="Sapphire Harmonized Silver Sword" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Rough Silver Sword"/>
+	<input name="Silver Ingot"/>
+	<input name="Sapphire"/>
+	<input name="Tuning Fork"/>
+	</craft>
+<craft hidden="0">
+	<output skill="4" name="Aquamarine Harmonized Silver Sword" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Rough Silver Sword"/>
+	<input name="Silver Ingot"/>
+	<input name="Aquamarine"/>
+	<input name="Tuning Fork"/>
+	</craft>
+<craft hidden="0">
+	<output skill="5" name="Diamond Harmonized Silver Sword" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Rough Silver Sword"/>
+	<input name="Silver Ingot"/>
+	<input name="Diamond"/>
+	<input name="Tuning Fork"/>
+	</craft>
+<craft hidden="0">
+	<output skill="3" name="Amber Harmonized Silver Sword" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Rough Silver Sword"/>
+	<input name="Silver Ingot"/>
+	<input name="Amber"/>
+	<input name="Tuning Fork"/>
+	</craft>
+<craft hidden="0">
+	<output skill="5" name="Citrine Harmonized Silver Sword" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Rough Silver Sword"/>
+	<input name="Silver Ingot"/>
+	<input name="Citrine"/>
+	<input name="Tuning Fork"/>
+	</craft>
+<craft hidden="0">
+	<output skill="3" name="Pyrite Sun Harmonized Silver Sword" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Rough Silver Sword"/>
+	<input name="Silver Ingot"/>
+	<input name="Pyrite Sun"/>
+	<input name="Tuning Fork"/>
+	</craft>
+<craft hidden="0">
+	<output skill="5" name="Black Pearl Harmonized Silver Sword" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Rough Silver Sword"/>
+	<input name="Silver Ingot"/>
+	<input name="Black Pearl"/>
+	<input name="Tuning Fork"/>
+	</craft>
+<craft hidden="0">
+	<output skill="4" name="Amethyst Harmonized Silver Sword" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Rough Silver Sword"/>
+	<input name="Silver Ingot"/>
+	<input name="Amethyst"/>
+	<input name="Tuning Fork"/>
+	</craft>
+<craft hidden="0">
+	<output skill="3" name="Carnelian Harmonized Silver Sword" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Rough Silver Sword"/>
+	<input name="Silver Ingot"/>
+	<input name="Carnelian"/>
+	<input name="Tuning Fork"/>
+	</craft>
+<craft hidden="0">
+	<output skill="4" name="Turquoise Harmonized Silver Sword" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Rough Silver Sword"/>
+	<input name="Silver Ingot"/>
+	<input name="Turquoise"/>
+	<input name="Tuning Fork"/>
+	</craft>
+<craft hidden="1">
+	<output skill="6" name="Berserker Blade" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Ruby Harmonized Silver Sword"/>
+	<input name="Carnelian Harmonized Silver Sword"/>
+	<input name="Ruby"/>
+	<input name="Infernal Potion"/>
+	</craft>
+<craft hidden="1">
+	<output skill="6" name="Greenblade" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Emerald Harmonized Silver Sword"/>
+	<input name="Amber Harmonized Silver Sword"/>
+	<input name="Verdant Poison"/>
+	<input name="Potion of Major Healing"/>
+	</craft>
+<craft hidden="1">
+	<output skill="7" name="Purpleblade" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Amethyst Harmonized Silver Sword"/>
+	<input name="Greenblade"/>
+	<input name="Amaranthine Poison"/>
+	</craft>
+<craft hidden="1">
+	<output skill="6" name="Blade of Midas" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Amethyst Harmonized Silver Sword"/>
+	<input name="Ruby Harmonized Silver Sword"/>
+	<input name="Solution of Gold"/>
+	<input name="Gold Ingot"/>
+	</craft>
+<craft hidden="1">
+	<output skill="6" name="Sentinel" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Amethyst Harmonized Silver Sword"/>
+	<input name="Sapphire Harmonized Silver Sword"/>
+	<input name="Spatial Instability Infusion"/>
+	<input name="Potion of Mojo"/>
+	</craft>
+<craft hidden="1">
+	<output skill="6" name="Despair" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Citrine Harmonized Silver Sword"/>
+	<input name="Black Pearl Harmonized Silver Sword"/>
+	<input name="Root of T'Char"/>
+	<input name="Potion of Radiance"/>
+	</craft>
+<craft hidden="1">
+	<output skill="6" name="Grot" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Carnelian Harmonized Silver Sword"/>
+	<input name="Emerald Harmonized Silver Sword"/>
+	<input name="Rust"/>
+	<input name="Alchemical Ooze"/>
+	</craft>
+<craft hidden="1">
+	<output skill="7" name="The Invisible Sword" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Diamond Harmonized Silver Sword"/>
+	<input name="Pyrite Sun Harmonized Silver Sword"/>
+	<input name="Potion of Invisibility"/>
+	<input name="Potion of Invisibility"/>
+	</craft>
+<craft hidden="1">
+	<output skill="7" name="The Needle" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Diamond Harmonized Silver Sword"/>
+	<input name="Aquamarine Harmonized Silver Sword"/>
+	<input name="Potion of Steeling"/>
+	<input name="Acidum Salis"/>
+	</craft>
+<craft hidden="0">
+	<output skill="2" name="Manastone" amount="1"/>
+	<tool tag="lathe"/>
+	<input name="Aquamarine"/>
+	<input name="Night Cap"/>
+	<input name="Gnarled Club"/>
+	</craft>
+<craft hidden="0">
+	<output skill="4" name="Charged Manastone" amount="1"/>
+	<tool tag="lathe"/>
+	<input name="Arcane Wand"/>
+	<input name="Night Cap"/>
+	<input name="Potion of Mana"/>
+	<input name="Aquamarine"/>
+	</craft>
+<craft hidden="0">
+	<output skill="4" name="Charged Manastone" amount="1"/>
+	<tool tag="lathe"/>
+	<input name="Manastone"/>
+	<input name="Potion of Mana"/>
+	<input name="Aquamarine"/>
+	</craft>
+<craft hidden="0">
+	<output skill="4" name="Bloodstone" amount="1"/>
+	<tool tag="lathe"/>
+	<input name="Manastone"/>
+	<input name="Greedy Blungecap"/>
+	<input name="Potion of Dire Empowerment"/>
+	<input name="Ruby"/>
+	</craft>
+<craft hidden="0">
+	<output skill="2" name="Rearden Ring" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Rearden Metal Ingot"/>
+	<input name="Rearden Metal Ingot"/>
+	</craft>
+<craft hidden="0">
+	<output skill="2" name="Diamond Set Rearden Ring" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Rearden Metal Ingot"/>
+	<input name="Diamond"/>
+	</craft>
+<craft hidden="0">
+	<output skill="2" name="Diamond Encrusted Rearden Ring" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Rearden Metal Ingot"/>
+	<input name="Diamond"/>
+	<input name="Diamond"/>
+	<input name="Diamond"/>
+	</craft>
+<craft>
+    <output skill="1" name="Scrap Silver" amount="1"/>
+    <output skill="7" name="Silver Ingot" amount="1"/>
+    <tool tag="ingot"/>
+    <input name="Crude Silver Sword"/>
+    </craft>
+<craft>
+    <output skill="1" name="Scrap Silver" amount="1"/>
+    <output skill="7" name="Silver Ingot" amount="1"/>
+    <tool tag="ingot"/>
+    <input name="Rough Silver Sword"/>
+    </craft>
+<craft>
+    <output skill="1" name="Silver Ingot" amount="1"/>
+    <tool tag="ingot"/>
+    <input name="Silver Sword"/>
+    </craft>
+<craft>
+    <output skill="1" name="Silver Ingot" amount="1"/>
+    <tool tag="ingot"/>
+    <input name="Fine Silver Sword"/>
+    </craft>
+<craft>
+    <output skill="1" name="Scrap Silver" amount="2"/>
+    <tool tag="ingot"/>
+	<input name="Silver Ingot"/>
+    </craft>
+<craft>
+    <output skill="1" name="Silver Ingot" amount="1"/>
+    <tool tag="ingot"/>
+	<input name="Scrap Silver"/>
+	<input name="Scrap Silver"/>
+    </craft>
+</craftDB>

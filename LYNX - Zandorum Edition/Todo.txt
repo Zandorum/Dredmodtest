@@ -1,0 +1,7 @@
+* When added, have Potion of Genocide + Manastone be an option for making the Bloodstone (maybe change recipe).
+* Add Rearden Armor, can give Zorkimids when you take damage.
+* Add a Sword which is a Combination of all of the Gem Swords.
+* Add 5% chance to Paralyze to Tuning Fork.
+* Add Wood to recipes that require it.
+* Lower Lantern effect chances.
+* Guitar Skill disappears.
