@@ -1,0 +1,305 @@
+<itemDB>
+
+<item name="Aluminum Bolt" iconFile="items/bolt_craft_aluminum0.png" level="1" type="6" >
+  <price amount="10"/>
+  <weapon slashing="2" piercing="1"/>
+  <description text="A light, strong bolt constructed to meet Bolt Council specifications. Each bolt is guaranteed to contain enough aluminum to make eight square yards of weapon-grade aluminum foil."/>
+	</item>
+<item name="Barbed Aluminum Bolt" iconFile="items/bolt_craft_aluminum1.png" level="3" type="6" >
+	<price amount="14"/>
+	<weapon slashing="2" piercing="3"/>
+	<description text="Crafted of aluminum, this bolt will give anyone an unpleasant sting with its nasty barbs. Each bolt is guaranteed to contain enough aluminum to make eight square yards of weapon-grade aluminum foil."/>
+	</item>	
+<item name="Cruelly Barbed Aluminum Bolt" iconFile="items/bolt_craft_aluminum1.png" level="5" type="6" >
+	<price amount="30"/>
+	<weapon slashing="3" piercing="4"/>
+	<description text="A cruel and crafty mind was behind the manufacture of these wickedly barbed aluminum bolts. Each bolt is guaranteed to contain enough aluminum to make eight square yards of weapon-grade aluminum foil."/>
+</item>
+<item name="Ingeniously Scythed Aluminum Bolt" iconFile="items/bolt_craft_aluminum3.png" level="6" type="6" >
+	<price amount="46"/>
+	<weapon slashing="5" piercing="9"/>
+	<description text="Never before has aluminum be bent to such unpleasant purposes. Each bolt is guaranteed to contain enough aluminum to make eight square yards of weapon-grade aluminum foil."/>
+</item>
+
+
+<item name="Electrum Bolt" iconFile="items/bolt_craft_electrum0.png" level="1" type="6" >
+  <price amount="16"/>
+  <weapon slashing="2" voltaic="1"/>
+  <description text="Though this bolt possesses no inherent electrical charge, monsters fortuitously (for you) often confuse 'electrum' for 'electric'. As it turns out, fear of electrocution is nearly as effective as actual electrocution. Who knew?"/>
+	</item>
+<item name="Barbed Electrum Bolt" iconFile="items/bolt_craft_electrum1.png" level="3" type="6" >
+	<price amount="32"/>
+	<weapon slashing="1" piercing="3" voltaic="2"/>
+	<description text="Crafted of electrum, this bolt will give anyone an unpleasant sting with its nasty barbs. Though this bolt possesses no inherent electrical charge, monsters fortuitously (for you) often confuse 'electrum' for 'electric'. As it turns out, fear of electrocution is nearly as effective as actual electrocution. Who knew?"/>
+	</item>	
+<item name="Cruelly Barbed Electrum Bolt" iconFile="items/bolt_craft_electrum2.png" level="5" type="6" >
+	<price amount="48"/>
+	<weapon slashing="2" piercing="4" voltaic="3"/>
+	<description text="A cruel and crafty mind was behind the manufacture of these wickedly barbed electrum bolts. Though this bolt possesses no inherent electrical charge, monsters fortuitously (for you) often confuse 'electrum' for 'electric'. As it turns out, fear of electrocution is nearly as effective as actual electrocution. Who knew?"/>
+</item>
+<item name="Ingeniously Scythed Electrum Bolt" iconFile="items/bolt_craft_electrum3.png" level="6" type="6" >
+	<price amount="64"/>
+	<weapon slashing="3" piercing="8" voltaic="6"/>
+	<description text="Never before has electrum be bent to such unpleasant purposes. Though this bolt possesses no inherent electrical charge, monsters fortuitously (for you) often confuse 'electrum' for 'electric'. As it turns out, fear of electrocution is nearly as effective as actual electrocution. Who knew?"/>
+</item>
+
+
+<item name="Platinum Bolt" iconFile="items/bolt_craft_platinum0.png" level="1" type="6" >
+  <price amount="18"/>
+  <weapon slashing="2" piercing="1"/>
+  <description text="Noble and heavy, platinum comfortably makes its home in catalytic converters, fine jewelry, and now, in the bodies of those judged to be naughty in your sight."/>
+	</item>
+<item name="Barbed Platinum Bolt" iconFile="items/bolt_craft_platinum1.png" level="3" type="6" >
+	<price amount="24"/>
+	<weapon slashing="3" piercing="2" />
+	<description text="Crafted of platinum, this bolt will give anyone an unpleasant sting with its nasty barbs. Noble and heavy, platinum comfortably makes its home in catalytic converters, fine jewelry, and now, in the bodies of those judged to be naughty in your sight."/>
+	</item>	
+<item name="Cruelly Barbed Platinum Bolt" iconFile="items/bolt_craft_platinum2.png" level="5" type="6" >
+	<price amount="38"/>
+	<weapon slashing="3" piercing="5" />
+	<description text="A cruel and crafty mind was behind the manufacture of these wickedly barbed platinum bolts. Noble and heavy, platinum comfortably makes its home in catalytic converters, fine jewelry, and now, in the bodies of those judged to be naughty in your sight."/>
+</item>
+<item name="Ingeniously Scythed Platinum Bolt" iconFile="items/bolt_craft_platinum3.png" level="6" type="6" >
+	<price amount="52"/>
+	<weapon slashing="4" piercing="10" />
+	<description text="Never before has platinum be bent to such unpleasant purposes. Noble and heavy, platinum comfortably makes its home in catalytic converters, fine jewelry, and now, in the bodies of those judged to be naughty in your sight."/>
+</item>
+
+
+<item name="Silver Bolt" iconFile="items/bolt_craft_silver0.png" level="1" type="6" >
+  <price amount="20"/>
+  <weapon slashing="1" piercing="1" righteous="1" hit="Holy Fire"/>
+  <description text="The silver in this bolt head is 99% pure. The remaining 1% is pure, unadulterated hatred for the undead. The undead feel similarly, and frequently burst into flames to express their irritation."/>
+	</item>
+<item name="Barbed Silver Bolt" iconFile="items/bolt_craft_silver1.png" level="3" type="6" >
+	<price amount="30"/>
+	<weapon slashing="2" piercing="2" righteous="1" hit="Holy Fire" />
+	<description text="Crafted of silver, this bolt will give anyone an unpleasant sting with its nasty barbs. The silver in this bolt head is 99% pure. The remaining 1% is pure, unadulterated hatred for the undead. The undead feel similarly, and frequently burst into flames to express their irritation."/>
+	</item>	
+<item name="Cruelly Barbed Silver Bolt" iconFile="items/bolt_craft_silver1.png" level="5" type="6" >
+	<price amount="40"/>
+	<weapon slashing="3" piercing="3" righteous="2" hit="Holy Fire" />
+	<description text="A cruel and crafty mind was behind the manufacture of these wickedly barbed silver bolts. The silver in this bolt head is 99% pure. The remaining 1% is pure, unadulterated hatred for the undead. The undead feel similarly, and frequently burst into flames to express their irritation."/>
+</item>
+<item name="Ingeniously Scythed Silver Bolt" iconFile="items/bolt_craft_silver3.png" level="6" type="6" >
+	<price amount="50"/>
+	<weapon slashing="4" piercing="8" righteous="3" hit="Holy Fire" />
+	<description text="Never before has silver be bent to such unpleasant purposes. The silver in this bolt head is 99% pure. The remaining 1% is pure, unadulterated hatred for the undead. The undead feel similarly, and frequently burst into flames to express their irritation."/>
+</item>
+
+
+<item name="Zinc Bolt" iconFile="items/bolt_craft_zinc0.png" level="1" type="6" >
+    <price amount="12"/>
+    <weapon slashing="2" hit="Zinc Blink"/>
+    <description text="It's a well-known fact that demons frequently have an allergic reaction to zinc, and that's why you'll never see them snacking on oysters or wheat germ. Help them get their RDI of zinc with this bolt."/>
+	</item>
+<item name="Barbed Zinc Bolt" iconFile="items/bolt_craft_zinc1.png" level="3" type="6" >
+	<price amount="18"/>
+	<weapon slashing="2" piercing="2" hit="Zinc Blink"/>
+	<description text="Crafted of zinc, this bolt will give anyone an unpleasant sting with its nasty barbs.It's a well-known fact that demons frequently have an allergic reaction to zinc, and thus avoid eating oysters and wheat germ when possible. Help them get their RDI of zinc with this bolt."/>
+	</item>	
+<item name="Cruelly Barbed Zinc Bolt" iconFile="items/bolt_craft_zinc2.png" level="5" type="6" >
+	<price amount="36"/>
+	<weapon slashing="3" piercing="3" hit="Zinc Blink"/>
+	<description text="A cruel and crafty mind was behind the manufacture of these wickedly barbed zinc bolts. It's a well-known fact that demons frequently have an allergic reaction to zinc, and thus avoid eating oysters and wheat germ when possible. Help them get their RDI of zinc with this bolt."/>
+</item>
+<item name="Ingeniously Scythed Zinc Bolt" iconFile="items/bolt_craft_zinc3.png" level="6" type="6" >
+	<price amount="48"/>
+	<weapon slashing="4" piercing="8" hit="Zinc Blink"/>
+	<description text="Never before has zinc be bent to such unpleasant purposes. It's a well-known fact that demons frequently have an allergic reaction to zinc, and thus avoid eating oysters and wheat germ when possible. Help them get their RDI of zinc with this bolt."/>
+</item>
+
+
+<item name="Gold Bolt" iconFile="items/bolt_craft_gold0.png" level="1" type="6" >
+    <price amount="13"/>
+    <weapon piercing="1" crushing="1" hit="Shower of Gold"/>
+    <description text="Gold is not the best metal to use for weapons, as it's a bit soft. On the bright side, sometimes bits of the bolt head will fall out of enemies. After being wiped off, these bright shinies can be exchanged for goods and services."/>
+	</item>
+<item name="Barbed Gold Bolt" iconFile="items/bolt_craft_gold1.png" level="3" type="6" >
+	<price amount="22"/>
+	<weapon crushing="1" slashing="1" piercing="2" hit="Shower of Gold"/>
+	<description text="Crafted of gold, this bolt will give anyone an unpleasant sting with its nasty barbs. Gold is not the best metal to use for weapons, as it's a bit soft. On the bright side, sometimes bits of the bolt head will fall out of enemies. After being wiped off, these bright shinies can be exchanged for goods and services."/>
+	</item>	
+<item name="Cruelly Barbed Gold Bolt" iconFile="items/bolt_craft_gold2.png" level="5" type="6" >
+	<price amount="33"/>
+	<weapon slashing="3" piercing="2" crushing="2" hit="Shower of Gold"/>
+	<description text="A cruel and crafty mind was behind the manufacture of these wickedly barbed gold bolts. Gold is not the best metal to use for weapons, as it's a bit soft. On the bright side, sometimes bits of the bolt head will fall out of enemies. After being wiped off, these bright shinies can be exchanged for goods and services."/>
+</item>
+<item name="Ingeniously Scythed Gold Bolt" iconFile="items/bolt_craft_gold3.png" level="6" type="6" >
+	<price amount="41"/>
+	<weapon slashing="4" piercing="4" crushing="5" hit="Shower of Gold"/>
+	<description text="Never before has gold be bent to such unpleasant purposes. Gold is not the best metal to use for weapons, as it's a bit soft. On the bright side, sometimes bits of the bolt head will fall out of enemies. After being wiped off, these bright shinies can be exchanged for goods and services."/>
+</item>
+
+
+<item name="Tin Bolt" iconFile="items/bolt_craft_tin0.png" level="1" type="6" >
+  <price amount="5"/>
+  <weapon crushing="1" hit="Tin Pacify"/>
+  <description text="It's a sad day when you're reduced to firing bolts made of tin at foes. Even your enemies seem to agree, as they'll occasionally be stunned momentarily that anyone would bother hitting them with something made out of tin."/>
+	</item>
+<item name="Barbed Tin Bolt" iconFile="items/bolt_craft_tin1.png" level="2" type="6" >
+	<price amount="8"/>
+	<weapon crushing="1" slashing="1" hit="Tin Pacify" />
+	<description text="Crafted of tin, this bolt will give anyone an unpleasant sting with its nasty barbs. It's a sad day when you're reduced to firing bolts made of tin at foes. Even your enemies seem to agree, as they'll occasionally be stunned momentarily that anyone would bother hitting them with something made out of tin."/>
+	</item>	
+<item name="Cruelly Barbed Tin Bolt" iconFile="items/bolt_craft_tin2.png" level="3" type="6" >
+	<price amount="14"/>
+	<weapon crushing="2" slashing="2" hit="Tin Pacify" />
+	<description text="A cruel and crafty mind was behind the manufacture of these wickedly barbed tin bolts. It's a sad day when you're reduced to firing bolts made of tin at foes. Even your enemies seem to agree, as they'll occasionally be stunned momentarily that anyone would bother hitting them with something made out of tin."/>
+</item>
+<item name="Ingeniously Scythed Tin Bolt" iconFile="items/bolt_craft_tin3.png" level="4" type="6" >
+	<price amount="22"/>
+	<weapon crushing="3" slashing="4" hit="Tin Pacify" />
+	<description text="Never before has tin be bent to such unpleasant purposes. It's a sad day when you're reduced to firing bolts made of tin at foes. Even your enemies seem to agree, as they'll occasionally be stunned momentarily that anyone would bother hitting them with something made out of tin."/>
+</item>
+
+<item name="Brass Bolt" iconFile="items/bolt_craft_brass0.png" level="3" type="6" >
+  <price amount="14"/>
+  <weapon crushing="1" slashing="3" />
+  <description text="Brass left over after manufacturing the kingdom's monthly quota of balls and monkeys is handed over to the Bolt Council. Lacking in imagination, they use it to make bolts."/>
+	</item>
+<item name="Barbed Brass Bolt" iconFile="items/bolt_craft_brass1.png" level="4" type="6" >
+	<price amount="20"/>
+	<weapon crushing="2" slashing="4" />
+	<description text="Crafted of brass, this bolt will give anyone an unpleasant sting with its nasty barbs. Brass left over after manufacturing the kingdom's monthly quota of balls and monkeys is handed over to the Bolt Council. Lacking in imagination, they use it to make bolts."/>
+	</item>	
+<item name="Cruelly Barbed Brass Bolt" iconFile="items/bolt_craft_brass2.png" level="5" type="6" >
+	<price amount="40"/>
+	<weapon crushing="3"  slashing="4" piercing="2" />
+	<description text="A cruel and crafty mind was behind the manufacture of these wickedly barbed brass bolts. Brass left over after manufacturing the kingdom's monthly quota of balls and monkeys is handed over to the Bolt Council. Lacking in imagination, they use it to make bolts."/>
+</item>
+<item name="Ingeniously Scythed Brass Bolt" iconFile="items/bolt_craft_brass3.png" level="8" type="6" >
+	<price amount="62"/>
+	<weapon crushing="4" slashing="7" piercing="7" />
+	<description text="Never before has brass be bent to such unpleasant purposes. Brass left over after manufacturing the kingdom's monthly quota of balls and monkeys is handed over to the Bolt Council. Lacking in imagination, they use it to make bolts."/>
+</item>
+
+<!--<item name="Diamond Bolt" iconFile="items/bolt_diamond.png" level="6" type="6" maxstack="8">
+	<price amount="140"/>
+	<weapon crushing="1" slashing="4" piercing="10" hit="Horrible Wound"/>
+	<description text="Slicing through even the toughest of armor, diamond bolts inflict grievous wounds that are slow to heal. On the bright side, monsters can often cover the cost of their medical bills by selling the bolt head after it's removed from their body."/>
+</item>
+
+<item name="Sapphire Bolt" iconFile="items/bolt_sapphire.png" level="5" type="6" maxstack="8" >
+	<price amount="100"/>
+	<weapon crushing="2" piercing="4" hyperborean="8" hit="Frostbite"/>
+	<description text="This bolt is cold to the touch. It's filled with powerful energies on loan from the elemental plane of ice."/>
+</item>-->
+
+<item name="Caltrops Bolt" iconFile="items/bolt_caltrop.png" level="4" type="6" maxstack="4" >
+	<price amount="125"/>
+	<weapon crushing="2" slashing="4" hit="Iron Caltrop Eruption"/>
+	<description text="This bolt is sure to give your enemy the ol' hot-foot. Or, at least, the ol' stab-foot."/>
+</item>
+
+<item name="Turducken Bolt" iconFile="items/bolt_turducken.png" level="3" type="6" maxstack="12">
+	<price amount="60"/>
+	<weapon crushing="3" piercing="2" hit="turducken"/>
+	<description text="Designed by an indecisive boltsmith, this bolt houses an additional bolt inside the bolt's shaft. Shooting it into an enemy's face is the quickest way to pop the latch and extract the hidden bolt."/>
+</item>
+
+<item name="Eye of the Devil Bolt" iconFile="items/bolt_devil.png" level="2" type="6" maxstack="8">
+	<price amount="90"/>
+	<weapon crushing="1" piercing="3" necromantic="1" hit="Devil Bolt"/>
+	<description text="A thoroughly unpleasant bolt that steals some of the target's life energy, and, for a nominal soul tax, passes it on to the crossbow wielder. Due to certain clauses in the necromantic contract only animals are subject to the unnatural energies in this bolt."/>
+</item>
+
+<item name="Lukewarm Bolt" iconFile="items/bolt_lukewarm.png" level="3" type="6" maxstack="12">
+	<price amount="80"/>
+	<weapon crushing="1" conflagratory="6" hyperborean="6"/>
+	<description text="The hot stays hot, and the cool stays cool, thanks to a thick layer of expanded polystyrene foam between the two sides of the bolt head. Stock up before the Bolt Council phases them out due to pressures from environmental groups!"/>
+</item>
+
+<item name="Emotional Proxy Bolt" iconFile="items/bolt_emotion.png" level="4" type="6" maxstack="12">
+	<price amount="110"/>
+	<weapon crushing="1" righteous="1" toxic="1" transmutative="1" existential="1" hit="Proxytime"/>
+	<description text="The perfect way to displace any lingering shame, depression, sociopathic tendencies, anxiety, ennui, or just plain old leprosy."/>
+</item>
+
+<item name="Stoppered Deth Bolt" iconFile="items/bolt_deth.png" level="5" type="6" maxstack="3">
+	<price amount="160"/>
+	<weapon crushing="1" piercing="4" hit="Dethbottle"/>
+	<description text="You've stoppered Deth! You then attached Deth to a bolt. It's a little surprising that he (or she) isn't angrier about that, all things considered."/>
+</item>
+
+<item name="The Twilight Bolt" iconFile="items/bolt_zone.png" level="5" type="6" maxstack="4">
+	<price amount="340"/>
+	<weapon righteous="6" necromantic="6" existential="6" Hit="The Zone"/>
+	<description text="There is a fifth dimension beyond that which is known to Diggles. It is the middle ground between light and shadow, between science and other forms of witchery, and it lies between the pit of man's fears and the summit of his knowledge. This is the dimension of imagination. It is an arrow which we call the Twilight Bolt. "/>
+</item>
+
+<item name="Bolt of the Harvest" iconFile="items/bolt_harvest.png" level="4" type="6" maxstack="4">
+	<price amount="300"/>
+	<weapon piercing="3" conflagratory="3" Hit="Harvester"/>
+	<description text="'These are the the cries of the carrots, the cries of the carrots' raved the tuber-despising boltsmith, surveying the destruction wrought by his wicked creation."/>
+</item>
+
+<!--<item name="Steam Bolt" iconFile="items/bolt_steam.png" level="4" type="6" maxstack="6">
+	<price amount="360"/>
+	<weapon crushing="3" piercing="4" Hit="Nasty Steam Burst"/>
+	<description text="A small canister of pressurized steam is affixed to the shaft of this bolt. If you're uncomfortable with the thought of using weapon systems outlawed by the Geneva convention, consider it a donation of an immediate-use, super-hot sauna to the recipient of your choice."/>
+</item>-->
+
+<item name="Disassembler Bolt" iconFile="items/bolt_dis.png" level="3" type="6" maxstack="14">
+	<price amount="130"/>
+	<weapon crushing="2" piercing="2" voltaic="4" Hit="Short Circuit"/>
+	<description text="This bolt was designed to more efficiently take down erratically behaving constructs. Number five won't be alive for long. "/>
+</item>
+
+<item name="Bolt of Light and Shadow" iconFile="items/bolt_mix.png" level="3" type="6" maxstack="12">
+	<price amount="80"/>
+	<weapon crushing="1" righteous="6" necromantic="6"/>
+	<description text="A thick piece of polystyrene foam keeps the two sides of this bolthead separated. This is a good thing, as their constant debates over politics and religion irritate the other bolts in your quiver."/>
+</item>
+
+<!--<item name="Holy Light Crossbow" iconFile="items/cross_sun.png" level="2" type="4">
+	<price amount="980"/>
+	<weapon piercing="3" righteous="2"/>
+	<resistbuff righteous="2" />
+	<description text="This crossbow crackles with righteous energy. It's also not very heavy - must have some carbon fiber components or something."/>
+	</item> 
+	
+<item name="Unholy Light Crossbow" iconFile="items/cross_dark.png" level="2" type="4">
+	<price amount="980"/>
+	<weapon piercing="2" slashing="1" necromantic="2"/>
+	<resistbuff necromantic="2" />
+	<description text="This crossbow whispers and pulsates with dark, evil energy. It's also not as heavy as you expected - it must have some carbon fiber components or something."/>
+	</item> 
+
+<item name="Balanced Crossbow" iconFile="items/cross_balanced.png" level="1" type="4">
+	<price amount="350"/>
+	<weapon crushing="1" piercing="1" slashing="1" />
+	<description text="This crossbow is well-balanced, leading to pleasantly behaved, accurately launched bolts that strike the target with considerable politeness and poise."/>
+	</item> 
+
+	<item name="Acid Bath Crossbow" iconFile="items/cross_acidbath.png" level="4" type="4">
+	<price amount="3050"/>
+	<weapon crushing="1" piercing="6" acidic="2" />
+		<secondarybuff id="4" amount="2"/>
+			<crossbowShotBuff percentage="60" name="Acid Bath" />	
+	<description text="Cleans your laboratory glassware and dissolves your enemies. Occasionally the acid injection systems gets a bit overzealous, so watch your step when approaching felled foes."/>
+	</item> 
+	
+		<item name="Cryotic Crossbow" iconFile="items/cross_permafrost.png" level="3" type="4">
+	<price amount="2300"/>
+	<weapon piercing="3" hyperborean="4" />
+				<crossbowShotBuff percentage="50" name="Weak Frostbite" />	
+	<description text="Give your enemies the cold shoulder. While they're glaring at you for making such an obvious pun you can use the time to try and line up a better shot."/>
+	</item>-->
+	
+<item name="Sure Shot" iconFile="items/cross_sureshot.png" level="6" type="4">
+	<price amount="3620"/>
+	<weapon piercing="9"/>
+	<secondarybuff id="9" amount="3"/>
+	<secondarybuff id="4" amount="3"/>
+	<description text="This light, accurate crossbow almost always rocks the sure shot, cause you can't, you won't and you don't stop. Firing bolts, that is."/> 
+</item> 
+	
+<item name="Snake Fang Crossbow" iconFile="items/cross_snake.png" level="7" type="4">
+	<price amount="5880"/>
+	<weapon piercing="2" slashing="2" toxic="1" />
+	<secondarybuff id="4" amount="1"/>
+	<crossbowShotBuff percentage="30" name="Snake Fang Poison" />	
+	<description text="The construction of this crossbow would not have been possible without generous assistance from one of the kingdom's few snake orthodontists."/> 
+</item>
+</itemDB>

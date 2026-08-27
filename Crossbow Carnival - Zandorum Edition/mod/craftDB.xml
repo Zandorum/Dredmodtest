@@ -1,0 +1,214 @@
+<craftDB>
+
+<craft hidden="0">
+   <output skill="0" name="Aluminum Bolt" amount="2"/>
+   <output skill="1" name="Aluminum Bolt" amount="3"/>
+   <output skill="2" name="Barbed Aluminum Bolt" amount="4"/>
+   <output skill="3" name="Barbed Aluminum Bolt" amount="5"/>
+   <output skill="4" name="Cruelly Barbed Aluminum Bolt" amount="6"/>
+   <output skill="5" name="Cruelly Barbed Aluminum Bolt" amount="7"/>
+   <output skill="6" name="Ingeniously Scythed Aluminum Bolt" amount="8"/>
+   <output skill="7" name="Ingeniously Scythed Aluminum Bolt" amount="9"/>
+   <tool tag="tinkerer" />
+   <input name="Aluminum Ingot"/>
+</craft>
+   
+<craft hidden="0">
+   <output skill="0" name="Electrum Bolt" amount="4"/>
+   <output skill="1" name="Electrum Bolt" amount="5"/>
+   <output skill="2" name="Barbed Electrum Bolt" amount="6"/>
+   <output skill="3" name="Barbed Electrum Bolt" amount="7"/>
+   <output skill="4" name="Cruelly Barbed Electrum Bolt" amount="8"/>
+   <output skill="5" name="Cruelly Barbed Electrum Bolt" amount="9"/>
+   <output skill="6" name="Ingeniously Scythed Electrum Bolt" amount="10"/>
+   <output skill="7" name="Ingeniously Scythed Electrum Bolt" amount="11"/>
+   <tool tag="tinkerer" />
+   <input name="Electrum Ingot"/>
+</craft>
+   
+<craft hidden="0">
+   <output skill="0" name="Platinum Bolt" amount="6"/>
+   <output skill="1" name="Platinum Bolt" amount="7"/>
+   <output skill="2" name="Barbed Platinum Bolt" amount="8"/>
+   <output skill="3" name="Barbed Platinum Bolt" amount="9"/>
+   <output skill="4" name="Cruelly Barbed Platinum Bolt" amount="10"/>
+   <output skill="5" name="Cruelly Barbed Platinum Bolt" amount="11"/>
+   <output skill="6" name="Ingeniously Scythed Platinum Bolt" amount="12"/>
+   <output skill="7" name="Ingeniously Scythed Platinum Bolt" amount="13"/>
+   <tool tag="tinkerer" />
+   <input name="Platinum Ingot"/>
+</craft>
+
+<craft hidden="0">
+   <output skill="2" name="Silver Bolt" amount="5"/>
+   <output skill="3" name="Barbed Silver Bolt" amount="6"/>
+   <output skill="4" name="Barbed Silver Bolt" amount="7"/>
+   <output skill="5" name="Cruelly Barbed Silver Bolt" amount="8"/>
+   <output skill="6" name="Cruelly Barbed Silver Bolt" amount="9"/>
+   <output skill="7" name="Ingeniously Scythed Silver Bolt" amount="10"/>
+   <tool tag="alchemy" />
+   <input name="Silver Ingot"/>
+</craft>
+      
+<craft hidden="0">
+   <output skill="0" name="Zinc Bolt" amount="5"/>
+   <output skill="1" name="Zinc Bolt" amount="6"/>
+   <output skill="2" name="Barbed Zinc Bolt" amount="7"/>
+   <output skill="3" name="Barbed Zinc Bolt" amount="8"/>
+   <output skill="4" name="Cruelly Barbed Zinc Bolt" amount="9"/>
+   <output skill="5" name="Cruelly Barbed Zinc Bolt" amount="10"/>
+   <output skill="6" name="Ingeniously Scythed Zinc Bolt" amount="11"/>
+   <output skill="7" name="Ingeniously Scythed Zinc Bolt" amount="12"/>
+   <tool tag="tinkerer" />
+   <input name="Zinc Ingot"/>
+</craft>
+    
+<craft hidden="0">
+   <output skill="0" name="Gold Bolt" amount="5"/>
+   <output skill="1" name="Gold Bolt" amount="6"/>
+   <output skill="2" name="Barbed Gold Bolt" amount="7"/>
+   <output skill="3" name="Barbed Gold Bolt" amount="8"/>
+   <output skill="4" name="Cruelly Barbed Gold Bolt" amount="9"/>
+   <output skill="5" name="Cruelly Barbed Gold Bolt" amount="10"/>
+   <output skill="6" name="Ingeniously Scythed Gold Bolt" amount="11"/>
+   <output skill="7" name="Ingeniously Scythed Gold Bolt" amount="12"/>
+   <tool tag="tinkerer" />
+   <input name="Gold Ingot"/>
+</craft>
+   
+<craft hidden="0">
+   <output skill="0" name="Tin Bolt" amount="8"/>
+   <output skill="1" name="Tin Bolt" amount="9"/>
+   <output skill="2" name="Barbed Tin Bolt" amount="10"/>
+   <output skill="3" name="Barbed Tin Bolt" amount="11"/>
+   <output skill="4" name="Cruelly Barbed Tin Bolt" amount="12"/>
+   <output skill="5" name="Cruelly Barbed Tin Bolt" amount="13"/>
+   <output skill="6" name="Ingeniously Scythed Tin Bolt" amount="14"/>
+   <output skill="7" name="Ingeniously Scythed Tin Bolt" amount="15"/>
+   <tool tag="tinkerer" />
+   <input name="Tin Ingot"/>
+</craft>
+   
+<craft hidden="0">
+   <output skill="0" name="Brass Bolt" amount="5"/>
+   <output skill="1" name="Brass Bolt" amount="6"/>
+   <output skill="2" name="Barbed Brass Bolt" amount="7"/>
+   <output skill="3" name="Barbed Brass Bolt" amount="8"/>
+   <output skill="4" name="Cruelly Barbed Brass Bolt" amount="9"/>
+   <output skill="5" name="Cruelly Barbed Brass Bolt" amount="10"/>
+	<output skill="6" name="Ingeniously Scythed Brass Bolt" amount="11"/>
+   <output skill="7" name="Ingeniously Scythed Brass Bolt" amount="12"/>
+   <tool tag="tinkerer" />
+   <input name="Brass Ingot"/>
+</craft>
+      
+<!--   <craft hidden="1">
+	<output skill="2" name="Diamond Bolt" amount="2"/>
+	<output skill="3" name="Diamond Bolt" amount="3"/>
+	<output skill="4" name="Diamond Bolt" amount="4"/>
+	<output skill="5" name="Diamond Bolt" amount="5"/>
+	<output skill="6" name="Diamond Bolt" amount="6"/>
+	<output skill="7" name="Diamond Bolt" amount="7"/>
+	<tool tag="tinkerer"/>
+	<input name="Steel Ingot"/>
+	<input name="Diamond"/>
+	</craft>
+   
+   
+      <craft hidden="1">
+	<output skill="2" name="Sapphire Bolt" amount="2"/>
+	<output skill="3" name="Sapphire Bolt" amount="3"/>
+	<output skill="4" name="Sapphire Bolt" amount="4"/>
+	<output skill="5" name="Sapphire Bolt" amount="5"/>
+	<output skill="6" name="Sapphire Bolt" amount="6"/>
+	<output skill="7" name="Sapphire Bolt" amount="7"/>
+	<tool tag="tinkerer"/>
+	<input name="Aluminum Ingot"/>
+	<input name="Sapphire"/>
+	</craft>-->
+   
+<craft hidden="1">
+	<output skill="2" name="Caltrops Bolt" amount="2"/>
+	<output skill="3" name="Caltrops Bolt" amount="3"/>
+	<output skill="4" name="Caltrops Bolt" amount="3"/>
+	<output skill="5" name="Caltrops Bolt" amount="3"/>
+	<output skill="6" name="Caltrops Bolt" amount="4"/>
+	<output skill="7" name="Caltrops Bolt" amount="5"/>
+	<tool tag="tinkerer"/>
+	<input name="Iron Ingot"/>
+	<input name="Strong Iron Caltrop Eruptor"/>
+</craft>
+   
+<craft hidden="1">
+	<output skill="4" name="Turducken Bolt" amount="2"/>
+	<output skill="5" name="Turducken Bolt" amount="3"/>
+	<output skill="6" name="Turducken Bolt" amount="4"/>
+	<output skill="7" name="Turducken Bolt" amount="5"/>
+	<tool tag="tinkerer"/>
+	<input name="Zinc Ingot"/>
+	<input name="Aluminum Tube"/>
+</craft>
+   
+<craft hidden="1">
+	<output skill="2" name="Eye of the Devil Bolt" amount="3"/>
+	<output skill="3" name="Eye of the Devil Bolt" amount="4"/>
+	<output skill="4" name="Eye of the Devil Bolt" amount="4"/>
+	<output skill="5" name="Eye of the Devil Bolt" amount="5"/>
+	<output skill="6" name="Eye of the Devil Bolt" amount="6"/>
+	<output skill="7" name="Eye of the Devil Bolt" amount="7"/>
+	<tool tag="tinkerer"/>
+	<input name="Platinum Ingot"/>
+	<input name="Greedy Blungecap"/>
+	<input name="Cube of Flesh"/>
+</craft>
+   
+<craft hidden="1">
+	<output skill="2" name="Lukewarm Bolt" amount="5"/>
+	<output skill="3" name="Lukewarm Bolt" amount="6"/>
+	<output skill="4" name="Lukewarm Bolt" amount="7"/>
+	<output skill="5" name="Lukewarm Bolt" amount="8"/>
+	<output skill="6" name="Lukewarm Bolt" amount="9"/>
+	<output skill="7" name="Lukewarm Bolt" amount="10"/>
+	<tool tag="tinkerer"/>
+	<input name="Iron Ingot"/>
+	<input name="Ruby"/>
+	<input name="Turquoise"/>
+</craft>
+   
+<craft hidden="1">
+	<output skill="3" name="Bolt of Light and Shadow" amount="6"/>
+	<output skill="4" name="Bolt of Light and Shadow" amount="7"/>
+	<output skill="5" name="Bolt of Light and Shadow" amount="8"/>
+	<output skill="6" name="Bolt of Light and Shadow" amount="9"/>
+	<output skill="7" name="Bolt of Light and Shadow" amount="10"/>
+	<tool tag="tinkerer"/>
+	<input name="Iron Ingot"/>
+	<input name="Black Pearl"/>
+	<input name="Pyrite Sun"/>
+</craft>
+   
+<craft hidden="1">
+	<output skill="2" name="Emotional Proxy Bolt" amount="5"/>
+	<output skill="3" name="Emotional Proxy Bolt" amount="6"/>
+	<output skill="4" name="Emotional Proxy Bolt" amount="7"/>
+	<output skill="5" name="Emotional Proxy Bolt" amount="8"/>
+	<output skill="6" name="Emotional Proxy Bolt" amount="9"/>
+	<output skill="7" name="Emotional Proxy Bolt" amount="10"/>
+	<tool tag="tinkerer"/>
+	<input name="Electrum Ingot"/>
+	<input name="Potion of Purity"/>
+</craft>
+   
+<craft hidden="1">
+	<output skill="3" name="Stoppered Deth Bolt" amount="2"/>
+	<output skill="4" name="Stoppered Deth Bolt" amount="3"/>
+	<output skill="5" name="Stoppered Deth Bolt" amount="4"/>
+	<output skill="6" name="Stoppered Deth Bolt" amount="5"/>
+	<output skill="7" name="Stoppered Deth Bolt" amount="6"/>
+	<tool tag="tinkerer"/>
+	<input name="Platinum Ingot"/>
+	<input name="Potion of Dire Empowerment"/>
+	<input name="Fell Truffle"/>
+</craft>
+   
+</craftDB>

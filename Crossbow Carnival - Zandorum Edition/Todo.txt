@@ -1,0 +1,6 @@
+* Rebalance the Levels in which you can find the Crossbows.
+* Steam Bolts need to be overhauled, make them release steam like a steam mine.
+* Make Gem Bolts for each Gem (Make existing ones line up their stats with the Gem Swords).
+* Emotional Proxy should have a chance of Ennui.
+* Add Recipe for the Snake Fang Crossbow that is made using Tinkering (2) and Alchemy (2).
+* Bolt of Harvest should inflict Green Harvest upon hitting Vegetables.

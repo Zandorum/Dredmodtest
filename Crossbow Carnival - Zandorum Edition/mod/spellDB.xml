@@ -1,0 +1,258 @@
+<spellDB>
+
+<spell name="Holy Fire" type="target" >
+   <effect type="damage" conflagratory="4" burn="1" taxa="Undead"/>
+   </spell>
+   
+   <spell name="Zinc Blink" type="target" >
+      <effect type="displace" percentage="30" taxa="Demon" />  
+   <effect type="paralyze"  percentage="30" amount="1" turns="4" taxa="Demon"/>
+     <effect type="confuse" percentage="30" taxa="Demon"/>
+	 <effect type="damage" percentage="30" toxic="6" taxa="Demon"/>
+   </spell>
+
+      <spell name="Shower of Gold" type="target" >
+   	<effect type="dot" spell="Tiny Midas" amount="2" />
+	</spell>
+   
+   <spell name="Tiny Midas" type="target" >
+	<anim sprite="sprites/sfx/glintA/glintA" frames="5" framerate="100" sfx="item_purchased" centerEffect="1"/>
+	<effect type="damage" transmutative="1"  midas="1" affectsCaster="1" />
+   	<effect midas="1" affectsCaster="1" />
+		<effect midas="1" affectsCaster="1" />
+   </spell>
+
+         <spell name="Tin Pacify" type="target" >
+   	<effect type="paralyze" amount="4" turns="3"/>
+	</spell>
+   
+     
+<spell name="Diamond Cut Pain" type="target" >
+	<effect type="damage" piercing="3" slashing="3" affectscaster="1"/>
+   </spell>
+<spell name="Horrible Wound" type="target">
+	<effect type="bleed" />
+	<buff useTimer="1" time="8" 
+		self="0" 
+		stacksize="3" 
+		allowstacking="1" 
+		icon="skills/bleeding_out64.png" 
+		smallicon="skills/bleeding_out32.png"
+      bad="1" >
+	</buff>
+	<anim sprite="sprites/sfx/corpse_hit_mini/corpse_hit_mini" frames="4" framerate="100" sfx="impact" centerEffect="0"/>
+   <description text="Yeesh, just look at that injury. On second thought, don't - that's just nasty. It looks like the poor monster fell into a swimming pool filled with razor blades. Ouch." />
+   <effect type="dot" spell="Diamond Cut Pain" amount="8" />
+   </spell>
+   
+   <spell name="Frostbite Damage" type="target" >
+	<effect type="damage" hyperborean="4" piercing="2" affectscaster="1"/>
+   </spell>
+<spell name="Frostbite" type="target">
+	<buff useTimer="1" time="8" 
+		self="0" 
+		stacksize="3" 
+		allowstacking="1" 
+		icon="skills/hyperborean64.png" 
+		smallicon="skills/hyperborean32.png"
+      bad="1" >
+	</buff>
+	<anim sprite="sprites/sfx/icepuff/icepuff" frames="4" framerate="100" sfx="impact" centerEffect="0"/>
+   <description text="Icicles are sprouting out of the wound. That's got to smart!" />
+   <effect type="dot" spell="Frostbite Damage" amount="8" />
+   </spell>
+   
+   <spell name="turducken" type="target" >
+    <effect type="spawnitemfromlist">
+        <option name="Barbed Brass Bolt"/>
+        <option name="Barbed Zinc Bolt" />
+        <option name="Barbed Gold Bolt" />
+        <option name="Barbed Silver Bolt" />
+        <option name="Barbed Platinum Bolt" />
+        <option name="Barbed Tin Bolt" />
+        <option name="Barbed Aluminum Bolt" />
+        <option name="Barbed Copper Bolt" />
+        <option name="Barbed Iron Bolt" />
+        <option name="Barbed Bronze Bolt" />
+        <option name="Barbed Steel Bolt" />
+        <option name="Cruelly Barbed Brass Bolt"/>
+        <option name="Cruelly Barbed Zinc Bolt" />
+        <option name="Cruelly Barbed Gold Bolt" />
+        <option name="Cruelly Barbed Silver Bolt" />
+        <option name="Cruelly Barbed Platinum Bolt" />
+        <option name="Cruelly Barbed Tin Bolt" />
+        <option name="Cruelly Barbed Aluminum Bolt" />
+        <option name="Cruelly Barbed Copper Bolt" />
+        <option name="Cruelly Barbed Iron Bolt" />
+        <option name="Cruelly Barbed Bronze Bolt" />
+        <option name="Cruelly Barbed Steel Bolt" />
+        <option name="Ingeniously Scythed Brass Bolt"/>
+        <option name="Ingeniously Scythed Zinc Bolt" />
+        <option name="Ingeniously Scythed Gold Bolt" />
+        <option name="Ingeniously Scythed Silver Bolt" />
+        <option name="Ingeniously Scythed Platinum Bolt" />
+        <option name="Ingeniously Scythed Tin Bolt" />
+        <option name="Ingeniously Scythed Aluminum Bolt" />
+        <option name="Ingeniously Scythed Copper Bolt" />
+        <option name="Ingeniously Scythed Iron Bolt" />
+        <option name="Ingeniously Scythed Bronze Bolt" />
+        <option name="Ingeniously Scythed Steel Bolt" />
+		<option name="Fire Bolt" />
+		<option name="Acid Ampoule Bolt" />
+		<option name="Acid Bottle Bolt" />
+		<option name="Diamond Bolt" />
+		<option name="Sapphire Bolt" />
+		<option name="Skull Bolt" />
+		<option name="Poison Ampoule Bolt" />
+		<option name="Poison Bottle Bolt" />
+		<option name="Clockwork Grappling Bolt" />
+		<option name="Steam Rocket Bolt" />
+		<option name="Clockwork Drill Bomb" />
+		<option name="The Twilight Bolt" />
+		<option name="Stoppered Deth Bolt" />
+		<option name="Bolt of the Harvest" />
+		<option name="Eye of the Devil Bolt" />
+		<option name="Emotional Proxy Bolt" />
+		<option name="Turducken Bolt" />
+		
+        </effect>
+			</spell>
+   
+
+   <spell name="Devil Bolt" type="target" >
+   <anim sprite="sprites/sfx/bloodmagic/bloodmagic" frames="6" framerate="90" sfx="darkmagic" centerEffect="1"/>
+     <effect type="drain" necromantic="10" taxa="Animal"/>
+   </spell>
+   
+      <spell name="Proxytime" type="target" >
+   <anim sprite="sprites/sfx/bloodmagic/bloodmagic" frames="6" framerate="90" sfx="darkmagic" centerEffect="1"/>
+       <effect type="moverandomcurse"/>
+	     <effect type="moverandomcurse" />
+		 <effect type="displace" />
+   </spell>
+   
+         <spell name="Dethbottle" type="target" >
+   <anim sprite="sprites/sfx/bloodmagic/bloodmagic" frames="6" framerate="90" sfx="darkmagic" centerEffect="1"/>
+       <effect type="summon" monsterType="Deth" amount="3"/>
+   </spell>
+   
+            <spell name="The Zone" type="target" >
+   <anim sprite="sprites/sfx/bloodmagic/bloodmagic" frames="6" framerate="90" sfx="darkmagic" centerEffect="1"/>
+       <effect type="displace" />
+	   <effect type="transformmonster" />
+	   <effect type="confuse" />
+   </spell>
+   
+   
+  
+    <spell name="Harvester" type="target" >
+  <buff
+      useTimer="1"
+      time="4"
+      self="0"
+      stacksize="5"
+      allowstacking="1"
+      icon="skills/impossible_shot64.png"
+      smallicon="skills/impossible_shot32.png"
+      bad="1">
+		<halo name="sprites/sfx/weakness_loop/weakness_loop" first="0" framerate="70" num="7" />
+		<resistbuff conflagratory="-5"/>
+      </buff>
+	<effect type="trigger" amount="1" affectsCorpses="0" spell="Fleshbore" taxa="Vegetable"/>
+	<effect type="trigger" amount="2" affectsCorpses="0" spell="Tick Tock" taxa="Vegetable"/>
+	<effect type="trigger" amount="3" affectsCorpses="0" spell="Tick Tock" taxa="Vegetable" />
+	<effect type="trigger" amount="4" affectsCorpses="0" spell="Ding" taxa="Vegetable"/>
+	<effect type="trigger" amount="4" affectsCorpses="0" spell="Harvester Drill Bomb" taxa="Vegetable"/>
+	<anim sprite="sprites/sfx/corpse_hit_mini/corpse_hit_mini" frames="4" framerate="100" sfx="impact" centerEffect="0"/>
+	</spell>
+   
+   
+   <spell name="Harvester Drill Bomb" type="target">
+	<effect type="damage" blasting="3" conflagratory="5" affectscaster="1" taxa="Vegetable"/>
+	<anim sprite="sprites/sfx/blastB/blastB" frames="4" framerate="70" centerEffect="1" sfx="explosion"/>
+	<effect type="trigger" spell="Harvester Drill Bomb2" taxa="Vegetable"/>
+	<effect type="trigger" spell="Harvester Drill Bomb3" taxa="Vegetable"/>
+	</spell>
+<spell name="Harvester Drill Bomb2" type="template" templateID="10" >
+	<effect type="damage" blasting="3" conflagratory="5" affectscaster="1"/>
+	<anim sprite="sprites/sfx/combust_hit/combust_hit" frames="9" framerate="80" centerEffect="1" sfx="blast"/>
+	</spell>
+<spell name="Harvester Drill Bomb3" type="template" templateID="11" >
+	<effect type="damage" blasting="3" conflagratory="5" affectscaster="1" />
+	<anim sprite="sprites/sfx/combust_hit/combust_hit" frames="9" framerate="80" centerEffect="1" sfx="blast"/>
+	</spell>
+   
+   <spell name="Acid Bath" type="target" >
+   <effect type="damage" blasting="1" acidic="4" affectsCaster="1" percentage="25"/>
+   <anim sprite="sprites/sfx/acid_bolt/acid_bolt" frames="3" framerate="80" sfx="missile" />
+   <effect type="trigger" spell="Weak Acid Burn" percentage="25" />
+   <effect type="trigger" spell="Weak Acid Pool" percentage="25"/>
+   </spell>
+
+   
+      <spell name="Weak Frostbite Damage" type="target" >
+	<effect type="damage" hyperborean="2" affectscaster="1" percentage="34"/>
+   </spell>
+<spell name="Weak Frostbite" type="target">
+	<buff useTimer="1" time="8" 
+		self="0" 
+		stacksize="3" 
+		allowstacking="1" 
+		icon="skills/hyperborean64.png" 
+		smallicon="skills/hyperborean32.png"
+      bad="1" >
+	</buff>
+	<anim sprite="sprites/sfx/icepuff/icepuff" frames="4" framerate="100" sfx="impact" centerEffect="0"/>
+   <description text="Icicles are sprouting out of the wound. That's got to smart!" />
+   <effect type="dot" spell="Weak Frostbite Damage" amount="8" />
+   </spell>
+   
+     <spell name="Short Circuit" type="target" >
+	<effect type="damage" voltaic="12" conflagratory="6" taxa="Construct" />
+   </spell>
+   
+   <spell name="Snake Fang Poison" type="target" >
+	<anim sprite="sprites/sfx/psionic_generic/psionic_generic" frames="5" framerate="100" centerEffect="1" sfx="darkmagic" />
+	<buff useTimer="1" time="20" self="0" allowstacking="1" icon="skills/spells/weakness64.png" smallicon="skills/spells/weakness32.png" bad="1" >
+		<secondarybuff id="13" amount="-2" /> <!-- life regen --> 
+		<secondarybuff id="0" amount="-5" /> <!-- life --> 
+		<resistbuff toxic="-1" />
+	</buff>
+   <effect type="dot" spell="Minor Snake Poison" amount="20" />
+	<description text="This potion is quite unpleasant." />
+   </spell>
+   
+   <spell name="Minor Snake Poison" type="target" >
+	<effect type="damage" toxic="1" affectscaster="1" percentage="44"/>
+   </spell>
+   
+   
+   <spell name="Nasty Steam Burst" type="target" >
+   <effect type="damage" conflagratory="4" blasting="4" affectsCaster="1" />
+   <anim sprite="sprites/sfx/smokepuffbig/smokepuffbig" frames="6" framerate="100" centerEffect="0" />
+   <effect type="trigger" spell="Nasty Steam Cloud" amount="1" />
+   </spell>  
+   
+   
+   <spell name="Nasty Steam Cloud" 
+		type="targetfloor" 
+		mineTimer="4" 
+		mineUseGlints="1" 
+		mineGlintDensity="10"
+      mineSpriteDrawOrder="1"
+		mineSpritePNGSeries="sprites/sfx/lethian_mist_mini/lethian_mist_mini" 
+		mineSpritePNGFirst="0" 
+		mineSpritePNGNum="6" 
+		mineSpritePNGRate="100" 
+		mine="1" 
+		mineradius="2" >
+   <anim sprite="sprites/sfx/smokepuffbig/smokepuffbig" frames="6" centerEffect="1"/>
+   <effect type="damage" asphyxiative="3" affectscaster="1" />
+   </spell>  
+
+   
+   
+   
+   
+   
+   </spellDB>

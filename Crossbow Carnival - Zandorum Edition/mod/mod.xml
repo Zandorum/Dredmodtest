@@ -1,0 +1,9 @@
+    <dredmormod>
+    <revision text="1.1"/>
+    <author text="Puce Moose, Zandorum"/>
+    <name text="Crossbow Carnival - Zandorum Edition"/>
+    <description text="Chucky's happy to see you, and he's brought a crossbow carnival of fun with him! New bolts, new bolt crafting recipes, new bows."/>
+    <info totalconversion="0"/>
+  <require expansion="2"/>  
+ </dredmormod>
+
