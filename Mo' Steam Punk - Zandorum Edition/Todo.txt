@@ -1,0 +1,9 @@
+* Defibrillator should be renamed to Clockwork Defibrillator.
+* Moving Parts should be renamed to Clockwork Moving Parts.
+* Add Moving parts recipe.
+* Add 2 Crushing to Clockwork Staff.
+* Add 15% chance to Voltaic Empowerment on Hit to Clockwork Staff.
+* Add a recipe to Leather Cuirass With A Cog On It.
+* Add a recipe to Myopic Tophat.
+* Remove Clockwork Piezospear.
+* Make Steampowered Spear Sprite better.
