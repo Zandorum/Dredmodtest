@@ -1,0 +1,5 @@
+Update (v0.48)
+* Ring Sword Piercing Damage increased to 8 from 5 and rarity lowered from 10 to 9.
+* Steeling and Midasing Ingots now requires 3 and gives 3.
+* Added Sparkling Gloves and Recipe.
+* Wood output from The Log scaling increased by 1.

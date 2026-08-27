@@ -1,0 +1,101 @@
+<skillDB>
+  
+<skill name="Crippled Craftsmaster" id="1234" type="warrior" description="Become a crafting master who just so happens to be crippled.">
+   <art icon="skills/rogue/skill_burglary1_64.png"/>
+   <loadout type="toolkit" subtype="My Little Anvil Junior Smithing Kit" always="1" />
+   <loadout type="toolkit" subtype="Disposable Ingot Press" always="1" />
+   <loadout type="toolkit" subtype="Tinkerer Parts" always="1" />
+   <loadout type="toolkit" subtype="n-Dimensional Lathe"  always="1"/>
+   <loadout type="toolkit" subtype="Modular Alchemy Box"  always="1"/>
+   <loadout type="toolkit" subtype="Porta-Still"  always="1"/>
+   <loadout type="toolkit" subtype="Elven Ingot Grinder" always="1"/>
+   </skill>
+
+<ability name="Crippled Craftsmaster" icon="skills/rogue/skill_burglary1_64.png" skill="1234" startSkill="1">
+   <description text="A Jack of all Trades, except walking... you cant do that."/>
+   </ability>
+
+<ability name="Neophyte Craftsman" icon="skills/skill_magictraining.png" skill="1234" level="0">
+  <description text="Bound to a chair you decide to start tinkering with things in your personal workshop."/>
+  <secondarybuff id="20" amount="1"/> <!-- Tinkering -->
+  <primarybuff id="2" amount="-1"/> <!-- Nimbleness -->
+  <secondarybuff id="12" amount="-12"/> <!-- Sneakiness -->
+  <secondarybuff id="7" amount="-2"/> <!-- Block -->
+  <secondarybuff id="22" amount="-1"/> <!-- Magic Reflection -->
+  <secondarybuff id="0" amount="-5"/> <!-- Life -->
+  <playerHitEffectBuff percentage="30" name="Easy Target Sucker Curse"/>
+  </ability>
+<ability name="Novice Craftsman" icon="skills/rogue/smithing0_64.png" skill="1234" level="1">
+  <description text="This alchemy thing seems kind of interesting."/>
+  <secondarybuff id="20" amount="1"/> <!-- Tinkering -->
+  <secondarybuff id="21" amount="1"/> <!-- Alchemy -->
+  <primarybuff id="2" amount="-1"/> <!-- Nimbleness -->
+  <secondarybuff id="12" amount="1"/> <!-- Sneakiness -->
+  <secondarybuff id="7" amount="-2"/> <!-- Block -->
+  <secondarybuff id="22" amount="-1"/> <!-- Magic Reflection -->
+  </ability>
+<ability name="Apprentice Craftsman" icon="skills/rogue/smithing1_64.png" skill="1234" level="2">
+  <description text="Sick of buying tools you decide to start smithing your own."/>
+  <secondarybuff id="19" amount="1"/> <!-- Smithing -->
+  <secondarybuff id="20" amount="1"/> <!-- Tinkering -->
+  <secondarybuff id="21" amount="1"/> <!-- Alchemy -->
+  <primarybuff id="2" amount="-2"/> <!-- Nimbleness -->
+  <secondarybuff id="7" amount="-3"/> <!-- Block -->
+  <secondarybuff id="22" amount="-1"/> <!-- Magic Reflection -->
+  </ability>
+<ability name="Adept Craftsman" icon="skills/wizard/magictraining0_64.png" skill="1234" level="3">
+  <description text="You've been feeling worse lately but hey, You've gotten confident in your craft and decide to see if you can expand into another form of magical crafting."/>
+  <secondarybuff id="19" amount="1"/> <!-- Smithing -->
+  <secondarybuff id="20" amount="1"/> <!-- Tinkering -->
+  <secondarybuff id="21" amount="1"/> <!-- Alchemy -->
+  <secondarybuff id="23" amount="1"/> <!-- Wandlore -->
+  <primarybuff id="2" amount="-2"/> <!-- Nimbleness -->
+  <secondarybuff id="12" amount="1"/> <!-- Sneakiness -->
+  <secondarybuff id="7" amount="-3"/> <!-- Block -->
+  <secondarybuff id="22" amount="-1"/> <!-- Magic Reflection -->
+  <secondarybuff id="0" amount="-5"/> <!-- Life -->
+  </ability>
+<ability name="Journeyman Craftsman" icon="skills/rogue/trappist64.png" skill="1234" level="4">
+  <description text="You've begin staying in your workshop for days on end, your hobby is becoming a skill."/>
+  <secondarybuff id="19" amount="1"/> <!-- Smithing -->
+  <secondarybuff id="20" amount="1"/> <!-- Tinkering -->
+  <secondarybuff id="21" amount="1"/> <!-- Alchemy -->
+  <secondarybuff id="23" amount="1"/> <!-- Wandlore -->
+  <primarybuff id="2" amount="-3"/> <!-- Nimbleness -->
+  <secondarybuff id="7" amount="-4"/> <!-- Block -->
+  <secondarybuff id="22" amount="-2"/> <!-- Magic Reflection -->
+  </ability>
+<ability name="Expert Craftsman" icon="skills/rogue/cog-jockey64.png" skill="1234" level="5">
+  <description text="Your works are now considered perfect by some, you feel fulfilled."/>
+  <secondarybuff id="19" amount="1"/> <!-- Smithing -->
+  <secondarybuff id="20" amount="1"/> <!-- Tinkering -->
+  <secondarybuff id="21" amount="1"/> <!-- Alchemy -->
+  <secondarybuff id="23" amount="1"/> <!-- Wandlore -->
+  <primarybuff id="2" amount="-3"/> <!-- Nimbleness -->
+  <secondarybuff id="12" amount="1"/> <!-- Sneakiness -->
+  <secondarybuff id="7" amount="-4"/> <!-- Block -->
+  <secondarybuff id="22" amount="-2"/> <!-- Magic Reflection -->
+  </ability>
+<ability name="Master Craftsman" icon="skills/rogue/skill_archaeology1_64.png" skill="1234" level="6">
+  <description text="You've begun to feel even worse but you've become a master of the crafting trade, people have started asking you to teach them."/>
+  <secondarybuff id="19" amount="1"/> <!-- Smithing -->
+  <secondarybuff id="20" amount="1"/> <!-- Tinkering -->
+  <secondarybuff id="21" amount="1"/> <!-- Alchemy -->
+  <secondarybuff id="23" amount="1"/> <!-- Wandlore -->
+  <primarybuff id="2" amount="-4"/> <!-- Nimbleness -->
+  <secondarybuff id="7" amount="-5"/> <!-- Block -->
+  <secondarybuff id="22" amount="-2"/> <!-- Magic Reflection -->
+  <secondarybuff id="0" amount="-5"/> <!-- Life -->
+  </ability>
+<ability name="Grandmaster Craftsman" icon="skills/music_of_the_gears64.png" skill="37" level="7">
+  <description text="Your crafts are considered marvels, wonders of the world. You'll go down in history as the greatest craftsman to have ever lived."/>
+  <secondarybuff id="19" amount="1"/> <!-- Smithing -->
+  <secondarybuff id="20" amount="1"/> <!-- Tinkering -->
+  <secondarybuff id="21" amount="1"/> <!-- Alchemy -->
+  <secondarybuff id="23" amount="1"/> <!-- Wandlore -->
+  <primarybuff id="2" amount="-4"/> <!-- Nimbleness -->
+  <secondarybuff id="12" amount="1"/> <!-- Sneakiness -->
+  <secondarybuff id="7" amount="-5"/> <!-- Block -->
+  <secondarybuff id="22" amount="-2"/> <!-- Magic Reflection -->
+  </ability>
+</skillDB>

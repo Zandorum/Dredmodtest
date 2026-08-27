@@ -1,0 +1,25 @@
+* Add Rearden Ingot Support for Steeling and Midasing.
+* Add Ability to craft Wands into Burnt Out Wands.
+* Add a Dwarven Wiffle Maul hidden recipe.
+* Using the Elven Grinder you can make Ore Dusts at 4 Smithing and 4 Tinkering which can then be "Smelted" into Ingots.
+* Add Ring of Suffering which is a Ring with -10 Life, 5 Magic Reflection, +3 Absorption and +2 Magic Resistance.
+* Add Geomancers gauntlets that has a small chance to inflict Seismic Uppercut and a higher chance of Plutonic Fist during Melee. Stats: 3 Explosive Damage, 2 Explosive Resistance, 5 Block, 1 Absorption, -1 Nimbleness, -3 Enemy Dodge Reduction.
+* Add at 7 Alchemy the ability to make "Invisible Ingots" which are made by adding a Potion of Invisibility to any Ingot which are used to make Invisible items such as the Sword, Dagger and etc.
+* Add Breaking down shields that require Wood and a Metal to give back the Metal instead of Wood.
+* Increase it to 3 Ingots for 1 Midas/Steeling instead of 1.
+* Add Emerald Sword recipe in Alchemy for 6 Alchemy; 1 Gold Ingot, 2 Triple Emerald.
+* Add Triple Emerald crafted using 3 Emerald and can be taken apart for 3 Emerald. 
+
+"Diamond Macuahuitl":
+Rarity: 8
+Damage: 3 Piercing, 12 Slashing
+Other: 2 Enemy Dodge Reduction
+Artifact Quality: 3
+Recipe: 1 Macuahuitl, 3 Diamonds, 2 Tinkering
+
+"Slotted Staff":
+Rarity: 6
+Damage: 6 Crushing, 1 Transmutative
+Other: 4 Magic Power
+* Can be crafted with any Orb to gain all of it's stats and effects.
+* This is similar to the Ring Sword in being a sort of "Orb Slot" weapon.

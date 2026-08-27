@@ -1,0 +1,982 @@
+<craftDB>
+<!-- Test Recipes -->
+<!--<craft hidden="0">
+   <output skill="0" name="Horadric Lutefisk Cube"/>
+   <tool tag="smithing" />
+   <input name="Disposable Ingot Press"/>
+</craft>
+<craft hidden="0">
+   <output skill="0" name="Horadric Lutefisk Cube"/>
+   <tool tag="smithing" />
+   <input name="Wood"/>
+</craft>
+<craft hidden="0">
+   <output skill="0" name="Horadric Lutefisk Cube"/>
+   <tool tag="smithing" />
+   <input name="Sewer Brew"/>
+</craft>
+<craft hidden="0">
+   <output skill="0" name="Horadric Lutefisk Cube"/>
+   <tool tag="smithing" />
+   <input name="Grog"/>
+</craft>
+<craft hidden="0">
+   <output skill="0" name="Horadric Lutefisk Cube"/>
+   <tool tag="smithing" />
+   <input name="Lutefisk"/>
+</craft>
+<craft hidden="0">
+   <output skill="0" name="Horadric Lutefisk Cube"/>
+   <tool tag="smithing" />
+   <input name="Diggle Egg"/>
+</craft>-->
+
+<!-- Generic Recipes -->
+<craft hidden="1">
+   <output skill="3" name="Bladed Gloves of Pugilism"/>
+   <tool tag="smithing" />
+   <input name="Adventuring Gloves"/>
+   <input name="Shiv"/>
+   <input name="Shiv"/>
+</craft>
+<craft hidden="1">
+   <output skill="4" name="Sparkling Gloves"/>
+   <tool tag="tinkerer" />
+   <input name="One Sparkling Glove"/>
+   <input name="One Sparkling Glove"/>
+</craft>
+<craft hidden="1">
+	<output skill="4" name="Sword of Discovery"/>
+	<tool tag="alchemy"/>
+	<input name="Wooden Sword"/>
+	<input name="Gold Ingot"/>
+	<input name="Gold Ingot"/>
+	<input name="Universal Principles"/>
+</craft>
+<craft hidden="0">
+	<output skill="5" name="Sword of Discovery"/>
+	<tool tag="alchemy"/>
+	<input name="Wooden Sword"/>
+	<input name="Gold Ingot"/>
+	<input name="Gold Ingot"/>
+	<input name="Tome of Too Much Information"/>
+</craft>
+<craft hidden="1">
+	<output skill="6" name="Ring Sword"/>
+	<tool tag="smithing"/>
+	<input name="Fine Steel Sword"/>
+	<input name="Gold Ingot"/>
+	<input name="Handy Wand"/>
+	<input name="Potion of Lively Regeneration"/>
+</craft>
+<craft hidden="1">
+	<output skill="4" name="Fairy Ring"/>
+	<tool tag="alchemy"/>
+	<input name="Plumber's Agaric"/>
+	<input name="Plumber's Agaric"/>
+	<input name="Plumber's Agaric"/>
+	<input name="Spatial Instability Infusion"/>
+</craft>
+
+<!-- Jewelry Recipes -->
+<craft hidden="0">
+   <output skill="1" name="Double Staff"/>
+   <tool tag="smithing" />
+   <input name="Hefty Stick"/>
+   <input name="Hefty Stick"/>
+</craft>
+<craft hidden="1">
+   <output skill="6" name="Copper Torc"/>
+   <tool tag="smithing" />
+   <input name="Copper Ingot"/>
+   <input name="Copper Ingot"/>
+   <input name="Copper Ingot"/>
+</craft>
+<craft hidden="1">
+   <output skill="6" name="Silver Necklace"/>
+   <tool tag="smithing" />
+   <input name="Silver Ingot"/>
+   <input name="Silver Ingot"/>
+   <input name="Silver Ingot"/>
+   <input name="Silver Ingot"/>
+</craft>
+<craft hidden="1">
+   <output skill="6" name="Gold Necklace"/>
+   <tool tag="smithing" />
+   <input name="Gold Ingot"/>
+   <input name="Gold Ingot"/>
+   <input name="Gold Ingot"/>
+   <input name="Gold Ingot"/>
+</craft>
+<craft hidden="1">
+   <output skill="5" name="Sapphire Amulet"/>
+   <tool tag="smithing" />
+   <input name="Silver Ingot"/>
+   <input name="Silver Ingot"/>
+   <input name="Silver Ingot"/>
+   <input name="Sapphire"/>
+</craft>
+<craft hidden="1">
+   <output skill="5" name="Ruby Amulet"/>
+   <tool tag="smithing" />
+   <input name="Copper Ingot"/>
+   <input name="Copper Ingot"/>
+   <input name="Copper Ingot"/>
+   <input name="Ruby"/>
+</craft>
+<craft hidden="1">
+   <output skill="3" name="Plague Doctor's Mask"/>
+   <tool tag="alchemy" />
+   <input name="Leather Cap"/>
+   <input name="Tinkerer's Goggles"/>
+   <input name="Verdant Poison"/>
+   <input name="Mud Wen"/>
+</craft>
+<craft hidden="1">
+   <output skill="2" name="Magical Golden Dagger"/>
+   <tool tag="alchemy" />
+   <input name="Bronze Dagger"/>
+   <input name="Potion of Midas"/>
+</craft>
+<craft hidden="1">
+   <output skill="3" name="Magical Golden Dagger"/>
+   <tool tag="smithing" />
+   <input name="Bronze Dagger"/>
+   <input name="Potion of Midas"/>
+</craft>
+<craft hidden="1">
+   <output skill="3" name="Magical Golden Dagger"/>
+   <tool tag="lathe" />
+   <input name="Bronze Dagger"/>
+   <input name="Wand of Bling"/>
+</craft>
+<craft hidden="1">
+   <output skill="3" name="Poncho With No Name"/>
+   <tool tag="alchemy" />
+   <input name="Robe"/>
+   <input name="Potion of Purity"/>
+</craft>
+<craft hidden="1">
+   <output skill="3" name="Aluminum Wizarding Hat"/>
+   <tool tag="smithing" />
+   <input name="Aluminum Ingot"/>
+   <input name="Aluminum Ingot"/>
+</craft>
+<craft hidden="1">
+   <output skill="3" name="Ankh Amulet"/>
+   <tool tag="alchemy" />
+   <input name="Gold Ingot"/>
+   <input name="Gold Ingot"/>
+   <input name="Potion of Healing"/>
+</craft>
+<craft hidden="1">
+   <output skill="5" name="Blocky Tin Ring"/>
+   <tool tag="smithing" />
+   <input name="Tin Ring"/>
+   <input name="Tin Ingot"/>
+</craft>
+<craft hidden="1">
+   <output skill="8" name="Daemonic Diggledagger"/>
+   <tool tag="alchemy" />
+   <input name="Bone Club"/>
+   <input name="Eldritch Bolt"/>
+   <input name="Infernal Potion"/>
+   <input name="Diggle Nog"/>
+</craft>
+<craft hidden="1">
+   <output skill="10" name="The Crownstar Addendum"/>
+   <tool tag="smithing" />
+   <input name="Sapphire Amulet"/>
+   <input name="Ruby Amulet"/>
+   <input name="Emerald Amulet"/>
+   <input name="Triple Platinum"/>
+</craft>
+
+<!-- Minor Generic Material Recipes -->
+<craft hidden="0">
+	<output skill="4" name="Triple Platinum" amount="1"/>
+	<tool tag="ingot"/>
+	<input name="Platinum Ingot"/>
+	<input name="Platinum Ingot"/>
+	<input name="Platinum Ingot"/>
+</craft>
+<craft hidden="0">
+	<output skill="4" name="Platinum Ingot" amount="3"/>
+	<tool tag="ingot"/>
+	<input name="Triple Platinum"/>
+</craft>
+
+<!-- Steeling Ingots Recipes -->
+<craft hidden="0">
+	<output skill="3" name="Steel Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Plastic Ingot"/>
+	<input name="Plastic Ingot"/>
+	<input name="Plastic Ingot"/>
+	<input name="Potion of Steeling"/>
+</craft>
+<craft hidden="0">
+	<output skill="3" name="Steel Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Copper Ingot"/>
+	<input name="Copper Ingot"/>
+	<input name="Copper Ingot"/>
+	<input name="Potion of Steeling"/>
+</craft>
+<craft hidden="0">
+	<output skill="3" name="Steel Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Brass Ingot"/>
+	<input name="Brass Ingot"/>
+	<input name="Brass Ingot"/>
+	<input name="Potion of Steeling"/>
+</craft>
+<craft hidden="0">
+	<output skill="3" name="Steel Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Tin Ingot"/>
+	<input name="Tin Ingot"/>
+	<input name="Tin Ingot"/>
+	<input name="Potion of Steeling"/>
+</craft>
+<craft hidden="0">
+	<output skill="3" name="Steel Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Zinc Ingot"/>
+	<input name="Zinc Ingot"/>
+	<input name="Zinc Ingot"/>
+	<input name="Potion of Steeling"/>
+</craft>
+<craft hidden="0">
+	<output skill="3" name="Steel Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Bronze Ingot"/>
+	<input name="Bronze Ingot"/>
+	<input name="Bronze Ingot"/>
+	<input name="Potion of Steeling"/>
+</craft>
+<craft hidden="0">
+	<output skill="1" name="Steel Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Iron Ingot"/>
+	<input name="Iron Ingot"/>
+	<input name="Iron Ingot"/>
+	<input name="Potion of Steeling"/>
+</craft>
+<craft hidden="0">
+	<output skill="3" name="Steel Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Aluminum Ingot"/>
+	<input name="Aluminum Ingot"/>
+	<input name="Aluminum Ingot"/>
+	<input name="Potion of Steeling"/>
+</craft>
+<craft hidden="0">
+	<output skill="3" name="Steel Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Silver Ingot"/>
+	<input name="Silver Ingot"/>
+	<input name="Silver Ingot"/>
+	<input name="Potion of Steeling"/>
+</craft>
+<craft hidden="0">
+	<output skill="3" name="Steel Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Gold Ingot"/>
+	<input name="Gold Ingot"/>
+	<input name="Gold Ingot"/>
+	<input name="Potion of Steeling"/>
+</craft>
+<craft hidden="0">
+	<output skill="3" name="Steel Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Electrum Ingot"/>
+	<input name="Electrum Ingot"/>
+	<input name="Electrum Ingot"/>
+	<input name="Potion of Steeling"/>
+</craft>
+<craft hidden="0">
+	<output skill="3" name="Steel Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Platinum Ingot"/>
+	<input name="Platinum Ingot"/>
+	<input name="Platinum Ingot"/>
+	<input name="Potion of Steeling"/>
+</craft>
+
+<!-- Midasing Ingots Recipes -->
+<craft hidden="0">
+	<output skill="4" name="Gold Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Plastic Ingot"/>
+	<input name="Plastic Ingot"/>
+	<input name="Plastic Ingot"/>
+	<input name="Potion of Midas"/>
+</craft>
+<craft hidden="0">
+	<output skill="4" name="Gold Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Copper Ingot"/>
+	<input name="Copper Ingot"/>
+	<input name="Copper Ingot"/>
+	<input name="Potion of Midas"/>
+</craft>
+<craft hidden="0">
+	<output skill="4" name="Gold Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Brass Ingot"/>
+	<input name="Brass Ingot"/>
+	<input name="Brass Ingot"/>
+	<input name="Potion of Midas"/>
+</craft>
+<craft hidden="0">
+	<output skill="4" name="Gold Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Tin Ingot"/>
+	<input name="Tin Ingot"/>
+	<input name="Tin Ingot"/>
+	<input name="Potion of Midas"/>
+</craft>
+<craft hidden="0">
+	<output skill="3" name="Gold Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Zinc Ingot"/>
+	<input name="Zinc Ingot"/>
+	<input name="Zinc Ingot"/>
+	<input name="Potion of Midas"/>
+</craft>
+<craft hidden="0">
+	<output skill="4" name="Gold Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Bronze Ingot"/>
+	<input name="Bronze Ingot"/>
+	<input name="Bronze Ingot"/>
+	<input name="Potion of Midas"/>
+</craft>
+<craft hidden="0">
+	<output skill="4" name="Gold Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Iron Ingot"/>
+	<input name="Iron Ingot"/>
+	<input name="Iron Ingot"/>
+	<input name="Potion of Midas"/>
+</craft>
+<craft hidden="0">
+	<output skill="4" name="Gold Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Steel Ingot"/>
+	<input name="Steel Ingot"/>
+	<input name="Steel Ingot"/>
+	<input name="Potion of Midas"/>
+</craft>
+<craft hidden="0">
+	<output skill="4" name="Gold Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Aluminum Ingot"/>
+	<input name="Aluminum Ingot"/>
+	<input name="Aluminum Ingot"/>
+	<input name="Potion of Midas"/>
+</craft>
+<craft hidden="0">
+	<output skill="3" name="Gold Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Silver Ingot"/>
+	<input name="Silver Ingot"/>
+	<input name="Silver Ingot"/>
+	<input name="Potion of Midas"/>
+</craft>
+<craft hidden="0">
+	<output skill="1" name="Gold Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Electrum Ingot"/>
+	<input name="Electrum Ingot"/>
+	<input name="Electrum Ingot"/>
+	<input name="Potion of Midas"/>
+</craft>
+<craft hidden="0">
+	<output skill="3" name="Gold Ingot" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Platinum Ingot"/>
+	<input name="Platinum Ingot"/>
+	<input name="Platinum Ingot"/>
+	<input name="Potion of Midas"/>
+</craft>
+
+<!-- Wood Recipes -->
+<craft hidden="0">
+   <output skill="0" name="Wood" amount="5"/>
+   <output skill="1" name="Wood" amount="6"/>
+   <output skill="2" name="Wood" amount="7"/>
+   <output skill="3" name="Wood" amount="8"/>
+   <output skill="4" name="Wood" amount="9"/>
+   <output skill="5" name="Wood" amount="10"/>
+   <output skill="6" name="Wood" amount="11"/>
+   <output skill="7" name="Wood" amount="12"/>
+   <tool tag="smithing" />
+   <input name="The Log"/>
+</craft>
+<craft hidden="0">
+   <output skill="1" name="Wood" amount="2"/>
+   <tool tag="tinkerer" />
+   <input name="Clogs"/>
+</craft>
+<craft hidden="0">
+   <output skill="1" name="Wood" amount="2"/>
+   <tool tag="tinkerer" />
+   <input name="Simple Wooden Shield"/>
+</craft>
+<craft hidden="0">
+   <output skill="1" name="Wood" amount="1"/>
+   <tool tag="tinkerer" />
+   <input name="Hefty Stick"/>
+</craft>
+<craft hidden="0">
+   <output skill="1" name="Wood" amount="1"/>
+   <tool tag="tinkerer" />
+   <input name="Gnarled Club"/>
+</craft>
+<craft hidden="0">
+   <output skill="1" name="Wood" amount="1"/>
+   <tool tag="tinkerer" />
+   <input name="Nailboard(tm)"/>
+</craft>
+<craft hidden="0">
+   <output skill="1" name="Wood" amount="1"/>
+   <tool tag="tinkerer" />
+   <input name="Small Crossbow"/>
+</craft>
+<craft hidden="0">
+   <output skill="1" name="Wood" amount="2"/>
+   <tool tag="tinkerer" />
+   <input name="Wood Crossbow"/>
+</craft>
+<craft hidden="0">
+   <output skill="1" name="Wood" amount="2"/>
+   <tool tag="tinkerer" />
+   <input name="Wooden Sword"/>
+</craft>
+<craft hidden="0">
+   <output skill="0" name="Wooden Sword"/>
+   <tool tag="smithing" />
+   <input name="Wood"/>
+   <input name="Wood"/>
+</craft>
+<craft hidden="0">
+   <output skill="1" name="Hefty Stick"/>
+   <tool tag="smithing" />
+   <input name="Wood"/>
+</craft>
+<craft hidden="0">
+   <output skill="1" name="Gnarled Club"/>
+   <tool tag="smithing" />
+   <input name="Wood"/>
+</craft>
+<craft hidden="0">
+	<output skill="1" name="Nailboard(tm)"/>
+	<tool tag="smithing"/>
+	<input name="Steel Ingot"/>
+	<input name="Wood"/>
+</craft>
+<craft hidden="0">
+   <output skill="0" name="Simple Wooden Shield"/>
+   <tool tag="smithing" />
+   <input name="Wood"/>
+   <input name="Wood"/>
+</craft>
+<craft hidden="0">
+   <output skill="1" name="Wooden Shield"/>
+   <tool tag="smithing" />
+   <input name="Simple Wooden Shield"/>
+   <input name="Iron Ingot"/>
+</craft>
+<craft hidden="0">
+   <output skill="0" name="Small Crossbow"/>
+   <tool tag="tinkerer" />
+   <input name="Wood"/>
+</craft>
+<craft hidden="0">
+   <output skill="1" name="Wood Crossbow"/>
+   <tool tag="tinkerer" />
+   <input name="Wood"/>
+   <input name="Wood"/>
+   <input name="Iron Ingot"/>
+</craft>
+<!--Uncomment for release of mod-->
+<craft hidden="0">
+   <output skill="3" name="Everlit Torch"/>
+   <tool tag="alchemy" />
+   <input name="Wood"/>
+   <input name="Aqua Vitae"/>
+   <input name="Potion of Replenishment"/>
+</craft>
+<craft hidden="0">
+   <output skill="2" name="Everlit Torch"/>
+   <tool tag="alchemy" />
+   <input name="Wood"/>
+   <input name="Infernal Potion"/>
+   <input name="Potion of Replenishment"/>
+</craft>
+<craft hidden="0">
+   <output skill="3" name="Everlit Torch"/>
+   <tool tag="alchemy" />
+   <input name="Hefty Stick"/>
+   <input name="Aqua Vitae"/>
+   <input name="Potion of Replenishment"/>
+</craft>
+<craft hidden="0">
+   <output skill="2" name="Everlit Torch"/>
+   <tool tag="alchemy" />
+   <input name="Hefty Stick"/>
+   <input name="Infernal Potion"/>
+   <input name="Potion of Replenishment"/>
+</craft>
+<craft hidden="0">
+   <output skill="3" name="Everlit Torch"/>
+   <tool tag="alchemy" />
+   <input name="Gnarled Club"/>
+   <input name="Aqua Vitae"/>
+   <input name="Potion of Replenishment"/>
+</craft>
+<craft hidden="0">
+   <output skill="2" name="Everlit Torch"/>
+   <tool tag="alchemy" />
+   <input name="Gnarled Club"/>
+   <input name="Infernal Potion"/>
+   <input name="Potion of Replenishment"/>
+</craft>
+<craft hidden="0">
+   <output skill="2" name="Clogs"/>
+   <tool tag="tinkerer" />
+   <input name="Wood"/>
+   <input name="Wood"/>
+</craft>
+<craft hidden="0">
+   <output skill="0" name="Wooden Bolt" amount="3"/>
+   <output skill="1" name="Wooden Bolt" amount="4"/>
+   <output skill="2" name="Wooden Bolt" amount="5"/>
+   <output skill="3" name="Wooden Bolt" amount="6"/>
+   <output skill="4" name="Wooden Bolt" amount="7"/>
+   <output skill="5" name="Wooden Bolt" amount="8"/>
+   <output skill="6" name="Wooden Bolt" amount="9"/>
+   <output skill="7" name="Wooden Bolt" amount="10"/>
+   <tool tag="tinkerer" />
+   <input name="Wood"/>
+</craft>
+<craft hidden="0">
+   <output skill="0" name="Bone Bolt" amount="8"/>
+   <output skill="1" name="Bone Bolt" amount="9"/>
+   <output skill="2" name="Bone Bolt" amount="10"/>
+   <output skill="3" name="Bone Bolt" amount="11"/>
+   <output skill="4" name="Bone Bolt" amount="12"/>
+   <output skill="5" name="Bone Bolt" amount="13"/>
+   <output skill="6" name="Bone Bolt" amount="14"/>
+   <output skill="7" name="Bone Bolt" amount="15"/>
+   <tool tag="tinkerer" />
+   <input name="Bone Club"/>
+</craft>
+
+<!-- Ring Sword, Adding Rings -->
+<craft hidden="0">
+   <output skill="3" name="Ring Sword w/ Plastic Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Plastic Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="2" name="Ring Sword w/ Copper Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Copper Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="2" name="Ring Sword w/ Iron Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Iron Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="2" name="Ring Sword w/ Silver Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Silver Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="3" name="Ring Sword w/ Gold Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Gold Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="4" name="Ring Sword w/ Emerald Set Gold Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Emerald Set Gold Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="5" name="Ring Sword w/ Emerald Encrusted Gold Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Emerald Encrusted Gold Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="3" name="Ring Sword w/ Electrum Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Electrum Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="2" name="Ring Sword w/ Bronze Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Bronze Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="2" name="Ring Sword w/ Brass Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Brass Ring"/>
+</craft>
+ <craft hidden="0">
+   <output skill="2" name="Ring Sword w/ Aluminum Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Aluminum Ring"/>
+</craft>
+ <craft hidden="0">
+   <output skill="5" name="Ring Sword w/ Chalcoelectronic Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Chalcoelectronic Ring"/>
+</craft>
+ <craft hidden="0">
+   <output skill="5" name="Ring Sword w/ Ring of Iron Thorns"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Ring of Iron Thorns"/>
+</craft>
+ <craft hidden="0">
+   <output skill="5" name="Ring Sword w/ The Mana Torus"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="The Mana Torus"/>
+</craft>
+<craft hidden="0">
+   <output skill="2" name="Ring Sword w/ Ring of Ash"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Ring of Ash"/>
+</craft>
+<craft hidden="0">
+   <output skill="3" name="Ring Sword w/ Mummified Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Mummified Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="4" name="Ring Sword w/ Pumice Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Pumice Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="4" name="Ring Sword w/ Square Iron Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Square Iron Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="4" name="Ring Sword w/ Coppery Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Coppery Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="4" name="Ring Sword w/ Square Silver Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Square Silver Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="4" name="Ring Sword w/ Segmented Steel Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Segmented Steel Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="4" name="Ring Sword w/ Spiralled Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Spiralled Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="4" name="Ring Sword w/ Thick Copper Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Thick Copper Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="4" name="Ring Sword w/ Hexagonal Silver Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Hexagonal Silver Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="6" name="Ring Sword w/ Tin Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Tin Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="2" name="Ring Sword w/ Zinc Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Zinc Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="2" name="Ring Sword w/ Blocky Tin Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Blocky Tin Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="4" name="Ring Sword w/ Triangulonic Zinc Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Triangulonic Zinc Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="5" name="Ring Sword w/ Elder Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Elder Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="6" name="Ring Sword w/ Elder Ring of Runes"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Elder Ring of Runes"/>
+</craft>
+<craft hidden="0">
+   <output skill="7" name="Ring Sword w/ The Shrike's Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="The Shrike's Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="6" name="Ring Sword w/ Amber Ring of Unending Time"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Amber Ring of Unending Time"/>
+</craft>
+<craft hidden="0">
+   <output skill="6" name="Ring Sword w/ Black Pearl Ring of Sleeping Secrets"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Black Pearl Ring of Sleeping Secrets"/>
+</craft>
+<craft hidden="0">
+   <output skill="7" name="Ring Sword w/ Diamond Ring of the Darkest Stars"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Diamond Ring of the Darkest Stars"/>
+</craft>
+<craft hidden="0">
+   <output skill="7" name="Ring Sword w/ Sapphire Ring of the Deepest Skies"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Sapphire Ring of the Deepest Skies"/>
+</craft>
+<craft hidden="0">
+   <output skill="7" name="Ring Sword w/ Diggle Ring of Digglish Torment"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Diggle Ring of Digglish Torment"/>
+</craft>
+<craft hidden="0">
+   <output skill="7" name="Ring Sword w/ Fairy Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Fairy Ring"/>
+</craft>
+<!-- Ring Sword, Removing Rings -->
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Plastic Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Copper Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Iron Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Silver Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Gold Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Emerald Set Gold Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Emerald Encrusted Gold Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Electrum Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Bronze Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Brass Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Aluminum Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Chalcoelectronic Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Ring of Iron Thorns"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ The Mana Torus"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Ring of Ash"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Mummified Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Pumice Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Square Iron Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Coppery Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Square Silver Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Segmented Steel Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Spiralled Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Thick Copper Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Hexagonal Silver Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Tin Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Zinc Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Blocky Tin Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Triangulonic Zinc Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Elder Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Elder Ring of Runes"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Amber Ring of Unending Time"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Black Pearl Ring of Sleeping Secrets"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Diamond Ring of the Darkest Stars"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Sapphire Ring of the Deepest Skies"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Diggle Ring of Digglish Torment"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Fairy Ring"/>
+</craft>
+</craftDB>

@@ -1,0 +1,10 @@
+<dredmormod>
+<revision text="0.46"/>
+<author text="Zandorum"/>
+<name text="Zandromic Additions"/>
+<description text="Adds some stuff, because why not."/>
+<info totalconversion="0"/>
+<require expansion="1"/>
+<require expansion="2"/>
+<require expansion="3"/>
+</dredmormod>

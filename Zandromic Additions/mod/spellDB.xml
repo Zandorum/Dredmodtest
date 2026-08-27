@@ -1,0 +1,43 @@
+<spellDB>
+<!-- Apart of the Fairy Ring, which is commented out currently. -->
+<!--<spell name="Disjunction Teleport" type="target" icon="skills/placeholder32.png">
+  <effect type="displace"/>  
+  <anim sprite="sprites/sfx/energyring/energyring" frames="8" framerate="50" sfx="teleport" centerEffect="1"/>
+</spell>
+
+<spell name="Sift Iron" type="self" icon="skills/sift32.png">
+  <effect type="spawnitemfromlist">
+  <option name="Sifter"/>
+  </effect>
+  <effect type="spawnitemfromlist">
+  <option name="Iron Dust"/>
+  </effect>
+  </spell>
+<spell name="Spawn Wooden Swords" type="self" icon="skills/sift32.png">
+  <effect type="spawnitemfromlist">
+  <option name="Wooden Sword"/>
+  </effect>
+  <effect type="spawnitemfromlist">
+  <option name="Wooden Sword"/>
+  </effect>
+  <effect type="spawnitemfromlist">
+  <option name="Wooden Sword"/>
+  </effect>
+</spell>-->
+  
+<spell name="Spawn Blueprint" type="self" icon="skills/placeholder32.png">
+	<effect type="spawnitemfromlist">
+	<option name="Blueprint"/>
+	</effect>
+</spell>  
+  
+ <spell name="Reading Blueprint" type="self" icon="skills/blueprintreading32.png">
+ 	<effect type="findrecipe"/>
+	<buff useTimer="1" time="5" allowstacking="1" stacksize="10" self="1" icon="skills/blueprintreading64.png" smallicon="skills/blueprintreading32.png" bad="0" >
+	<secondarybuff id="6" amount="-15"/> <!-- dodge -->
+	<secondarybuff id="8" amount="-15"/> <!-- counter -->
+	<secondarybuff id="18" amount="-3"/><!-- sight -->
+	</buff>
+	<description text="You've got your hands full reading a Blueprint." />
+</spell>
+</spellDB>

@@ -1,0 +1,458 @@
+<itemDB>
+<!-- Cut Base Game Reworked -->
+<!-- :( wands can't target walls yet
+<item name="Wand of Diggle" iconFile="items/wand_diggle.png" >
+	<price amount="5500" />
+	<wand spell="Auger Effect" mincharge="5" maxcharge="26" />
+	<description text="Just point this one at a nearby wall and 'Keep on Digglin', as they say."/>
+   </item> -->
+<!-- do if time. - dgb
+<item name="Wand of Van de Graaff" iconFile="items/wand_tesla_bolt.png" >
+	<price amount="2000" />
+	<wand spell="Static Sphere" mincharge="6" maxcharge="12" />
+	<description text="Not to be confused with the wand of Tesla... this wand was invented by Tesla's successor who sought a more agressive use of voltaic powers." />
+	</item> -->
+<!-- doesn't have official art 
+<item name="Clockwork Crit Rocket" iconFile="items/bolt_rocket_crit.png" level="10" type="6" maxstack="1" special="1">
+	<price amount="1250"/>
+	<weapon crushing="1" hit="Clockwork Crit Rocket Hit" canTargetFloor="1" />
+	<description text="This can be loaded in to your crossbow. An explosive charge is delivered via steam propellant. For maximum effectiveness, aim for the enemy's feet. This variant is widely sought by launcher-wielding soldiers throughout the empire." />
+	</item>-->
+<!-- doesn't have official art 
+<item name="Incendiary Grenade" iconFile="items/thrown_grenade_fire.png" level="8" type="5" maxstack="2">
+	<price amount="600"/>
+	<weapon crushing="4" thrown="items/thrown_grenade_fire.png" hit="WP Grenade Center" canTargetFloor="1"/>
+	<description text="A specially engineered combustible grenade, designed to burn your enemy's house down."/>
+	</item>	-->
+<!--
+<item name="The Seventy Maxims of Seriously Effective Mercenaries" iconFile="items/placeholder.png" overrideClassName="Tome" artifact="1">
+	<price amount="5000" /> 
+	<armour level="3" type="shield" /> 
+	<artifact quality="3" /> 
+	<secondarybuff id="2" amount="3" />
+	<damagebuff crushing="3" /> 
+	<resistbuff crushing="3" /> 
+	<description text="Maxim 6: If violence wasn’t your last resort, you failed to resort to enough of it." /> 
+	</item>
+-->
+
+<!-- no use for these yet
+<item name="Magnesium Ingot" iconFile="items/ingot_magnesium.png" alchemical="1">
+	<price amount="90"/>
+	<description text="Magnesium - one of the three the Forbidden Metals."/>
+</item>
+-->
+<!-- no use for this ... yet 
+  <item name="Olivine" iconFile="items/mineral_olivine.png" alchemical="1">
+	<price amount="60"/>
+    <description text="One could not ask for a more splendid source of magnesium."/>
+  </item>
+-->
+
+<!-- amulets -->
+<!-- Agimat : Filipino charm ; gains powers. house/pentagon w/ star. -->
+<!-- Eye of Argon ; re. Grignr the Barbarian : "a many fauceted scarlet emerald"  -->
+
+<!-- tomes -->
+<!-- Book of Thoth : magic stuff, necro -->
+<!-- Tablet(s) of Destriny : Babylonian, secrets of creation and destruction -->
+<!-- The Cornucopia : makes fruit & stuff -->
+
+<!-- shields -->
+<!-- Savalinn : "the shield that stands before the sun" -->
+<!-- Ancile : shield/buckler of Mars ; "fiddle shield" -->
+
+<!-- helms -->
+<!-- Helm of Darkness aka Cap of Invisibility -->
+<!-- Draupnir : Odin's golden arm-ring; produces more golden rings -->
+<!-- Solomon's Seal : brass or steel, imprisons demons. -->
+<!-- Apple of Discord : Make enemies fight eachother, if that cant be done it instead makes them an ally. -->
+<!-- Bones of Ullr : spells carved on a bone. -->
+<!-- Demonic Fire Brandy: Permanent -1 Strength, +5 Conflag Damage; Can encrust for -1 Absorption, +2 Conflag Damage (5 Instability). Can be used to craft those More Dred Fire Pants.-->
+<!-- Potion of Bliss: Yields +2 to All Primary Stats for 120 Turns, also functions as a potion of purity then for additional 120 turns each +1, -1, -2, -3, -4, -5. Drinking another Potion of Bliss will reset it back to +1. Once drank you have to drink a purity potion to be rid of it.-->
+
+<!-- Conversions -->
+<!--<item name="Staff of Immaculate Conceptualization" convert="1">
+	<secondaryBuff id="21" amount="2"/>
+</item>
+
+<item name="Elder Ring" iconFile="items/ring_elder.png" convert="1">
+    <artifact quality="3"/>
+	</item>
+	
+<item name="Elder Ring of Runes" iconFile="items/ring_elder_runes.png" >
+    <artifact quality="5"/>
+	</item>-->
+
+<!-- Single Items -->
+<item name="Bladed Gloves of Pugilism" iconFile="items/gloves_bladed.png">
+   <price amount="800"/>
+   <armour type="hands" level="5"/>
+   <secondarybuff id="7" amount="1"/> <!-- block -->
+   <secondarybuff id="2" amount="1"/> <!-- melee power -->
+   <damagebuff piercing="2"/>
+   <description text="Some modified gloves used by some unscrupulous pugilists."/>
+</item>
+
+<item name="Sparkling Gloves" iconFile="items/gloves_bladed.png">
+   <price amount="3000"/>
+   <armour type="hands" level="11"/>
+   <secondarybuff id="22" amount="10"/> <!-- magic reflection -->
+   <secondarybuff id="5" amount="10"/> <!-- haywire -->
+   <resistbuff righteous="-12"/>
+   <description text="A heretical combination of gloves ment to be used as singles."/>
+</item>
+
+<item name="Mirror Blade" iconFile="items/sword_mirror.png" level="10" type="0">
+   <price amount="19000"/>
+   <weapon slashing="16" piercing="8" crushing="2"/>
+   <artifact quality="1"/>
+   <secondarybuff id="22" amount="8"/> <!-- magic reflection -->
+   <secondarybuff id="18" amount="1"/> <!-- sight radius -->
+   <resistbuff aethereal="2"/>
+   <resistbuff transmutative="2"/>
+   <description text="A sword made of some kind of strong but very reflective material."/>
+</item>
+
+<item name="Everlit Torch" iconFile="items/torch.png" level="5" type="2">
+   <price amount="120"/>
+   <weapon crushing="1" conflagratory="2"/>
+   <resistbuff hyperborean="2"/>
+   <secondarybuff id="18" amount="3"/> <!-- sight radius -->
+   <secondarybuff id="17" amount="1"/> <!-- trap sight -->
+   <secondarybuff id="9" amount="1"/> <!-- enemy dodge reduction -->
+   <description text="An odd torch that is somehow still damp with oil, almost as if it's magically secreting it."/>
+</item>
+
+<item name="Fairy Ring" iconFile="items/ring_fairy.png">
+	<price amount="4930"/>
+	<armour type="ring" level="8"/>
+    <secondarybuff id="1" amount="5"/>
+    <secondarybuff id="3" amount="1"/>
+	<resistbuff toxic="5"/>
+	<resistbuff existential="-3"/>
+	<artifact quality="4"/>
+	<playerHitEffectBuff percentage="15" name="Froda's Jump Discontinuity" />
+	<description text="A ring of mushrooms made by the long gone fungal mages of Arindor. It's purpose is not known, but it seems to be more of a curse than a blessing."/>
+</item>
+
+<item name="Sword of Discovery" iconFile="items/sword_of_discovery.png" level="9" type="0" artifact="1">
+	<price amount="18500"/>
+	<weapon slashing="6" piercing="2" crushing="10"/>
+	<artifact quality="3"/>
+	<secondaryBuff id="18" amount="3"/>
+	<description text="An odd and bulky but sharp sword with the innate ability to seek out enemies of the artisan ilk."/>
+	<targetKillBuff percentage="5" name="Spawn Blueprint"/>
+</item>
+
+<item name="Blueprint" iconFile="items/blueprint.png" level="11" special="1" craftoutput="1">
+	<description text="The work of a fellow artisan, I could reads this to learn about their craft." />
+	<potion spell="Reading Blueprint"/>
+	<price amount="1500" />
+</item>
+
+<item name="Wood" iconFile="items/planks.png" alchemical="1">
+	<price amount="15"/>
+	<description text="Board the windows, they're getting in!"/>
+</item>
+
+<item name="Triple Platinum" iconFile="items/ingot_platinum_3.png" level="10" special="1" craftoutput="1">
+	<price amount="1800"/>
+    <description text="Three times the shiny!"/>
+</item>
+
+<!-- Ring Sword -->
+<item name="Ring Sword" iconFile="items/sword_ring.png" level="9" type="0">
+  <price amount="21000"/>
+  <weapon slashing="10" piercing="8"/>
+  <description text="An opulent sword with a handle made of human fingers. If this sword has fingers maybe I can put Rings on it."/>
+</item>
+
+<item name="Ring Sword w/ Plastic Ring" iconFile="items/sword_ring_plastic.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21200"/>
+  <weapon slashing="10" piercing="8"/>
+  <targetHitEffectBuff percentage="10" name="Ennui" />
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Plastic Ring to the handle... how boring."/>
+</item>
+
+<item name="Ring Sword w/ Copper Ring" iconFile="items/sword_ring_copper.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21350"/>
+  <weapon slashing="10" piercing="8"/>
+  <resistbuff voltaic="2" />
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Copper Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Iron Ring" iconFile="items/sword_ring_iron.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21480"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id="7" amount="2"/> <!-- block -->
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed an Iron Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Silver Ring" iconFile="items/sword_ring_silver.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21550"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id="1" amount="4"/> <!-- mana -->
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Silver Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Gold Ring" iconFile="items/sword_ring_gold.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21640"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id="0" amount="5"/> <!-- hp -->
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Gold Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Emerald Set Gold Ring" iconFile="items/sword_ring_gold_emerald1.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="22040"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id="0" amount="10"/> <!-- hp -->
+  <secondarybuff id="13" amount="1" /> <!-- life regen -->
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Emerald Set Gold Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Emerald Encrusted Gold Ring" iconFile="items/sword_ring_gold_emerald2.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="27040"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id="0" amount="15"/> <!-- hp -->
+  <secondarybuff id="13" amount="2" /> <!-- life regen -->
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Emerald Encrusted Gold Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Electrum Ring" iconFile="items/sword_ring_electrum.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21620"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id="11" amount="5"/> <!-- resist -->
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Electrum Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Bronze Ring" iconFile="items/sword_ring_bronze.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21420"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id="8" amount="3"/> <!-- counter -->
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Bronze Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Brass Ring" iconFile="items/sword_ring_brass.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21480"/>
+  <weapon slashing="10" piercing="8"/>
+  <resistbuff piercing="2" />
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Brass Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Aluminum Ring" iconFile="items/sword_ring_aluminum.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21530"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id="6" amount="2"/> <!-- dodge -->
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Aluminum Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Chalcoelectronic Ring" iconFile="items/sword_ring_special1.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="23550"/>
+  <weapon slashing="10" piercing="5" voltaic="3"/>
+  <resistbuff voltaic="4" />
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Chalcoelectronic Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Ring of Iron Thorns" iconFile="items/sword_ring_special2.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="26560"/>
+  <weapon slashing="10" piercing="9"/>
+  <secondarybuff id="8" amount="8"/> <!-- counter -->
+  <secondarybuff id="7" amount="6"/> <!-- block -->
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Ring of Iron Thorns to the handle."/>
+</item>
+
+<item name="Ring Sword w/ The Mana Torus" iconFile="items/sword_ring_special3.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="26560"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id="14" amount="2"/> <!-- mana regen -->
+  <secondarybuff id="1" amount="12"/> <!-- mana -->
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed The Mana Torus to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Ring of Ash" iconFile="items/sword_ring_ash.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21520"/>
+  <weapon slashing="10" piercing="8"/>
+  <resistbuff conflagratory="2"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Ring of Ash to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Mummified Ring" iconFile="items/sword_ring_mummified.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="23500"/>
+  <weapon slashing="10" piercing="8"/>
+  <resistbuff necromantic="1" putrefying="2" toxic="2" righteous="-1" />
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Mummified Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Pumice Ring" iconFile="items/sword_ring_pumice.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21370"/>
+  <weapon slashing="10" piercing="8"/>
+  <artifact quality="2"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Pumice Ring to the handle. This seems to be somewhat special."/>
+</item>
+
+<item name="Ring Sword w/ Square Iron Ring" iconFile="items/sword_ring_square_iron.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21550"/>
+  <weapon slashing="10" piercing="8"/>
+  <artifact quality="2"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Square Iron Ring to the handle. This seems to be somewhat special."/>
+</item>
+
+<item name="Ring Sword w/ Coppery Ring" iconFile="items/sword_ring_coppery.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21650"/>
+  <weapon slashing="10" piercing="8"/>
+  <artifact quality="3"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Coppery Ring to the handle. This seems to be somewhat special."/>
+</item>
+
+<item name="Ring Sword w/ Square Silver Ring" iconFile="items/sword_ring_square_silver.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21950"/>
+  <weapon slashing="10" piercing="8"/>
+  <artifact quality="3"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Square Silver Ring to the handle. This seems to be somewhat special."/>
+</item>
+
+<item name="Ring Sword w/ Segmented Steel Ring" iconFile="items/sword_ring_segmented_steel.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21640"/>
+  <weapon slashing="10" piercing="8"/>
+  <artifact quality="4"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Segemented Steel Ring to the handle. This seems to be somewhat special."/>
+</item>
+
+<item name="Ring Sword w/ Spiralled Ring" iconFile="items/sword_ring_spiralled.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21860"/>
+  <weapon slashing="10" piercing="8"/>
+  <artifact quality="5"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Spiralled Ring to the handle. This seems to be somewhat special."/>
+</item>
+
+<item name="Ring Sword w/ Thick Copper Ring" iconFile="items/sword_ring_thick_copper.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21720"/>
+  <weapon slashing="10" piercing="8"/>
+  <artifact quality="5"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Thick Copper Ring to the handle. This seems to be somewhat special."/>
+</item>
+
+<item name="Ring Sword w/ Hexagonal Silver Ring" iconFile="items/sword_ring_hexagonal_silver.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="22210"/>
+  <weapon slashing="10" piercing="8"/>
+  <artifact quality="5"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Hexagonal Ring to the handle. This seems to be somewhat special."/>
+</item>
+
+<item name="Ring Sword w/ Tin Ring" iconFile="items/sword_ring_tin.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21383"/>
+  <weapon slashing="10" piercing="8"/>
+  <resistbuff acidic="1" />
+  <artifact quality="4"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Tin Ring to the handle. This seems to be somewhat special."/>
+</item>
+
+<item name="Ring Sword w/ Zinc Ring" iconFile="items/sword_ring_zinc.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21432"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id="0" amount="1"/> <!-- health -->
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Zinc Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Blocky Tin Ring" iconFile="items/sword_ring_blocky_tin.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="22883"/>
+  <weapon slashing="10" piercing="8"/>
+  <resistbuff acidic="2" />
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Blocky Tin Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Triangulonic Zinc Ring" iconFile="items/sword_ring_tri_zinc.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="23432"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id="0" amount="2"/> <!-- health -->
+  <artifact quality="10"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Triangulonic Zinc Ring to the handle. This seems to be somewhat special."/>
+</item>
+
+<item name="Ring Sword w/ Elder Ring" iconFile="items/sword_ring_special11.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="23530"/>
+  <weapon slashing="10" piercing="8"/>
+  <artifact quality="11"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Elder Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Elder Ring of Runes" iconFile="items/sword_ring_special12.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="25530"/>
+  <weapon slashing="10" piercing="8"/>
+  <artifact quality="12"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Elder Ring of Runes to the handle."/>
+</item>
+
+<item name="Ring Sword w/ The Shrike's Ring" iconFile="items/sword_ring_special4.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="39560"/>
+  <weapon slashing="10" piercing="14"/>
+  <secondarybuff id="8" amount="11"/> <!-- counter -->
+  <secondarybuff id="7" amount="6"/> <!-- block -->
+  <secondarybuff id="0" amount="-5"/> <!-- hp -->
+  <playerHitEffectBuff percentage="100" name="Weak Spiky Hit" />
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed The Shrike's Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Amber Ring of Unending Time" iconFile="items/sword_ring_special5.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="35600"/>
+  <weapon slashing="10" piercing="8"/>
+  <resistBuff voltaic="4" putrefying="3" />
+  <playerHitEffectBuff name="Amber Ring Hit" percentage="50" />
+  <targetHitEffectBuff name="Amber Ring Hit" percentage="50" />
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed an Amber Ring of Unending Time to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Black Pearl Ring of Sleeping Secrets" iconFile="items/sword_ring_special6.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="39600"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id="17" amount="2"/> <!-- trap sight -->
+  <secondaryBuff id="12" amount="10" /> <!-- sneak -->
+  <resistBuff aethereal="2" />
+  <secondarybuff id="23" amount="1"/> <!-- wandcrafting -->
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Black Pearl Ring of Sleeping Secrets to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Diamond Ring of the Darkest Stars" iconFile="items/sword_ring_special7.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="49600"/>
+  <weapon slashing="10" piercing="8"/>
+  <resistBuff aethereal="4" />
+  <secondaryBuff id="11" amount="10" />
+  <secondaryBuff id="22" amount="10" />
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Diamond Ring of the Darkest Stars to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Sapphire Ring of the Deepest Skies" iconFile="items/sword_ring_special8.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="60690"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id="14" amount="2"/> <!-- mana regen -->
+  <secondarybuff id="13" amount="2"/> <!-- hp regen -->
+  <secondarybuff id="1" amount="5"/> <!-- mana -->
+  <secondaryBuff id="0" amount="5" /> <!-- health -->
+  <playerHitEffectBuff name="Healing Rain Self" percentage="30" />
+  <targetHitEffectBuff name="Regen Mana 1" percentage="30" />
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Sapphire Ring of the Deepest Skies to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Diggle Ring of Digglish Torment" iconFile="items/sword_ring_special9.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="56690"/>
+  <weapon slashing="10" piercing="20"/>
+  <secondarybuff id="8" amount="10"/> <!-- counter -->
+  <resistBuff piercing="-2" />
+  <playerHitEffectBuff name="Bleedout Pain" percentage="50" />
+  <targetHitEffectBuff name="Geysering Wound" percentage="100" />
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Diggle Ring of Digglish Torment to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Fairy Ring" iconFile="items/sword_ring_special10.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="25930"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id="1" amount="5"/>
+  <secondarybuff id="3" amount="1"/>
+  <resistbuff toxic="5"/>
+  <resistbuff existential="-5"/>
+  <artifact quality="13"/>
+  <playerHitEffectBuff percentage="15" name="Froda's Jump Discontinuity" />
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Fairy Ring to the handle. This seems to be somewhat special."/>
+</item>
+</itemDB>
