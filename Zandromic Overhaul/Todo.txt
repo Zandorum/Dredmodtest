@@ -1,0 +1,4 @@
+* Make rings use artifact quality instead of random ring stat.
+* Add a Max of 2 buffs via Potion of Ensaring cap.
+* Add Icons for the Spells.
+* Make Inspiration Potions use the same Icon as Alchemical inspiration.

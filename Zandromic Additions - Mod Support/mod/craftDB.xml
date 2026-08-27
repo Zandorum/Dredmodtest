@@ -1,0 +1,128 @@
+<craftDB>
+
+<!-- Everlit Torch -->
+<craft hidden="0">
+   <output skill="2" name="Everlit Torch"/>
+   <tool tag="alchemy" />
+   <input name="Wood"/>
+   <input name="Infernal Potion"/>
+   <input name="Potion of Replenishment"/>
+</craft>
+<craft hidden="0">
+   <output skill="2" name="Everlit Torch"/>
+   <tool tag="alchemy" />
+   <input name="Hefty Stick"/>
+   <input name="Infernal Potion"/>
+   <input name="Potion of Replenishment"/>
+</craft>
+<craft hidden="0">
+   <output skill="2" name="Everlit Torch"/>
+   <tool tag="alchemy" />
+   <input name="Gnarled Club"/>
+   <input name="Infernal Potion"/>
+   <input name="Potion of Replenishment"/>
+</craft>
+<craft hidden="0">
+   <output skill="3" name="Everlit Torch"/>
+   <tool tag="alchemy" />
+   <input name="Wood"/>
+   <input name="Cloth"/>
+   <input name="Aqua Vitae"/>
+   <input name="Potion of Replenishment"/>
+</craft>
+<craft hidden="0">
+   <output skill="3" name="Everlit Torch"/>
+   <tool tag="alchemy" />
+   <input name="Hefty Stick"/>
+   <input name="Cloth"/>
+   <input name="Aqua Vitae"/>
+   <input name="Potion of Replenishment"/>
+</craft>
+<craft hidden="0">
+   <output skill="3" name="Everlit Torch"/>
+   <tool tag="alchemy" />
+   <input name="Gnarled Club"/>
+   <input name="Cloth"/>
+   <input name="Aqua Vitae"/>
+   <input name="Potion of Replenishment"/>
+</craft>
+<!-- Ring Sword, Adding Rings -->
+<craft hidden="0">
+   <output skill="3" name="Ring Sword w/ Titanium Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Titanium Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="5" name="Ring Sword w/ Bling Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Bling Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="3" name="Ring Sword w/ Cog Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Cog Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="4" name="Ring Sword w/ Decoder Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Decoder Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="5" name="Ring Sword w/ Rearden Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Rearden Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="6" name="Ring Sword w/ Diamond Set Rearden Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Diamond Set Rearden Ring"/>
+</craft>
+<craft hidden="0">
+   <output skill="7" name="Ring Sword w/ Diamond Encrusted Rearden Ring"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword"/>
+   <input name="Diamond Encrusted Rearden Ring"/>
+</craft>
+<!-- Ring Sword, Removing Rings -->
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Titanium Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Bling Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Cog Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Decoder Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Rearden Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Diamond Set Rearden Ring"/>
+</craft>
+<craft>
+   <output skill="1" name="Ring Sword"/>
+   <tool tag="smithing" />
+   <input name="Ring Sword w/ Diamond Encrusted Rearden Ring"/>
+</craft>
+</craftDB>

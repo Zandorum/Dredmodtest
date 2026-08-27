@@ -1,0 +1,10 @@
+<dredmormod>
+<revision text="0.1"/>
+<author text="Zandorum"/>
+<name text="Zandromic Additions - Mod Support"/>
+<description text="Stuff."/>
+<info totalconversion="0"/>
+<require expansion="1"/>
+<require expansion="2"/>
+<require expansion="3"/>
+</dredmormod>

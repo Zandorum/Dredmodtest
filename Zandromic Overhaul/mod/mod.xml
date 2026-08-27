@@ -1,0 +1,12 @@
+<dredmormod>
+ <revision text="1.0"/>
+<!-- <author text="Hammerith, Alistaire, Shattered G, LactoseTheIntolerant, Bohandas, Jay, Zandorum"/>
+-->
+ <author text="Various Mod Developers"/>
+ <name text="Zandromic Overhaul"/>
+ <description text="A major game overhaul."/>
+ <require expansion="1"/>
+ <require expansion="2"/>
+ <require expansion="3"/>
+ <info totalconversion="0"/>
+</dredmormod>

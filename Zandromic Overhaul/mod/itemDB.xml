@@ -1,0 +1,44 @@
+<itemDB>
+ <item name="Gauntlets of Ultimate Smithing" iconFile="items/ultimate_gauntlets.png">
+	 <price amount="1500"/>
+	 <armour level="9" type="hands"/>
+	 <primarybuff id="0" amount="3"/>
+	 <secondarybuff id="9" amount="-15"/> <!-- edr -->
+	 <secondarybuff id="10" amount="3"/> <!-- armour absorption -->
+	 <secondarybuff id="7" amount="3"/> <!-- block -->
+	 <secondarybuff id="3" amount="-10"/> <!-- magic power -->
+	 <secondarybuff id="14" amount="-10"/> <!-- mana regen -->
+     <secondarybuff id="19" amount="1"/> <!-- smithing -->
+     <secondarybuff id="2" amount="5"/> <!-- melee -->
+     <resistbuff conflagratory="5"/>
+	 <description text="This pair of gauntlets saw Krong forge his anvils in times long past."/>
+ </item>
+ <item name="Prismatic Bulwark" iconFile="items/shield_prismatic_bulwark.png" craftoutput="1" special="1">
+	<price amount="50000" />
+	<armour level="16" type="shield" />
+	<description text="The residual effects of the cleansing have granted this shield a wide spectrum of power and bolstered its original defensive capabilities. Rainbows are AWESOME ok?" />
+	<secondarybuff id="7" amount="8"/> <!-- block -->
+	<secondarybuff id="10" amount="3"/> <!-- armour absorption -->
+	<secondarybuff id="18" amount="2"/> <!-- sight radius -->
+	<primarybuff id="2" amount="-1"/> <!-- nim -->
+	<secondarybuff id="22" amount="50"/> <!-- magic reflection -->
+	<resistbuff piercing="2" crushing="2" slashing="2" hyperborean="2" conflagratory="2" toxic="2" transmutative="2" acidic="2" putrefying="2" voltaic="2" blasting="2" asphyxiative="2" aethereal="2" existential="2" righteous="2" necromantic="2"  />
+</item>
+<!--crafting inspiration-->
+	<item name="Potion of Metallurgic Inspiration" iconFile="items/potion_rainbow.png" level="10" craftoutput="1" special="1">
+		<price amount="1000"/>
+		<potion spell="Metallurgic Inspiration"/>
+		<description text="Beyond the stopper atop this flask is a swirling sea of potent metallurgic talent in fluid form."/>
+	</item>
+	<item name="Potion of Tinkerers Inspiration" iconFile="items/potion_rainbow.png" level="10" craftoutput="1" special="1">
+		<price amount="1000"/>
+		<potion spell="Tinkering Inspiration"/>
+		<description text="Beyond the stopper atop this flask is a swirling sea of potent tinkering talent in fluid form."/>
+	</item>
+<!--other potions-->
+	<item name="Potion of Ensnaring" iconFile='items/potion_trappers0.png' level="7">
+		<price amount="740"/>
+		<potion spell="Sudden Trapper Genius"/>
+		<description text="The darkish orange fluid in this flask gives you a feeling of patriotism. Quite strange."/>
+	</item>
+</itemDB>

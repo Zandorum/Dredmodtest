@@ -1,0 +1,1297 @@
+<roomdb>
+<!-- -debug-flag -testroom "ZAND ITEMTEST" -x 5 -y 5 -->
+<room width="12" height="12" name="ZAND ITEMTEST" >
+	<row text="############"/>
+	<row text="#.12345678.#"/>
+	<row text="#..........#"/>
+	<row text="#..........#"/>
+	<row text="#..........#"/>
+	<row text="#..........#"/>
+	<row text="#..........#"/>
+	<row text="#..........#"/>
+	<row text="#..........#"/>
+	<row text="#..........#"/>
+	<row text="#..........#"/>
+	<row text="############"/>
+	<flags special="1" nomonsters="1" notraps="1" noblockers="1" notreasure="1" minLevel="40" maxLevel="40" />
+	<element at="1" type="craftvending"/>
+	<element at="2" type="craftvending"/>
+	<element at="3" type="craftvending"/>
+	<element at="4" type="craftvending"/>
+	<element at="5" type="craftvending"/>
+	<element at="6" type="craftvending"/>
+	<element at="7" type="craftvending"/>
+	<element at="8" type="craftvending"/>
+	<loot type="potion" x="1" y="2" />
+	<loot type="potion" x="2" y="2" />
+	<loot type="potion" x="3" y="2" />
+	<loot type="potion" x="4" y="2" />
+	<loot type="potion" x="5" y="2" />
+	<loot type="potion" x="6" y="2" />
+	<loot type="potion" x="7" y="2" />
+	<loot type="potion" x="8" y="2" />
+	<loot type="potion" x="9" y="2" />
+	<loot type="potion" x="10" y="2" />
+	<loot type="potion" x="1" y="3" />
+	<loot type="potion" x="2" y="3" />
+	<loot type="potion" x="3" y="3" />
+	<loot type="potion" x="4" y="3" />
+	<loot type="potion" x="5" y="3" />
+	<loot type="potion" x="6" y="3" />
+	<loot type="potion" x="7" y="3" />
+	<loot type="potion" x="8" y="3" />
+	<loot type="potion" x="9" y="3" />
+	<loot type="potion" x="10" y="3" />
+	<loot type="potion" x="1" y="4" />
+	<loot type="potion" x="2" y="4" />
+	<loot type="potion" x="3" y="4" />
+	<loot type="potion" x="4" y="4" />
+	<loot type="potion" x="5" y="4" />
+	<loot type="potion" x="6" y="4" />
+	<loot type="potion" x="7" y="4" />
+	<loot type="potion" x="8" y="4" />
+	<loot type="potion" x="9" y="4" />
+	<loot type="potion" x="10" y="4" />
+	<loot type="potion" x="1" y="5" />
+	<loot type="potion" x="2" y="5" />
+	<loot type="potion" x="3" y="5" />
+	<loot type="potion" x="4" y="5" />
+	<loot type="potion" x="5" y="5" />
+	<loot type="potion" x="6" y="5" />
+	<loot type="potion" x="7" y="5" />
+	<loot type="potion" x="8" y="5" />
+	<loot type="potion" x="9" y="5" />
+	<loot type="potion" x="10" y="5" />
+	<loot type="potion" x="1" y="6" />
+	<loot type="potion" x="2" y="6" />
+	<loot type="potion" x="3" y="6" />
+	<loot type="potion" x="4" y="6" />
+	<loot type="potion" x="5" y="6" />
+	<loot type="potion" x="6" y="6" />
+	<loot type="potion" x="7" y="6" />
+	<loot type="potion" x="8" y="6" />
+	<loot type="potion" x="9" y="6" />
+	<loot type="potion" x="10" y="6" />
+	<loot type="potion" x="1" y="7" />
+	<loot type="potion" x="2" y="7" />
+	<loot type="potion" x="3" y="7" />
+	<loot type="potion" x="4" y="7" />
+	<loot type="potion" x="5" y="7" />
+	<loot type="potion" x="6" y="7" />
+	<loot type="potion" x="7" y="7" />
+	<loot type="potion" x="8" y="7" />
+	<loot type="potion" x="9" y="7" />
+	<loot type="potion" x="10" y="7" />
+	<loot type="potion" x="1" y="8" />
+	<loot type="potion" x="2" y="8" />
+	<loot type="potion" x="3" y="8" />
+	<loot type="potion" x="4" y="8" />
+	<loot type="potion" x="5" y="8" />
+	<loot type="potion" x="6" y="8" />
+	<loot type="potion" x="7" y="8" />
+	<loot type="potion" x="8" y="8" />
+	<loot type="potion" x="9" y="8" />
+	<loot type="potion" x="10" y="8" />
+	<loot type="potion" x="1" y="9" />
+	<loot type="potion" x="2" y="9" />
+	<loot type="potion" x="3" y="9" />
+	<loot type="potion" x="4" y="9" />
+	<loot type="potion" x="5" y="9" />
+	<loot type="potion" x="6" y="9" />
+	<loot type="potion" x="7" y="9" />
+	<loot type="potion" x="8" y="9" />
+	<loot type="potion" x="9" y="9" />
+	<loot type="potion" x="10" y="9" />
+</room>
+<!-- The following is the code for 'More Rooms Mod' by LactoseTheIntolerant -->
+<room width="24" height="9" name="Cube'd"> <!-- Rebuilt & CleanedUp 01.17.13 - Tested - 01 -->
+  <row text="###############D########" />
+  <row text="##############...#######" />
+  <row text="##########............##" />
+  <row text="##......##............##" />
+  <row text="##......##...#####....##" />	
+  <row text="##...........LLLLL....##" />  
+  <row text="##...........LLLLL....##" />
+  <row text="##...........LLLLL....##" />
+  <row text="####D###############D###" />
+  <flags minLevel="2" maxLevel="7" noblockers="1" notreasure="1" notraps="1" />
+  <customblocker name="Crude Carving" x="8" y="4" png="dungeon/scrawl0.png" description="'002 003 005 007 011 013 017" />
+  <customblocker name="Crude Carving" x="5" y="2" png="dungeon/scrawl0.png" description="'977 983 991 997 1009 1013 1019 1021 1031 1033 1039 1049 1051 1061	1063 1069" />  
+  <customblocker name="Crude Carving" x="6" y="2" png="dungeon/scrawl0.png" description="'1669 1693 1697 1699 1709 1721	1723 1733 1741 1747 1753 1759" />
+  <customblocker name="Plaque" png="dungeon/crypt_walltomb0.png" x="17" y="1" description="517 478 565" />
+  <customblocker name="Unlucky Candidate" x="4" y="3" png="dungeon/skeleton_floor0.png" description="A series of numbers are written all ove his body." />
+</room>
+<room width="24" height="15" name="Lava Lover's Hall"> <!-- Rebuilt & CleanedUp 01.17.13 - Tested - 02 -->
+  <row text="########################" />
+  <row text="####P##############P####" />
+  <row text="#......................#" />
+  <row text="d......................d" />
+  <row text="#......LLLLLLLLLL......#" />
+  <row text="#LL....LL.2..3.LL....LL#" />
+  <row text="#LL....LL......LL....LL#" />
+  <row text="#LL....###....###....LL#" />
+  <row text="#LL....###....###....LL#" />
+  <row text="#LL....####..####....LL#" />
+  <row text="#LL....####..####....LL#" />
+  <row text="#LL....^.1....4.^....LL#" />
+  <row text="#LL..................LL#" />
+  <row text="#########......#########" />
+  <row text="#########D####D#########" />
+  <flags minLevel="2" maxLevel="4" noblockers="1" notreasure="1" />
+  <customblocker name="Sconce" x="15" y="10" pngSprite="dungeon/wall_sconceA/wall_sconceA" pngFirst="0" pngNum="3" pngRate="110" passable="1" pngAnimate="1" description="As you stare into the flame, your cares seem to drift away." />
+  <customblocker name="Sconce" x="8" y="10" pngSprite="dungeon/wall_sconceA/wall_sconceA" pngFirst="0" pngNum="3" pngRate="110" passable="1" pngAnimate="1" description="Burn baby burn!" />
+  <element type="bookshelf" at="1" />
+  <element type="evilchest" at="2" />
+  <element type="evilchest" at="3" />
+  <element type="dredmorstatue" at="4" />
+  <horde name="Diggle" x="10" y="13" min="2" additional="5" />
+  <horde name="Diggle" x="10" y="3" min="2" additional="5" />
+</room>
+<room width="10" height="13" name="Happy's Last Stand"> <!-- Rebuilt & CleanedUp 01.17.13 - Tested - 03 -->
+  <row text="##########" />	
+  <row text="#1.3######" />  
+  <row text="#....#####" />
+  <row text="####..45.#" />  
+  <row text="####.....d" />
+  <row text="#6......7#" />
+  <row text="#...WWWWW#" />
+  <row text="#...WWWWW#" />
+  <row text="#...WWWWW#" />
+  <row text="d.......2#" />
+  <row text="#........#" />
+  <row text="#........#" />
+  <row text="######D###" />
+  <flags minLevel="2" maxLevel="2" noblockers="1" notraps="1" special="1" />
+  <customblocker name="Our Buddy Happy" at="4" png="dungeon/skeleton_floor0.png" description="His nametag reads 'Happy'.  It occurs to you this is a very strange place to wear a nametag indeed..." />
+  <customblocker name="Rusty Bin" at="2" png="dungeon/bin_rusty.png" description="The words 'Happy was here' are scrawled into the rusty bin..." />
+  <customengraving name="Candles" at="1" pngSprite="dungeon/candles_floor_nw/candles_floor_nw" pngFirst="0" pngNum="3" pngRate="150" passable="1" pngAnimate="1" description="Flicker flicker flicker...." />
+  <customengraving name="Candles" at="3" pngSprite="dungeon/candles_floor_ne/candles_floor_ne" pngFirst="0" pngNum="3" pngRate="150" passable="1" pngAnimate="1" description="The candles miss their dear friend Happy" />
+  <customengraving name="Candles" at="6" pngSprite="dungeon/candles_floor_nw/candles_floor_nw" pngFirst="0" pngNum="3" pngRate="150" passable="1" pngAnimate="1" description="Flicker flicker flicker...." />
+  <customengraving name="Candles" at="7" pngSprite="dungeon/candles_floor_se/candles_floor_se" pngFirst="0" pngNum="3" pngRate="150" passable="1" pngAnimate="1" description="Insert funny candle flavor text here cause I'm so done with this... :/" />
+  <loot type="artifact" at="5" />
+</room>
+<room width="11" height="7" name="Blocked Hall">  <!-- Rebuilt & CleanedUp 01.17.13 - Tested - 04 -->
+  <row text="#######    " />
+  <row text="##123##    " />
+  <row text="##...######" />
+  <row text="##.......4#" /> 
+  <row text="##........#" />  
+  <row text="##...######" />
+  <row text="###D#######" />  
+  <flags minLevel="5" maxLevel="15" noblockers="1" notreasure="1" notraps="1" />  
+  <customblocker name="Dungeon Rubble" at="1" visblock="1" png="dungeon/dungeon_rubble.png" description="Crumbled wall bits block your path." />
+  <customblocker name="Dungeon Rubble" at="2" visblock="1" png="dungeon/dungeon_rubble.png" description="Crumbled wall bits block your path." />
+  <customblocker name="Dungeon Rubble" at="3" visblock="1" png="dungeon/dungeon_rubble.png" description="Crumbled wall bits block your path." />
+  <customengraving name="Candles" at="4" pngSprite="dungeon/candles_floor_ne/candles_floor_ne" pngFirst="0" pngNum="3" pngRate="150" passable="1" pngAnimate="1" description="Obviously poorly made candles," />
+</room>
+<room width="11" height="4" name="One Room Apartment">  <!-- Rebuilt & CleanedUp 01.17.13 - Tested - 05 -->
+  <row text="##142#     " /> 
+  <row text="##...#     " />  
+  <row text="##.3.######" />
+  <row text="###D#######" />  
+  <flags minLevel="1" maxLevel="4" noblockers="1" notreasure="1" notraps="1" />
+  <customblocker name="Dungeon Rubble" at="1" visblock="1" png="dungeon/dungeon_rubble.png" description="Disregard this heap of crumbled brick." />
+  <customblocker name="Dungeon Rubble" at="2" visblock="1" png="dungeon/dungeon_rubble.png" description="There is nothing left here but broken mortar." />
+  <horde name="Diggle" at="3" min="2" additional="4"/>
+</room>
+<room width="23" height="10" name="In The Goo">  <!-- Rebuilt & CleanedUp 01.18.13 - Tested - 06 -->
+  <row text="###D###############D###" />
+  <row text="##...######3######...##" />
+  <row text="##...#...........#...##" />
+  <row text="##...#...........#...##" />
+  <row text="##......GGGGGGG......##" />
+  <row text="##......G51426G......##" />
+  <row text="##...####.....####...##" />
+  <row text="##...##############D###" />
+  <row text="##...############      " />
+  <row text="###D###                " />
+  <flags minLevel="5" maxLevel="15" noblockers="1" notreasure="1" />
+  <customblocker name="Advertisement" percent="85" x="7" y="1" png="dungeon/poster_dredmor.png" description="'Drink Dredmor Ale.  Lord of beers.  This message approved by Lord Dredmor.'" can_push="0" />
+  <customblocker name="Candles On A Shelf" x="5" y="3" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" visblock="0" can_push="0" percent="100" />
+  <customblocker name="Candles On A Shelf" x="17" y="3" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" visblock="0" can_push="0" percent="100" />
+  <pedestal at="3" name="Book of a million (and one) truths" text="Shine on you crazy diamond" /> 
+  <element type="dredmorstatue" at="1" />
+  <element type="dredmorstatue" at="2" />
+  <loot type="zorkmids" at="5" />
+  <loot type="zorkmids" at="4" />
+  <loot type="zorkmids" at="6" />
+</room>
+<room width="16" height="10" name="Almost Dungeon">  <!-- Rebuilt & CleanedUp 01.18.13 - Tested - 07 -->
+  <row text="##D#############" />
+  <row text="##............##" />
+  <row text="##............##" />
+  <row text="##..##.##.##..##" />
+  <row text="##..##1##2##..##" />
+  <row text="##.9..8..7..6.##" />
+  <row text="##............##" />
+  <row text="###########...##" />
+  <row text="###########...##" />
+  <row text="############D###" />
+  <flags minLevel="6" maxLevel="9" noblockers="1" notreasure="1" notraps="1" />
+  <customblocker name="Sconce" x="7" y="4" pngSprite="dungeon/wall_sconceA/wall_sconceA" pngFirst="0" pngNum="3" pngRate="110" passable="1" pngAnimate="1" description="This little light of mine..." />
+  <customblocker name="Sconce" x="5" y="4" pngSprite="dungeon/wall_sconceA/wall_sconceA" pngFirst="0" pngNum="3" pngRate="110" passable="1" pngAnimate="1" description="This little light of mine..." />
+  <customblocker name="Sconce" x="8" y="4" pngSprite="dungeon/wall_sconceA/wall_sconceA" pngFirst="0" pngNum="3" pngRate="110" passable="1" pngAnimate="1" description="Just another sconce, the same as the last.." />
+  <customblocker name="Sconce" x="10" y="4" pngSprite="dungeon/wall_sconceA/wall_sconceA" pngFirst="0" pngNum="3" pngRate="110" passable="1" pngAnimate="1" description="Just another sconce, the same as the last.." />
+  <customblocker name="Bars" at="1" png="dungeon/bars_iron_ew.png" />
+  <customblocker name="Bars" at="2" png="dungeon/bars_iron_ew.png" />
+  <loot type="zorkmids" at="6" />
+  <loot type="zorkmids" at="7" />
+  <loot type="zorkmids" at="8" />
+  <loot type="zorkmids" at="9" />
+  <trap name="Shoddy Dwarven IED" x="2" y="6" percent="70" />
+  <trap name="Shoddy Dwarven IED" x="6" y="4" percent="70" />
+  <trap name="Shoddy Dwarven IED" x="7" y="6" percent="70" />
+  <trap name="Shoddy Dwarven IED" x="10" y="6" percent="70" />
+  <trap name="Shoddy Dwarven IED" x="4" y="5" percent="70" />
+  <trap name="Shoddy Dwarven IED" x="5" y="5" percent="70" />
+</room>
+<room width="25" height="12" name="Rust Depository">  <!-- Rebuilt & CleanedUp 01.18.13 - Tested - 08 -->
+  <row text="############D############" />
+  <row text="###########...###########" />
+  <row text="#.......###...###.......#" />
+  <row text="d.......##7...8##.......d" />
+  <row text="#.......##..4..##.......#" />
+  <row text="#.......##6...9##.......#" />
+  <row text="#....5..##..3..##.......#" />
+  <row text="#........1.....2........#" />
+  <row text="#.......................#" />
+  <row text="#.......................#" />
+  <row text="########.........########" />
+  <row text="############D############" />
+  <flags minLevel="8" maxLevel="10" noblockers="1" notreasure="1" notraps="1" special="1" />
+  <customblocker name="Vintage Brazier" at="1" pngSprite="dungeon/brazierA/brazierA" pngFirst="0" pngNum="4" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Vintage Brazier" at="2" pngSprite="dungeon/brazierA/brazierA" pngFirst="0" pngNum="4" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candles On A Shelf" x="2" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" visblock="0" can_push="0" percent="100" />
+  <customblocker name="Candles On A Shelf" x="22" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" visblock="0" can_push="0" percent="100" />
+  <customblocker name="Candles On A Shelf" x="6" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" visblock="0" can_push="0" percent="100" />
+  <customblocker name="Candles On A Shelf" x="18" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" visblock="0" can_push="0" percent="100" />
+  <customblocker name="Table" x="20" y="3" png="dungeon/table_wood.png" description="Made in China" />
+  <customblocker name="Rusty Bin" at="7" png="dungeon/bin_rusty.png" description="This one is full of random bits of string." />
+  <customblocker name="Rusty Bin" at="8" png="dungeon/bin_rusty.png" description="Too many doll heads to count in this one" />
+  <customblocker name="Rusty Bin" at="9" png="dungeon/bin_rusty.png" description="Millions of letters to Santa, most of which opened" />
+  <customblocker name="Rusty Bin" at="6" png="dungeon/bin_rusty.png" description="A small collection of feathered hats and one copy of Readers Digest Vol 6. " />
+  <customblocker name="Candelabra" x="7" y="3" pngSprite="dungeon/candelabra/candelabra" pngFirst="0" pngNum="4" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candelabra" x="17" y="3" pngSprite="dungeon/candelabra/candelabra" pngFirst="0" pngNum="4" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candelabra" x="7" y="5" pngSprite="dungeon/candelabra/candelabra" pngFirst="0" pngNum="4" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candelabra" x="17" y="5" pngSprite="dungeon/candelabra/candelabra" pngFirst="0" pngNum="4" pngRate="100" passable="0" pngAnimate="1" />
+  <loot x="1" y="2" type="reagent" subtype="Rust"/>
+  <loot x="2" y="2" type="reagent" subtype="Rust"/>
+  <loot x="3" y="2" type="reagent" subtype="Rust"/>
+  <loot x="3" y="3" type="reagent" subtype="Rust"/>
+  <loot type="toolkit" subtype="My Little Anvil Junior Smithing Kit" x="20" y="2"/>
+  <trap at="3" percent="90" />
+  <trap at="4" percent="90" />
+  <trap at="5" percent="90" />
+  <script repeat="1">
+    <condition condition_type="at" id="player" x="12" y="1" />
+    <action on="success" action_type="ticker" text="Suddenly, your eyes fail you." />
+    <action on="success" action_type="spell" casts="Enormous Blinding Mist Cloud" />
+  </script>  
+</room>
+<room width="16" height="8" name="LunchRoom" >  <!-- Rebuilt & CleanedUp 01.18.13 - Tested - 09 -->
+  <row text="################" />
+  <row text="################" />
+  <row text="d..............d" />
+  <row text="#..1.4....5.3..#" />
+  <row text="#..............#" />
+  <row text="d..............d" />
+  <row text="################" />
+  <row text="################" />
+  <flags minLevel="0" maxLevel="15" noblockers="1" notreasure="1" notraps="1" special="1" nomonsters="1" />
+  <customblocker name="Candles On A Shelf" x="3" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" visblock="0" can_push="0" percent="100" />
+  <customblocker name="Candles On A Shelf" x="12" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" visblock="0" can_push="0" percent="100" />
+  <customblocker name="Candles On A Shelf" x="6" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" visblock="0" can_push="0" percent="100" />
+  <customblocker name="Candles On A Shelf" x="9" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" visblock="0" can_push="0" percent="100" />
+  <customblocker name="Brax's Tapestry" x="4" y="1" png="dungeon/tapestry_checkers.spr" />
+  <customblocker name="Brax's Tapestry" x="7" y="1" png="dungeon/tapestry_checkers.spr" />
+  <customblocker name="Brax's Tapestry" x="8" y="1" png="dungeon/tapestry_checkers.spr" />
+  <customblocker name="Brax's Tapestry" x="11" y="1" png="dungeon/tapestry_checkers.spr" />
+  <customblocker name="Propaganda Poster" percent="100" x="5" y="1" png="dungeon/poster_hero.png" description="Remember: The lunchroom is enjoyed by many, clean up after yourself - A message from Diggle Union 422" can_push="0" />
+  <customblocker name="Table" x="7" y="3" png="dungeon/table_wood.png" description="Lunchroom Table.  Do not remove from lunchroom "/>
+  <customblocker name="Table" x="8" y="3" png="dungeon/table_wood.png" description="Lunchroom Table.  Do not remove from lunchroom "/>
+  <element at="1" type="foodvending" />
+  <element at="3" type="drinkvending" />
+  <element at="4" type="drinkvending" />
+  <element at="5" type="foodvending" />
+  </room>
+<room width="9" height="13" name="Goo Testing Chamber">  <!-- Rebuilt & CleanedUp 01.18.13 - Tested - 10 -->
+  <row text="##D###D##" />
+  <row text="#...#...#" />
+  <row text="#...#...#" />
+  <row text="#...G...#" />
+  <row text="#...G...#" />
+  <row text="#.......#" />
+  <row text="#.......#" />
+  <row text="#.......#" />
+  <row text="#...G...#" />
+  <row text="#...G...#" />
+  <row text="#...G...#" />
+  <row text="#...G...#" />
+  <row text="##D###D##" />
+  <flags minLevel="1" maxLevel="7" noblockers="1" notreasure="1" />
+  <customblocker name="Candles On A Shelf" x="4" y="2" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+</room>
+<room width="13" height="12" name="Bolt Closet">  <!-- Rebuilt & CleanedUp 01.18.13 - Tested - 11 -->
+  <row text="##D###D######"/>
+  <row text="##.....######"/>
+  <row text="##.......####"/>
+  <row text="#...........d"/>
+  <row text="#...........#"/>
+  <row text="#..12...#####"/>
+  <row text="#..34...#####"/>
+  <row text="#.......#.5.#"/>
+  <row text="#.......#...#"/>
+  <row text="d...........#"/>
+  <row text="#############"/>
+  <row text="#############"/>
+  <customblocker name="Candles On A Shelf" x="9" y="6" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candles On A Shelf" x="11" y="6" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customengraving name="Candles" at="4" pngSprite="dungeon/candles_floor_nw/candles_floor_nw" pngFirst="0" pngNum="3" pngRate="150" passable="0" pngAnimate="1" />
+  <customengraving name="Candles" at="3" pngSprite="dungeon/candles_floor_ne/candles_floor_ne" pngFirst="0" pngNum="3" pngRate="150" passable="0" pngAnimate="1" />
+  <customengraving name="Candles" at="2" pngSprite="dungeon/candles_floor_sw/candles_floor_sw" pngFirst="0" pngNum="3" pngRate="150" passable="0" pngAnimate="1" />
+  <customengraving name="Candles" at="1" pngSprite="dungeon/candles_floor_se/candles_floor_se" pngFirst="0" pngNum="3" pngRate="150" passable="0" pngAnimate="1" />
+  <flags minLevel="9" maxLevel="12" noblockers="1" notreasure="1" />
+  <element at="5" type="boltvending" />
+  </room>
+<room width="14" height="12" name="Down To Business"> <!-- Rebuilt & CleanedUp 01.20.13 - Tested - 12 -->
+  <row text="####D####D####" />
+  <row text="##..........##" />
+  <row text="##..........##" />
+  <row text="d............d" />
+  <row text="#............#" />
+  <row text="######..######" />
+  <row text="######..######" />
+  <row text="#....#..#....#" />
+  <row text="#....#..#....#" />
+  <row text="#............#" />
+  <row text="##############" />
+  <row text="##############" />
+  <flags minLevel="2" maxLevel="6" noblockers="1" notreasure="1" />
+  <customblocker name="Candles On A Shelf" x="6" y="0" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candles On A Shelf" x="7" y="0" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Tinkerer's Furnace" x="1" y="7" png="dungeon/furnaceB.png" description="Someone has heated up a nice can of beans in this stove" />
+  <customblocker name="Tinkerer's Furnace" x="3" y="7" png="dungeon/furnaceB.png" description="Hasn't been used in ages" />
+  <customblocker name="Alchemy Workbench" x="9" y="7" png="dungeon/workbench_alchemy0.png" description="This workbench is in 'like new' condition!" />
+  <customblocker name="Alchemist's Still" x="12" y="8" png="dungeon/still_alchemical.png" description="Obviously used in the past numerous times" />
+  <monster name="Enraged Diggle" x="1" y="8" />
+  <monster name="Enraged Diggle" x="2" y="8" />
+  <monster name="Enraged Diggle" x="10" y="8" />
+  </room>
+<room width="7" height="13" name="Lava Lane"> <!-- Rebuilt & CleanedUp 01.20.13 - Tested - 13 -->
+  <row text="##D####" />
+  <row text="#..LLL#" />
+  <row text="#..LLL#" />
+  <row text="#..LLL#" />
+  <row text="#...LL#" />
+  <row text="#...LL#" />
+  <row text="#...LL#" />
+  <row text="#...LL#" />
+  <row text="#...LL#" />
+  <row text="#..LLL#" />
+  <row text="#..LLL#" />
+  <row text="#..LLL#" />
+  <row text="##D####" />
+  <flags minLevel="9" maxLevel="11" noblockers="1" notreasure="1" special="1" />
+  <customblocker name="Wall Plaque" percent="100" x="4" y="0" png="dungeon/poster_hero.png" description="42 diggles lost their life digging this lava pit... The other 3 are still on the loose." can_push="0" />
+  </room>
+<room width="26" height="14" name="Multi Room Madness"> <!-- Rebuilt & CleanedUp 01.20.13 - Tested - 14 -->
+  <row text="##########################" />
+  <row text="#.................LLLLLLL#" />
+  <row text="#........................d" />
+  <row text="#...########.##..........#" />
+  <row text="#...########.##..#########" />
+  <row text="#...####..........########" />
+  <row text="#...###...LLLL......######" />
+  <row text="#...#................#####" />
+  <row text="#...#................#####" />
+  <row text="#...####.########.########" />
+  <row text="#...###...#######.########" />
+  <row text="#...##............########" />
+  <row text="#...##............########" />
+  <row text="##D#############D#########" />
+  <flags minLevel="9" maxLevel="15" noblockers="1" notreasure="1" special="1" />
+  <customblocker name="Dwarven Ventilation Grate" x="8" y="9" png="dungeon/bars_iron_ew.png" description="Made of good old fashioned steel" />
+  <customblocker name="Dwarven Educational Grate" x="12" y="3" png="dungeon/bars_iron_ew.png" description="Blocking your way since 2011" />
+  <customblocker name="Written Notice" x="10" y="10" png="dungeon/scrawl0.png" description="No smoking withing 5 meters of Dwarven Ventilation Grate" />
+  <customblocker name="Candles On A Shelf" x="5" y="0" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candles On A Shelf" x="22" y="0" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candles On A Shelf" x="9" y="4" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candles On A Shelf" x="13" y="10" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <monster name="Enraged Diggle" x="6" y="8" />
+  <monster name="Enraged Diggle" x="6" y="10" />
+  <monster name="Enraged Diggle" x="6" y="9" />
+  </room>
+<room width="20" height="9" name="Santas Workshop"> <!-- Rebuilt & CleanedUp 01.20.13 - Tested - 15 -->
+  <row text="####################" />
+  <row text="##########.2.......#" />
+  <row text="#.^.##.^.#.........#" />
+  <row text="#.1.##.3.##.#.#.#.##" />	
+  <row text="#........##4#5#6#7##" />  
+  <row text="#..................#" />
+  <row text="d..................d" />
+  <row text="####################" />
+  <row text="####################" />
+  <flags special="1" nomonsters="1" noblockers="1" notreasure="1" minLevel="4" maxLevel="9"/>
+  <customblocker name="Candles On A Shelf" x="13" y="0 " pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candles On A Shelf" x="17" y="0" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Advertisement" percent="85" x="18" y="4" png="dungeon/poster_dredmor.png" description="'Shop Dredmart for all your torture needs!'" can_push="0" />
+  <customblocker name="Candles On A Shelf" x="1" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candles On A Shelf" x="3" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candles On A Shelf" x="6" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candles On A Shelf" x="8" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker id="Old Rusty Grate" name="Rusty Grate" at="4"  png="dungeon/bars_iron_ew.png" description="Im talking like super rusty..." />
+  <customblocker id="Another Rusty Grate" name="Another Rusty Grate" at="5"  png="dungeon/bars_iron_ew.png" description="you shall not pass" />
+  <customblocker id="Rusty Grate" name="Really Rusty Grate" at="7"  png="dungeon/bars_iron_ew.png" description="Much like every other grate you have encountered" />
+  <customblocker id="Rusty Grate-like Iron Bars" name="Iron Grate" at="6"  png="dungeon/bars_iron_ew.png" description="I can't believe its not a grate!" />
+  <element at="1" type="lever" id="lever1" />
+  <element at="2" type="lever" id="lever2" />
+  <element at="3" type="lever" id="lever3" />
+  <monster x="13" y="1" name="Jiggy Gnome"/>
+  <monster x="15" y="1" name="Jiggy Gnome"/>
+  <monster x="17" y="1" name="Jiggy Gnome"/>
+  <monster x="17" y="2" name="Jiggy Gnome"/>
+  <script repeat="-1">
+    <condition condition_type="activated_changed" id="lever1"/>
+    <action on="success" action_type="spell" casts="Xeuclid's Translation" targetX="17" targetY="1"/>
+    </script>
+  <script repeat="-1">
+    <condition condition_type="activated_changed" id="lever2"/>
+    <action on="success" action_type="spell" casts="Xeuclid's Translation" targetX="2" targetY="5"/>
+    </script>
+  <script repeat="-1">
+    <condition condition_type="activated_changed" id="lever3"/>
+	<action on="success" action_type="ticker" text="Snakes!....no wait, just a cloud of dust..."/>
+    <action on="success" action_type="spell" casts="Enormous Blinding Mist Cloud"/>
+    </script>
+</room>
+<room width="19" height="9" name="Forensics Lab"> <!-- Rebuilt & CleanedUp 01.20.13 - Tested - 16 -->
+  <row text="###################" />
+  <row text="#########.2.......#" />
+  <row text="#LLLLLLL#....987..#" />
+  <row text="#LLLLLLL##.#####.##" /> 
+  <row text="#.......##5#####6##" />  
+  <row text="#.1...3.#....4....#" />
+  <row text="#.......#.........d" />
+  <row text="###...#############" />
+  <row text="####D##############" />
+  <flags noblockers="1" notreasure="1" minLevel="7" maxLevel="10" />
+  <customblocker id="Rusty Grate" name="Rusty Grate" at="5"  png="dungeon/bars_iron_ew.png" description="Im talking like super rusty..." />
+  <customblocker id="Rusty Grate" name="Iron Grate" at="6"  png="dungeon/bars_iron_ew.png" description="you shall not pass" />
+  <customblocker name="Candles On A Shelf" x="12" y="0" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candles On A Shelf" x="16" y="0" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candles On A Shelf" x="2" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candles On A Shelf" x="6" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <element at="1" type="lever" id="lever1" />
+  <element at="2" type="lever" id="lever2" />
+  <element at="3" type="lever" id="lever3" />
+  <element at="4" type="lever" id="lever4" />
+  <monster name="Diggle" at="9" />
+  <monster name="Diggle" at="8" />
+  <monster name="Diggle" at="7" />
+  <script repeat="-1">
+    <condition condition_type="activated_changed" id="lever1"/>
+    <action on="success" action_type="spell" casts="Xeuclid's Translation" targetX="16" targetY="1"/>
+    </script>
+  <script repeat="-1">
+    <condition condition_type="activated_changed" id="lever2"/>
+    <action on="success" action_type="spell" casts="Xeuclid's Translation" targetX="13" targetY="6"/>
+    </script>
+  <script repeat="-1">
+    <condition condition_type="activated_changed" id="lever3"/>
+    <action on="success" action_type="spell" casts="Xeuclid's Translation" targetX="10" targetY="6"/>
+	</script>
+  <script repeat="-1">
+    <condition condition_type="activated_changed" id="lever4"/>
+    <action on="success" action_type="spell" casts="Xeuclid's Translation" targetX="4" targetY="5"/>
+    </script>
+</room>
+<room width="14" height="7" name="Cell Block 9" > <!-- Rebuilt & CleanedUp 01.20.13 - Tested - 17 -->
+  <row text="###########D##" />
+  <row text="#6##3##4###.##" />
+  <row text="#5##2##1##...#" />
+  <row text="#............#" />
+  <row text="#............#" />
+  <row text="###########.##" />
+  <row text="###########D##" />
+  <monster at="3" name="Muscle Diggle" />
+  <monster at="4" name="Muscle Diggle" />
+  <customblocker id="grate" name="Cell Door" at="1"  png="dungeon/bars_iron_ew.png" description="Looks like it'll hold"/>
+  <customblocker id="grate" name="Cell Door" at="2"  png="dungeon/bars_iron_ew.png" description="You think if you tried you could fit your head between the bars.... but maybe another time"/>
+  <customblocker id="grate" name="Cell Door" at="5"  png="dungeon/bars_iron_ew.png" description="Locked up tight"/>
+  <customblocker name="Dungeon Rubble" at="6" visblock="1" png="dungeon/dungeon_rubble.png" description="If anyone was in this cell, they are now under a great deal of rubble"/>
+  <customblocker name="Sconce" x="3" y="2" pngSprite="dungeon/wall_sconceA/wall_sconceA" pngFirst="0" pngNum="3" pngRate="110" passable="1" pngAnimate="1" description="The flames shudder as if from some unseen draft" />
+  <customblocker name="Sconce" x="6" y="2" pngSprite="dungeon/wall_sconceA/wall_sconceA" pngFirst="0" pngNum="3" pngRate="110" passable="1" pngAnimate="1" description="The flames cast an ominous shadow over the floor below" />
+  <customblocker name="Sconce" x="9" y="2" pngSprite="dungeon/wall_sconceA/wall_sconceA" pngFirst="0" pngNum="3" pngRate="110" passable="1" pngAnimate="1" description="The flames cast an ominous shadow over the floor below" />
+  <customblocker name="Cell 101" x="2" y="2" png="dungeon/scrawl0.png" description="Dora The Destroya 'For laughing when Lord Dredmor slipped on a wet floor' no bail" />
+  <customblocker name="Cell 102" x="5" y="2" png="dungeon/scrawl0.png" description="Kermit The Hermit 'For throwing off the Lords groove' Sentence to be reconsidered when the lord gets his groove back" />
+  <customblocker name="Cell 103" x="8" y="2" png="dungeon/scrawl0.png" description="Destructo 'For stealing a stapler from the dungeon supply cabinet' Sentenced for life" />
+  <flags special="1" noblockers="1" minLevel="3" maxLevel="3" />
+</room>
+<room width="15" height="15" name="Teleroom" > <!-- Rebuilt & CleanedUp 01.20.13 - Tested - 18 -->
+  <row text="###############" />
+  <row text="###############" />
+  <row text="#....LL#II....#" />
+  <row text="d....1L#I2....d" />
+  <row text="#....LL#II....#" />
+  <row text="#....4L#I3....#" />
+  <row text="#....LL#II....#" />
+  <row text="#....LL#II....#" />
+  <row text="#....LL#II....#" />
+  <row text="#....5L#I6....#" />
+  <row text="#....LL#II....#" />
+  <row text="d....8L#I7....d" />
+  <row text="#....LL#II....#" />
+  <row text="###############" />  
+  <row text="###############" />
+  <flags minLevel="9" maxLevel="14" nomonsters="1" noblockers="1" special="1"  />
+  <customblocker name="Sconce" x="3" y="1" pngSprite="dungeon/wall_sconceA/wall_sconceA" pngFirst="0" pngNum="3" pngRate="110" passable="1" pngAnimate="1" description="It burns!" />
+  <customblocker name="Sconce" x="11" y="1" pngSprite="dungeon/wall_sconceA/wall_sconceA" pngFirst="0" pngNum="3" pngRate="110" passable="1" pngAnimate="1" description="Hot hot!" />
+  <element at="1" type="lever" id="lever1" />
+  <element at="2" type="lever" id="lever2" />
+  <element at="3" type="lever" id="lever3" />
+  <element at="4" type="lever" id="lever4" />
+  <element at="5" type="lever" id="lever5" />
+  <element at="6" type="lever" id="lever6" />
+  <element at="7" type="lever" id="lever7" />
+  <element at="8" type="lever" id="lever8" />
+  <monster x="2" y="3" name="Muscle Diggle" />
+  <monster x="12" y="3" name="Muscle Diggle" />
+  <monster name="Diggle" x="2" y="5" />
+  <monster name="Diggle" x="2" y="7" />
+  <monster name="Diggle" x="2" y="9" />
+  <monster name="Diggle" x="12" y="5" />
+  <monster name="Diggle" x="12" y="7" />
+  <monster name="Diggle" x="12" y="9" />
+  <script repeat="-1">
+    <condition condition_type="activated_changed" id="lever1" />
+    <action on="success" action_type="spell" casts="Xeuclid's Translation" targetX="11" targetY="3" />
+    </script>
+  <script repeat="-1">
+    <condition condition_type="activated_changed" id="lever4" />
+    <action on="success" action_type="spell" casts="Xeuclid's Translation" targetX="11" targetY="5" />
+    </script>
+  <script repeat="-1">
+    <condition condition_type="activated_changed" id="lever5" />
+    <action on="success" action_type="spell" casts="Xeuclid's Translation" targetX="11" targetY="9" />
+  </script>
+  <script repeat="-1">
+    <condition condition_type="activated_changed" id="lever8" />
+    <action on="success" action_type="spell" casts="Xeuclid's Translation" targetX="11" targetY="11" />
+    </script>
+  <script repeat="-1">
+    <condition condition_type="activated_changed" id="lever2" />
+    <action on="success" action_type="spell" casts="Xeuclid's Translation" targetX="2" targetY="3" />
+    </script>
+  <script repeat="-1">
+    <condition condition_type="activated_changed" id="lever3" />
+    <action on="success" action_type="spell" casts="Xeuclid's Translation" targetX="2" targetY="5" />
+    </script>
+  <script repeat="-1">
+    <condition condition_type="activated_changed" id="lever6" />
+    <action on="success" action_type="spell" casts="Xeuclid's Translation" targetX="2" targetY="9" />
+    </script>
+  <script repeat="-1">
+    <condition condition_type="activated_changed" id="lever7" />
+    <action on="success" action_type="spell" casts="Xeuclid's Translation" targetX="2" targetY="11" />
+    </script>
+</room>
+<room width="11" height="10" name="Prison Library" >  <!-- Rebuilt & CleanedUp 01.18.13 - Tested - 19 -->
+  <row text="###########" />
+  <row text="##5#2#3#4##" />
+  <row text="#..6.7.8..#" />
+  <row text="#.........#" />
+  <row text="#.........#" />
+  <row text="#.........#" />
+  <row text="d....1....d" />
+  <row text="#.........#" />
+  <row text="###########" />
+  <row text="###########" />
+  <flags minLevel="3" maxLevel="4" nomonsters="1" noblockers="1" special="1" notreasure="1" />
+  <element at="1" type="lever" id="lever1" />
+  <customblocker name="Iron Bars" x="1" y="4"  png="dungeon/bars_iron_ew.png" id="bar1" description="Designed to keep you on your side of the bars" />
+  <customblocker name="Iron Bars" x="2" y="4"  png="dungeon/bars_iron_ew.png" id="bar2" description="Designed to keep you on your side of the bars" />
+  <customblocker name="Iron Bars" x="3" y="4"  png="dungeon/bars_iron_ew.png" id="bar3" description="Designed to keep you on your side of the bars" />
+  <customblocker name="Iron Bars" x="4" y="4"  png="dungeon/bars_iron_ew.png" id="bar4" description="Designed to keep you on your side of the bars" />
+  <customblocker name="Iron Bars" x="5" y="4"  png="dungeon/bars_iron_ew.png" id="bar5" description="Designed to keep you on your side of the bars" />
+  <customblocker name="Iron Bars" x="6" y="4"  png="dungeon/bars_iron_ew.png" id="bar6" description="Designed to keep you on your side of the bars" />
+  <customblocker name="Iron Bars" x="7" y="4"  png="dungeon/bars_iron_ew.png" id="bar7" description="Designed to keep you on your side of the bars" />
+  <customblocker name="Iron Bars" x="8" y="4"  png="dungeon/bars_iron_ew.png" id="bar8" description="Designed to keep you on your side of the bars" />
+  <customblocker name="Iron Bars" x="9" y="4"  png="dungeon/bars_iron_ew.png" id="bar9" description="Designed to keep you on your side of the bars" />
+  <element type="bookshelf" at="5" />  
+  <element type="bookshelf" at="2" />  
+  <element type="bookshelf" at="3" />  
+  <element type="bookshelf" at="4" />
+  <script repeat="1">
+  <condition condition_type="activated_changed" id="lever1" />
+  <action on="success" action_type="remove" id="bar1" />
+  <action on="success" action_type="remove" id="bar2" />
+  <action on="success" action_type="remove" id="bar3" />
+  <action on="success" action_type="remove" id="bar4" />
+  <action on="success" action_type="remove" id="bar5" />
+  <action on="success" action_type="remove" id="bar6" />
+  <action on="success" action_type="remove" id="bar7" />
+  <action on="success" action_type="remove" id="bar8" />
+  <action on="success" action_type="remove" id="bar9" />
+  <action on="success" action_type="create" create_type="monster" at="6" />
+  <action on="success" action_type="create" create_type="monster" at="7" />
+  <action on="success" action_type="create" create_type="monster" at="8" />
+  <action on="success" action_type="ticker" text="Oh Snap!" />
+  </script>
+</room>
+<room width="11" height="7" name="Tricky Cake" >  <!-- Rebuilt & CleanedUp 01.18.13 - Tested - 20 -->
+  <row text="###########" />
+  <row text="##1#2#3####" />
+  <row text="#.........#" />
+  <row text="d........5#" />
+  <row text="#.........#" />
+  <row text="###########" />
+  <row text="###########" />
+  <flags minLevel="12" maxLevel="13" noblockers="1" special="1" />
+  <customblocker name="Statue of Cake" at="5" png="dungeon/statue_cake.spr" description="mmm Cake.... No way this could be a trick...."/>
+  <customblocker name="Bookcase" at="1" png="dungeon/shelfB0.png" description="Super dusty!"/>  
+  <customblocker name="Bookcase" at="2" png="dungeon/shelfB0.png" description="Once used to hold freshly baked cakes"/>
+  <customblocker name="Bookcase" at="3" png="dungeon/shelfB0.png" description="Covered in dust and icing"/>
+  <script repeat="1">
+    <condition condition_type="at" id="player" x="8" y="3" />
+	<action on="success" action_type="create" create_type="monster" x="8" y="2" />
+    <action on="success" action_type="create" create_type="monster" x="8" y="4" />
+  </script>
+</room>
+<room width="11" height="7" name="Hatchery" >  <!-- Rebuilt & CleanedUp 01.18.13 - Tested - 21 -->
+  <row text="###########" />
+  <row text="##1#2#3#4##" />
+  <row text="#.......56#" />
+  <row text="d.7.....WW#" />
+  <row text="#.......WW#" />
+  <row text="###########" />
+  <row text="###########" />
+  <flags minLevel="1" maxLevel="5" noblockers="1" />
+  <customengraving name="Diggle Nest" at="1" png="dungeon/nest0.png" description="It's a little nest." passable="1" percent="75" />
+  <customengraving name="Diggle Nest" at="2" png="dungeon/nest0.png" description="It's a little nest." passable="1" percent="75" />
+  <customengraving name="Diggle Nest" at="3" png="dungeon/nest0.png" description="It's a little nest." passable="1" percent="75" />
+  <customengraving name="Diggle Nest" at="4" png="dungeon/nest0.png" description="It's a little nest." passable="1" percent="75" />
+  <horde name="Diggle" at="7" min="4" additional="3" />
+  <loot type="food" subtype="Diggle Egg" at="5" percent="65" />
+  <loot type="food" subtype="Diggle Egg" at="6" percent="65" />
+</room>
+<room width="10" height="14" name="Gloom" > <!-- Built 01.20.13 - Tested - 22 -->
+  <row text="##########" />
+  <row text="##########" />
+  <row text="#..G.....#" />
+  <row text="d..G1^...#" />
+  <row text="#..GGGG..#" />
+  <row text="#........#" />
+  <row text="#........#" />
+  <row text="#..GGGG..#" />
+  <row text="#....3G..d" />
+  <row text="#.....G..#" />
+  <row text="#GGGGGG..#" />
+  <row text="#GGGGGGGG#" />
+  <row text="##########" />
+  <row text="##########" />
+  <flags minLevel="0" maxLevel="3" noblockers="1" />
+  <customengraving name="Floor Candles" at="1" png="dungeon/candles_floor_sw0.png" passable="1" description="These candles are burned out." />
+  <loot type="zorkmids" x="5" y="2" />
+  <loot type="zorkmids" x="5" y="3" />
+  <loot type="zorkmids" x="6" y="2" />
+  <loot type="artifact" x="6" y="3" />
+  <loot type="zorkmids" x="7" y="2" />
+  <loot type="zorkmids" x="7" y="3" />
+  <loot type="zorkmids" x="7" y="3" />
+  <element type="dredmorstatue" at="3" />
+</room>
+<room width="13" height="10" name="Frozen Anvil" > <!-- Built 01.20.13 - Tested - 23 -->
+  <row text="######D######" />
+  <row text="#####...#####" />
+  <row text="####I.2.I####" />
+  <row text="####I.4.I####" />
+  <row text="d.....3.....d" />
+  <row text="##III...III##" />
+  <row text="#IIII.1.IIII#" />
+  <row text="#IIIIIIIIIII#" />
+  <row text="#IIIIIIIIIII#" />
+  <row text="#############" />
+  <flags minLevel="7" maxLevel="7" nomonsters="1" noblockers="1" special="1" notreasure="1" />
+  <customblocker name="Rusty Anvil" at="1" can_push="0" description="Rusted to the point where it has become unusable" png="dungeon/krong_anvil_broken.png" visblock="0" id="rusty" />
+  <monster at="2" id="enemy1" />
+  <monster at="3" id="enemy2" />
+  <monster at="4" id="enemy3" />
+  <script repeat="-1">
+    <condition condition_type="isdead" id="enemy1" />
+    <condition condition_type="isdead" id="enemy2" />
+    <condition condition_type="isdead" id="enemy3" />
+    <condition condition_type="at" id="rusty" at="1" />
+    <action on="success" action_type="remove" id="rusty" />
+    <action on="success" action_type="create" create_type="element" type="anvil" at="1" />
+	<action on="success" action_type="ticker" text="Krong is pleased with the slaughter.  Try your luck at his anvil which shine's like new" />
+  </script>
+</room>
+<room width="13" height="10" name="Hawk"> <!-- Built 01.20.13 - Tested - 24 -->
+  <row text="#############" />
+  <row text="#############" />
+  <row text="#...........d" />
+  <row text="#...........#" />
+  <row text="#..1234..####" />
+  <row text="#..5..6..####" />
+  <row text="#........#   " />
+  <row text="#........d   " />
+  <row text="##########   " />
+  <row text="##########   " />
+  <flags minLevel="5" maxLevel="11" noblockers="1" notreasure="1" />
+  <customblocker name="Brazier" at="5" pngSprite="dungeon/brazierB/brazierB" pngFirst="0" pngNum="6" pngRate="100" passable="0" pngAnimate="1" description="Flames flicker within" can_push="0" />
+  <customblocker name="Brazier" at="6" pngSprite="dungeon/brazierB/brazierB" pngFirst="0" pngNum="6" pngRate="100" passable="0" pngAnimate="1" description="Flames flicker within" can_push="0" />
+  <customblocker id="Another Rusty Grate" name="Bars" at="1"  png="dungeon/bars_iron_ew.png" description="Just some bars" />
+  <customblocker id="Rusty Grate" name="Bars" at="2"  png="dungeon/bars_iron_ew.png" description="Just some bars" />
+  <customblocker id="Rusty Grate-like Iron Bars" name="Bars" at="3"  png="dungeon/bars_iron_ew.png" description="Just some bars" />
+  <customblocker id="Rusty Grate-like Iron Bars" name="Bars" at="4"  png="dungeon/bars_iron_ew.png" description="Just some bars" />
+  <customblocker name="Candles On A Shelf" x="3" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candles On A Shelf" x="6" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+</room>
+<room width="6" height="5" name="Connector" > <!-- Built 01.20.13 - Tested - 25 -->
+  <row text="######" />
+  <row text="######" />
+  <row text="d....d" />
+  <row text="######" />
+  <row text="######" />
+  <flags minLevel="0" maxLevel="15" noblockers="1" notreasure="1" notraps="1" special="1" nomonsters="1" />
+  <customblocker name="Candles On A Shelf" x="2" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+  <customblocker name="Candles On A Shelf" x="3" y="1" pngSprite="dungeon/candle_shelf/candle_shelf" pngFirst="0" pngNum="3" pngRate="100" passable="0" pngAnimate="1" />
+</room>
+<room width="16" height="8" name="Arms Locker"> <!-- Built 01.25.13 - Tested - 26 -->
+  <row text="#############D##" />
+  <row text="######.6..5....#" />
+  <row text="#78..#9........#" />
+  <row text="#....#....#....#" />
+  <row text="#....#1234#....#" />
+  <row text="#..............#" />
+  <row text="#..............#" />
+  <row text="#############D##" />
+  <flags minLevel="1" maxLevel="8" noblockers="1" notreasure="1" />
+  <customblocker name="Bars" at="4" png="dungeon/bars_iron_ew.png" description="Solid Steel.  Crafted by dwarves long ago. " />
+  <customblocker name="Bars" at="3" png="dungeon/bars_iron_ew.png" description="They're iron bars and they're not moving for anyone." />
+  <customblocker name="Bars" at="2" png="dungeon/bars_iron_ew.png" description="They're iron bars and they're not moving for anyone." />
+  <customblocker name="Bars" at="1" png="dungeon/bars_iron_ew.png" description="They're iron bars and they're not moving for anyone." />
+  <customblocker name="Dungeon Rubble" at="5" visblock="1" png="dungeon/dungeon_rubble.png" description="Part of the wall has collapsed under the weight of a shelf.  Who built this place?" />
+  <customblocker name="Pile 'o' Bones" at="6" png="dungeon/skeleton_floor0.png" description="Them bones, them bones...."/>
+  <customblocker name="Weapon Rack" at="7" png="dungeon/weapon_rack.png" description="A wooden weapon rack." />
+  <customblocker name="Table" at="8" png="dungeon/table_wood.png" description="More of a bench really..."/>
+  <loot type="weapon" at="9" percent="75" />
+  <loot type="reagent" subtype="Iron Ingot" at="8" amount="2" percent="80" />
+  <loot type="reagent" subtype="Steel Ingot" x="2" y="3" percent="60" />
+  <loot type="reagent" subtype="Bronze Ingot" x="3" y="3" percent="80" />
+  <loot type="toolkit" subtype="My Little Anvil Junior Smithing Kit" x="4" y="4"/>
+  <customblocker name="Sconce" x="2" y="1" pngSprite="dungeon/sconceB/sconceB" pngFirst="0" pngNum="5" pngRate="110" passable="0" pngAnimate="1" />
+</room>
+<room width="7" height="10" name="Grissle's Tomb" > <!-- Created 01.25.13 - Tested - 27 -->
+  <row text="#######" />
+  <row text="###3###" />
+  <row text="#WW.WW#" />
+  <row text="#W4.5W#" />
+  <row text="#W...W#" />
+  <row text="#WX.XW#" />
+  <row text="##1.2##" />
+  <row text="#.....#" />
+  <row text="#.....#" />
+  <row text="###D###" />
+  <flags minLevel="1" maxLevel="1" noblockers="1" special="1" />
+  <customblocker name="Sconce" x="2" y="1" pngSprite="dungeon/sconceB/sconceB" pngFirst="0" pngNum="5" pngRate="110" passable="0" pngAnimate="1" />
+  <customblocker name="Sconce" x="4" y="1" pngSprite="dungeon/sconceB/sconceB" pngFirst="0" pngNum="5" pngRate="110" passable="0" pngAnimate="1" />
+  <customblocker name="Grave of Grissle" at="3" png="dungeon/grave_vert.png" description="Here rests Grissle the portrayer" />
+  <customblocker name="Dungeon Rubble" at="1" visblock="1" png="dungeon/dungeon_rubble.png" description="This wall appears to be blown open by explosives" />
+  <customblocker name="Dungeon Rubble" at="2" visblock="1" png="dungeon/dungeon_rubble.png" description="This wall appears to be blown open by explosives" />
+  <loot type="zorkmids" at="4" />
+  <loot type="zorkmids" at="5" />
+</room>
+<room width="7" height="8" name="Lutefisk Hall"> <!-- Created 01.25.13 - Tested - 28 -->
+  <row text="###D###" />
+  <row text="#.....#" />
+  <row text=" #...# " />
+  <row text=" #...# " />
+  <row text=" #...# " />
+  <row text=" #...# " />
+  <row text=" #...# " />
+  <row text=" ##D## " />
+  <flags minLevel="5" maxLevel="10" notreasure="1" special="1" />
+  <loot type="food" subtype="Lutefisk" x="3" y="1"/>
+  <loot type="food" subtype="Lutefisk" x="3" y="2"/>
+  <loot type="food" subtype="Lutefisk" x="3" y="3"/>
+  <loot type="food" subtype="Lutefisk" x="3" y="4"/>
+  <loot type="food" subtype="Lutefisk" x="3" y="5"/>
+  <loot type="food" subtype="Lutefisk" x="3" y="6"/>
+  <customblocker name="Fishy Sconce" x="1" y="0" pngSprite="dungeon/sconce_lutefisk/sconce_lutefisk" pngFirst="0" pngNum="3" pngRate="110" passable="0" pngAnimate="1" description="Flames flicker against the scales" />
+  <customblocker name="Fishy Sconce" x="5" y="0" pngSprite="dungeon/sconce_lutefisk/sconce_lutefisk" pngFirst="0" pngNum="3" pngRate="110" passable="0" pngAnimate="1" description="Flames flicker against the scales" />
+</room>
+  <room width="12" height="7" name="Inconsequentia's Quarters"> <!-- Created 01.25.13 - Tested - 29 -->
+  <row text="############" />
+  <row text="##2##3###.##" />
+  <row text="##.........#" />
+  <row text="#..........#" />
+  <row text="#WW.WW#....#" />
+  <row text="##...###..##" />
+  <row text="###D########" />
+  <flags minLevel="0" maxLevel="7" noblockers="1" notreasure="1" special="1" />
+  <element type="statue" x="9" y="1" />
+  <customengraving name="Floor Candles" x="8" y="2" pngSprite="dungeon/candles_floor_nw/candles_floor_nw" pngFirst="0" pngNum="3" pngRate="150" passable="1" pngAnimate="1" description="The candles flicker aloofly at you." />
+  <customengraving name="Floor Candles" x="10" y="2" pngSprite="dungeon/candles_floor_ne/candles_floor_ne" pngFirst="0" pngNum="3" pngRate="150" passable="1" pngAnimate="1" description="The candles flicker aloofly at you." />
+  <customblocker name="Dustier Bookcase" at="3" png="dungeon/shelfB0.png" description="Nothing much left here, just a few ripped pages."/>
+  <customblocker name="Dusty Bookcase" at="2" png="dungeon/shelfA0.png" description="A booked titled 'how to bring out your inner diggle' is all that remains on this shelf."/>
+</room>
+<room width="17" height="15" name="Goo Preservation Chamber"> <!-- Created 01.25.13 - Tested - 30 -->
+  <row text="    #######      " />
+  <row text="    #..5..#      " />
+  <row text="    #.....#      " />
+  <row text="#########.####D##" />
+  <row text="######23#4#######" />
+  <row text="#GG7..GG...GG...#" />
+  <row text="#GG...GG...GG8..#" />
+  <row text="#...............#" />
+  <row text="#...............#" />
+  <row text="#GG...##..9GG...#" />
+  <row text="#GG.####...GG...d" />
+  <row text="#GG1###6........#" />
+  <row text="#GGGG...........#" />
+  <row text="######.##########" />
+  <row text="######D##########" />
+  <flags minLevel="12" maxLevel="12" noblockers="1" notreasure="1" />
+  <custombreakable name="Wooden Door" at="4" png="dungeon/door_interior.png" broken="dungeon/splinters.png" visblock="1" percent="100" />
+  <element type="dredmorstatue" at="5" />
+  <customblocker png="dungeon/tesla_coil.png" at="6" />
+  <customblocker png="dungeon/tesla_coil.png" at="8" />
+  <customblocker png="dungeon/tesla_coil.png" at="7" />
+  <customblocker png="dungeon/tesla_coil.png" at="9" />
+  <customblocker name="Dungeon Rubble" at="2" visblock="1" png="dungeon/dungeon_rubble.png" description="Most of this wall has collapsed into the pool below." />
+  <customblocker name="Dungeon Rubble" at="3" visblock="1" png="dungeon/dungeon_rubble.png" description="Most of this wall has collapsed into the pool below." />
+  <customengraving name="Floor Candles" x="1" y="7" pngSprite="dungeon/candles_floor_nw/candles_floor_nw" pngFirst="0" pngNum="3" pngRate="150" passable="1" pngAnimate="1" description="Now there's wax all over the floor :(" />
+  <customengraving name="Floor Candles" x="10" y="10" pngSprite="dungeon/candles_floor_ne/candles_floor_ne" pngFirst="0" pngNum="3" pngRate="150" passable="1" pngAnimate="1" description="The candles flicker" />
+  <customengraving name="Floor Candles" x="5" y="1" pngSprite="dungeon/candles_floor_nw/candles_floor_nw" pngFirst="0" pngNum="3" pngRate="150" passable="1" pngAnimate="1" description="The candles let off a little warmth." />
+  <customengraving name="Floor Candles" x="9" y="1" pngSprite="dungeon/candles_floor_ne/candles_floor_ne" pngFirst="0" pngNum="3" pngRate="150" passable="1" pngAnimate="1" description="The candles flicker" />
+  <loot type="toolkit" subtype="My Little Anvil Junior Smithing Kit" at="1"/>
+</room>
+
+<!-- BELOW IS NEW! -->
+
+<room width="17" height="13" name="Breezeway"> <!-- Created 02/03/2015 - Tested - 31 -->
+  <row text="##############D##" />
+  <row text="######23#####...#" />
+  <row text="#...............#" />
+  <row text="#...............#" />
+  <row text="#...##6##8##7##9#" />
+  <row text="#...............#" />
+  <row text="#...............#" />
+  <row text="#...####..G5G...d" />
+  <row text="#...####..GGG...#" />
+  <row text="#...1...........#" />
+  <row text="#...............#" />
+  <row text="#################" />
+  <row text="#################" />
+  <flags minLevel="3" maxLevel="5" noblockers="1" notreasure="1" />
+  <element type="dredmorstatue" at="5" />
+  <customblocker png="dungeon/tesla_coil.png" at="6" />
+  <customblocker png="dungeon/tesla_coil.png" at="8" />
+  <customblocker png="dungeon/tesla_coil.png" at="7" />
+  <customblocker png="dungeon/tesla_coil.png" at="9" />
+  <customblocker name="Dungeon Rubble" at="2" visblock="1" png="dungeon/dungeon_rubble.png" description="Poor masonry skills have caused this wall to give out." />
+  <customblocker name="Dungeon Rubble" at="3" visblock="1" png="dungeon/dungeon_rubble.png" description="Poor masonry skills have caused this wall to give out." />
+  <customengraving name="Floor Candles" x="1" y="7" pngSprite="dungeon/candles_floor_nw/candles_floor_nw" pngFirst="0" pngNum="3" pngRate="150" passable="1" pngAnimate="1" description="Crudely made candles lay in an ill-concieved heap" />
+  <loot type="toolkit" subtype="My Little Anvil Junior Smithing Kit" at="1"/>
+</room>
+
+<room width="10" height="13" name="The Situation Room" > <!-- Created 02/03/2015 - Tested - 32 -->
+  <row text="###D######" />
+  <row text="##...#####" />
+  <row text="##.......#" />
+  <row text="##.......#" />
+  <row text="##.......#" />
+  <row text="##.......#" />
+  <row text="##...#...#" />
+  <row text="#G...#...#" />
+  <row text="#G...#####" />
+  <row text="#G...#####" />
+  <row text="#G......##" />
+  <row text="###.....##" />
+  <row text="######D###" />
+  <flags minLevel="3" maxLevel="7" noblockers="1"/>
+  <customblocker name="Dusty Bookcase" x="7" y="2" png="dungeon/shelfB0.png" description="Only cobwebs and dust are stored on this shelf now."/>
+  <element type="bookshelf" x="8" y="2" />
+  <customblocker name="Dirty Bookcase" x="6" y="2" png="dungeon/shelfB0.png" description="What is this made out of? Mahogany?"/>
+  <trap name="Gargoyle Acid Bolt Trap" x="5" y="4" percent="100" />
+  <trap name="Gargoyle Acid Bolt Trap" x="5" y="10" percent="100" />
+  <customblocker name="Sconce" x="6" y="7" pngSprite="dungeon/sconceB/sconceB" pngFirst="0" pngNum="5" pngRate="110" passable="0" pngAnimate="1" />
+  <customblocker name="Sconce" x="7" y="7" pngSprite="dungeon/sconceB/sconceB" pngFirst="0" pngNum="5" pngRate="110" passable="0" pngAnimate="1" />
+  <customblocker name="Sconce" x="8" y="7" pngSprite="dungeon/sconceB/sconceB" pngFirst="0" pngNum="5" pngRate="110" passable="0" pngAnimate="1" />
+  <customblocker name="Sconce" x="1" y="6" pngSprite="dungeon/sconceB/sconceB" pngFirst="0" pngNum="5" pngRate="110" passable="0" pngAnimate="1" />
+  </room>
+
+  <room width="18" height="8" name="Storage Closet"> <!-- Created 02/03/2015 - Tested - 33 -->
+  <row text="###D##############"/>
+  <row text="##...#......######"/>
+  <row text="##...#......######"/>
+  <row text="##...##.....######"/>
+  <row text="##...##.....######"/>
+  <row text="##..............##"/>
+  <row text="##..............##"/>
+  <row text="###D##############"/>
+  <flags minLevel="6" maxLevel="8" notreasure="1" special="1"/>
+  <customblocker name="Brax's Tapestry" x="9" y="0" png="dungeon/tapestry_checkers.spr" />
+  <customblocker name="Wall Sconce" x="13" y="4" pngSprite="dungeon/wall_sconceA/wall_sconceA" pngFirst="0" pngNum="3" pngRate="110" passable="0" pngAnimate="1" description="Recently lit. Not that it matters..." can_push="0" />
+  <customengraving name="Floor Candles" x="4" y="3" png="dungeon/candles_floor_ne0.png" passable="1" description="These candles are burned out."/>
+  <customengraving name="Floor Candles" x="4" y="4" png="dungeon/candles_floor_se0.png" passable="1" description="These candles are burned out."/>
+  <customblocker name="Notice" percent="100" x="6" y="4" png="dungeon/poster_dredmor.png" description="The contents of this storage room are under video surveillance. Stealing from the lords storage room is a punishable offence!" can_push="0" />
+  <customblocker name="Theft-Proof Grated Wall System" x="7" y="4" png="dungeon/bars_iron_ew.png" description="Patent Pending - The Dwarven Educational Collective"/>
+  <customblocker name="Theft-Proof Grated Wall System" x="8" y="4" png="dungeon/bars_iron_ew.png" description="Patent Pending - The Dwarven Educational Collective"/>
+  <customblocker name="Theft-Proof Grated Wall System" x="11" y="4" png="dungeon/bars_iron_ew.png" description="Patent Pending - The Dwarven Educational Collective"/>
+  <customblocker name="Theft-Proof Grated Wall System" x="9" y="4" png="dungeon/bars_iron_ew.png" description="Patent Pending - The Dwarven Educational Collective"/>
+  <customblocker name="Theft-Proof Grated Wall System" x="10" y="4" png="dungeon/bars_iron_ew.png" description="Patent Pending - The Dwarven Educational Collective"/>
+  <element type="bookshelf" x="9" y="1" />
+  <customblocker name="Alchemy Workbench" x="8" y="1" png="dungeon/workbench_alchemy0.png" description="Covered in a brown goo. You think they would have cleaned it up a bit beofore moving it."/>
+  <element type="statue" x="7" y="3" />
+  <element type="statue" x="12" y="2" />
+  <customblocker name="Smelter" x="11" y="3" png="dungeon/smelter0_left.png" description="A dusty smelter.  Hasnt been moved in years." />
+  <customblocker name="Mostly Harmless Red Cube" x="9" y="2" description="Although emitting a slight buzzing, it does not seem to be a threat to you or your loved ones." png="dungeon/redcube.png" />
+  <element type="drinkvending" x="6" y="1" />
+  </room>
+
+  <room width="11" height="11" name="Room of Semi-Constant Demands">
+
+    <row text=" ####D#### "/>
+    <row text="##P#...#P##"/>
+    <row text="#....7....#"/>
+    <row text="d.^..6..^.d"/>
+    <row text="#....5....#"/>
+    <row text="#.@..8..@.#"/>
+    <row text="#.........#"/>
+    <row text="d.^.234.^.d"/>
+    <row text="#.........#"/>
+    <row text="####...####"/>
+    <row text=" ####D#### "/>
+
+    <element at="8"  type="lever" can_push="0" id="lever0"/>
+    <customengraving name="Receptacle" at="5"  png="dungeon/floor_receptacle.png" passable="1" description="A receptacle for runes."/>
+    <customengraving name="Receptacle" at="6"  png="dungeon/floor_receptacle.png" passable="1" description="A receptacle for runes."/>
+    <customengraving name="Receptacle" at="7"  png="dungeon/floor_receptacle.png" passable="1" description="A receptacle for runes."/>
+    <loot at="2" type="gem" subtype="Rune of Pillars" id="rune0"/>
+    <loot at="3" type="gem" subtype="Rune of Growth and Decay" id="rune1"/>
+    <loot at="4" type="gem" subtype="Rune of Scrutiny" id="rune2"/>
+
+    <flags minLevel="1" maxLevel="5"  special="1" noblockers="1" notreasure="1"/>
+    <script repeat="1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune0" at="5"/>
+      <condition condition_type="at" id="rune1" at="6"/>
+      <condition condition_type="at" id="rune2" at="7"/>
+	  
+      <action on="success" action_type="remove" id="drink0"/>
+      <action on="success" action_type="remove" id="craft0"/>
+      <action on="success" action_type="remove" id="bolt0"/>
+      <action on="success" action_type="remove" id="thrown0"/>
+      <action on="success" action_type="remove" id="food0"/>
+	  
+	  <action on="success" action_type="create" create_type="monster" at="6" />
+
+      <action on="success" action_type="ticker" text="A vending machine appears!"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="drinkvending" id="drink0"/>
+    </script>
+
+    <script repeat="1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune0" at="6"/>
+      <condition condition_type="at" id="rune1" at="7"/>
+      <condition condition_type="at" id="rune2" at="5"/>
+	  
+      <action on="success" action_type="remove" id="drink0"/>
+      <action on="success" action_type="remove" id="craft0"/>
+      <action on="success" action_type="remove" id="bolt0"/>
+      <action on="success" action_type="remove" id="thrown0"/>
+      <action on="success" action_type="remove" id="food0"/>
+	  
+	  <action on="success" action_type="create" create_type="monster" at="7" />
+
+      <action on="success" action_type="ticker" text="A vending machine appears!"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="craftvending" id="craft0"/>
+    </script>
+
+    <script repeat="1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune0" at="7"/>
+      <condition condition_type="at" id="rune1" at="5"/>
+      <condition condition_type="at" id="rune2" at="6"/>
+	  
+      <action on="success" action_type="remove" id="drink0"/>
+      <action on="success" action_type="remove" id="craft0"/>
+      <action on="success" action_type="remove" id="bolt0"/>
+      <action on="success" action_type="remove" id="thrown0"/>
+      <action on="success" action_type="remove" id="food0"/>
+	  
+	  <action on="success" action_type="create" create_type="monster" at="5" />
+
+      <action on="success" action_type="ticker" text="A vending machine appears!"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="boltvending" id="bolt0"/>
+    </script>
+
+    <script repeat="1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune0" at="5"/>
+      <condition condition_type="at" id="rune1" at="7"/>
+      <condition condition_type="at" id="rune2" at="6"/>
+	  
+      <action on="success" action_type="remove" id="drink0"/>
+      <action on="success" action_type="remove" id="craft0"/>
+      <action on="success" action_type="remove" id="bolt0"/>
+      <action on="success" action_type="remove" id="thrown0"/>
+      <action on="success" action_type="remove" id="food0"/>
+	  
+	  <action on="success" action_type="create" create_type="monster" at="7" />
+
+      <action on="success" action_type="ticker" text="A vending machine appears!"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="thrownvending" id="thrown0"/>
+    </script>
+
+    <script repeat="1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune0" at="7"/>
+      <condition condition_type="at" id="rune1" at="6"/>
+      <condition condition_type="at" id="rune2" at="5"/>
+	  
+      <action on="success" action_type="remove" id="drink0"/>
+      <action on="success" action_type="remove" id="craft0"/>
+      <action on="success" action_type="remove" id="bolt0"/>
+      <action on="success" action_type="remove" id="thrown0"/>
+      <action on="success" action_type="remove" id="food0"/>
+	  
+	  <action on="success" action_type="create" create_type="monster" at="6" />
+
+      <action on="success" action_type="ticker" text="A vending machine appears!"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="foodvending" id="food0"/>
+    </script>
+  </room>
+
+  <room width="11" height="11" name="Room of Constant Demands">
+
+    <row text=" ####D#### "/>
+    <row text="##P#...#P##"/>
+    <row text="#....7....#"/>
+    <row text="d.^..6..^.d"/>
+    <row text="#....5....#"/>
+    <row text="#.@..8..@.#"/>
+    <row text="#.........#"/>
+    <row text="d.^.234.^.d"/>
+    <row text="#.........#"/>
+    <row text="####...####"/>
+    <row text=" ####D#### "/>
+
+    <element at="8"  type="lever" can_push="0" id="lever0"/>
+    <customengraving name="Receptacle" at="5"  png="dungeon/floor_receptacle.png" passable="1" description="A receptacle for runes."/>
+    <customengraving name="Receptacle" at="6"  png="dungeon/floor_receptacle.png" passable="1" description="A receptacle for runes."/>
+    <customengraving name="Receptacle" at="7"  png="dungeon/floor_receptacle.png" passable="1" description="A receptacle for runes."/>
+    <loot at="2" type="gem" subtype="Rune of Pillars" id="rune0"/>
+    <loot at="3" type="gem" subtype="Rune of Growth and Decay" id="rune1"/>
+    <loot at="4" type="gem" subtype="Rune of Scrutiny" id="rune2"/>
+
+    <flags minLevel="6" maxLevel="14"  special="1" noblockers="1" notreasure="1"/>
+    <script repeat="-1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune0" at="5"/>
+      <condition condition_type="at" id="rune1" at="6"/>
+      <condition condition_type="at" id="rune2" at="7"/>
+	  
+      <action on="success" action_type="remove" id="drink0"/>
+      <action on="success" action_type="remove" id="craft0"/>
+      <action on="success" action_type="remove" id="bolt0"/>
+      <action on="success" action_type="remove" id="thrown0"/>
+      <action on="success" action_type="remove" id="food0"/>
+	  
+	  <action on="success" action_type="create" create_type="monster" at="6" />
+
+      <action on="success" action_type="ticker" text="A vending machine appears!"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="drinkvending" id="drink0"/>
+    </script>
+
+    <script repeat="-1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune0" at="6"/>
+      <condition condition_type="at" id="rune1" at="7"/>
+      <condition condition_type="at" id="rune2" at="5"/>
+	  
+      <action on="success" action_type="remove" id="drink0"/>
+      <action on="success" action_type="remove" id="craft0"/>
+      <action on="success" action_type="remove" id="bolt0"/>
+      <action on="success" action_type="remove" id="thrown0"/>
+      <action on="success" action_type="remove" id="food0"/>
+	  
+	  <action on="success" action_type="create" create_type="monster" at="7" />
+
+      <action on="success" action_type="ticker" text="A vending machine appears!"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="craftvending" id="craft0"/>
+    </script>
+
+    <script repeat="-1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune0" at="7"/>
+      <condition condition_type="at" id="rune1" at="5"/>
+      <condition condition_type="at" id="rune2" at="6"/>
+	  
+      <action on="success" action_type="remove" id="drink0"/>
+      <action on="success" action_type="remove" id="craft0"/>
+      <action on="success" action_type="remove" id="bolt0"/>
+      <action on="success" action_type="remove" id="thrown0"/>
+      <action on="success" action_type="remove" id="food0"/>
+	  
+	  <action on="success" action_type="create" create_type="monster" at="5" />
+
+      <action on="success" action_type="ticker" text="A vending machine appears!"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="boltvending" id="bolt0"/>
+    </script>
+
+    <script repeat="-1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune0" at="5"/>
+      <condition condition_type="at" id="rune1" at="7"/>
+      <condition condition_type="at" id="rune2" at="6"/>
+	  
+      <action on="success" action_type="remove" id="drink0"/>
+      <action on="success" action_type="remove" id="craft0"/>
+      <action on="success" action_type="remove" id="bolt0"/>
+      <action on="success" action_type="remove" id="thrown0"/>
+      <action on="success" action_type="remove" id="food0"/>
+	  
+	  <action on="success" action_type="create" create_type="monster" at="7" />
+
+      <action on="success" action_type="ticker" text="A vending machine appears!"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="thrownvending" id="thrown0"/>
+    </script>
+
+    <script repeat="-1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune0" at="7"/>
+      <condition condition_type="at" id="rune1" at="6"/>
+      <condition condition_type="at" id="rune2" at="5"/>
+	  
+      <action on="success" action_type="remove" id="drink0"/>
+      <action on="success" action_type="remove" id="craft0"/>
+      <action on="success" action_type="remove" id="bolt0"/>
+      <action on="success" action_type="remove" id="thrown0"/>
+      <action on="success" action_type="remove" id="food0"/>
+	  
+	  <action on="success" action_type="create" create_type="monster" at="6" />
+
+      <action on="success" action_type="ticker" text="A vending machine appears!"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="foodvending" id="food0"/>
+    </script>
+  </room>
+  
+  <room width="11" height="11" name="Room of Strange Demands">
+
+    <row text=" ####D#### "/>
+    <row text="##P#...#P##"/>
+    <row text="#....1....#"/>
+    <row text="d.^.576.^.d"/>
+    <row text="#....4....#"/>
+    <row text="#.@.....@.#"/>
+    <row text="#....8....#"/>
+    <row text="d.^.2.3.^.d"/>
+    <row text="#.........#"/>
+    <row text="####...####"/>
+    <row text=" ####D#### "/>
+
+    <element at="8"  type="lever" can_push="0" id="lever0"/>
+    <customengraving name="Receptacle" at="7"  png="dungeon/floor_receptacle.png" passable="1" description="A receptacle for runes."/>
+    <loot at="2" type="gem" subtype="Rune of False Hope" id="rune0"/>
+    <loot at="3" type="gem" subtype="Rune of Difference" id="rune1"/>
+    <loot at="4" type="gem" subtype="Rune of Growth and Decay" id="rune2"/>
+    <loot at="5" type="gem" subtype="Rune of Thaumancy" id="rune3"/>
+    <loot at="6" type="gem" subtype="Rune of Direction" id="rune4"/>
+    <loot at="1" type="gem" subtype="Rune of Scrutiny" id="rune5"/>
+
+    <flags minLevel="0" maxLevel="14"  special="1" noblockers="1" notreasure="1"/>
+    <script repeat="1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune0" at="7"/>
+
+      <action on="success" action_type="ticker" text="An Evil Chest appears!"/>
+      <action on="success" action_type="remove" id="lever0"/>
+      <action on="success" action_type="remove" id="rune0"/>
+      <action on="success" action_type="remove" id="rune1"/>
+      <action on="success" action_type="remove" id="rune2"/>
+      <action on="success" action_type="remove" id="rune3"/>
+      <action on="success" action_type="remove" id="rune4"/>
+      <action on="success" action_type="remove" id="rune5"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="evilchest" id="option0"/>
+    </script>
+
+    <script repeat="1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune1" at="7"/>
+
+      <action on="success" action_type="ticker" text="A magic anvil appears!"/>
+      <action on="success" action_type="remove" id="lever0"/>
+      <action on="success" action_type="remove" id="rune0"/>
+      <action on="success" action_type="remove" id="rune1"/>
+      <action on="success" action_type="remove" id="rune2"/>
+      <action on="success" action_type="remove" id="rune3"/>
+      <action on="success" action_type="remove" id="rune4"/>
+      <action on="success" action_type="remove" id="rune5"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="anvil" id="option1"/>
+    </script>
+
+    <script repeat="1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune2" at="7"/>
+
+      <action on="success" action_type="ticker" text="A fountain appears!"/>
+      <action on="success" action_type="remove" id="lever0"/>
+      <action on="success" action_type="remove" id="rune0"/>
+      <action on="success" action_type="remove" id="rune1"/>
+      <action on="success" action_type="remove" id="rune2"/>
+      <action on="success" action_type="remove" id="rune3"/>
+      <action on="success" action_type="remove" id="rune4"/>
+      <action on="success" action_type="remove" id="rune5"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="fountain" id="option2"/>
+    </script>
+
+    <script repeat="1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune3" at="7"/>
+
+      <action on="success" action_type="ticker" text="A religious statue appears!"/>
+      <action on="success" action_type="remove" id="lever0"/>
+      <action on="success" action_type="remove" id="rune0"/>
+      <action on="success" action_type="remove" id="rune1"/>
+      <action on="success" action_type="remove" id="rune2"/>
+      <action on="success" action_type="remove" id="rune3"/>
+      <action on="success" action_type="remove" id="rune4"/>
+      <action on="success" action_type="remove" id="rune5"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="statue" id="option3"/>
+    </script>
+
+    <script repeat="1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune4" at="7"/>
+
+      <action on="success" action_type="ticker" text="A slipgate appears!"/>
+      <action on="success" action_type="remove" id="lever0"/>
+      <action on="success" action_type="remove" id="rune0"/>
+      <action on="success" action_type="remove" id="rune1"/>
+      <action on="success" action_type="remove" id="rune2"/>
+      <action on="success" action_type="remove" id="rune3"/>
+      <action on="success" action_type="remove" id="rune4"/>
+      <action on="success" action_type="remove" id="rune5"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="portal" id="option4"/>
+    </script>
+
+    <script repeat="1">
+      <condition condition_type="activated_changed" id="lever0"/>
+      <condition condition_type="at" id="rune5" at="7"/>
+
+      <action on="success" action_type="ticker" text="A bookshelf appears!"/>
+      <action on="success" action_type="remove" id="lever0"/>
+      <action on="success" action_type="remove" id="rune0"/>
+      <action on="success" action_type="remove" id="rune1"/>
+      <action on="success" action_type="remove" id="rune2"/>
+      <action on="success" action_type="remove" id="rune3"/>
+      <action on="success" action_type="remove" id="rune4"/>
+      <action on="success" action_type="remove" id="rune5"/>
+      <action on="success" action_type="create" create_type="element" x="5" y="6" type="bookshelf" id="option5"/>
+    </script>
+  </room> 
+
+</roomdb>

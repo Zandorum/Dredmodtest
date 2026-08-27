@@ -1,0 +1,3 @@
+* Add a thrown version of Amaranthine Posion.
+* Try to have Self-Refilling Head-Mounted Potion Dispenser actually be random effectiveness.
+* Add Power Pills for all of the High Tier Items added by Mods.

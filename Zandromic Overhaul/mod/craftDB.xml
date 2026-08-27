@@ -1,0 +1,44 @@
+<craftDB>
+ <craft hidden="1">
+  <output skill="5" name="Gauntlets of Ultimate Smithing" amount="1"/>
+  <tool tag="smithing"/>
+  <input name="Hammer"/>
+  <input name="My Little Anvil Junior Smithing Kit"/>
+  <input name="Thick Leather Work Gloves"/>
+  <input name="Steel Ingot"/>
+ </craft>
+ <craft hidden="1">
+	<output skill="6" name="Prismatic Bulwark" />
+	<tool tag="alchemy" />
+	<input name="A Mirror Darkly Shield" />
+	<input name="Diamond" />
+	<input name="Potion of Radiance" />
+	<input name="Potion of Eternal Purity" />
+</craft>
+<!--crafting inspiration-->
+	<craft>
+		<output skill='5' name='Potion of Metallurgic Inspiration' amount='1'/>
+		<tool tag='alchemy'/>
+		<input name='Potion of Radiance'/>
+		<input name='Potion of Midas'/>
+		<input name='Potion of Steeling'/>
+		<input name='Spatial Instability Infusion'/>
+	</craft>
+	<craft>
+		<output skill='5' name='Potion of Tinkerers Inspiration' amount='1'/>
+		<tool tag='alchemy'/>
+		<input name='Potion of Invisibility'/>
+		<input name='Potion of Lively Regeneration'/>
+		<input name='Potion of Mana'/>
+		<input name='Spatial Instability Infusion'/>
+	</craft>
+<!--other potions-->
+	<craft>
+		<output skill='4' name='Potion of Ensnaring' amount='1'/>
+		<output skill='5' name='Potion of Ensnaring' amount='2'/>
+		<tool tag='alchemy'/>
+		<input name='Carnelian'/>
+		<input name='Hand Grenade'/>
+		<input name='Aqua Vitae'/>
+	</craft>
+</craftDB>

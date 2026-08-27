@@ -1,0 +1,25 @@
+<spellDB>
+<!--inspiration buffs-->
+	<spell name='Metallurgic Inspiration' type='self'>
+		<anim sprite='sprites/sfx/lightningarc/lightningarc' frames='7' framerate='1' sfx='magic'/>
+		<buff useTimer='1' self='1' time='30' stackable='0' icon="skills/alchemical_inspiration64.png" smallicon="skills/alchemical_inspiration32.png">
+			<secondaryBuff id='19' amount='1'/>
+		</buff>
+		<description text='Inspiration slams into your brains as hammers slam anvils.'/>
+	</spell>
+	<spell name='Tinkering Inspiration' type='self'>
+		<anim sprite='sprites/sfx/lightningarc/lightningarc' frames='7' framerate='1' sfx='magic'/>
+		<buff useTimer='1' self='1' time='30' stackable='0' icon="skills/alchemical_inspiration64.png" smallicon="skills/alchemical_inspiration32.png">
+			<secondaryBuff id='20' amount='1'/>
+		</buff>
+		<description text='Inspiration finds a way into your mind as cogs find their way to decorative use in every steampunk game ever.'/>
+	</spell>
+<!--other potions-->
+	<spell name='Sudden Trapper Genius' type='self'>
+		<buff useTimer='1' time='45' self='1' icon='skills/mfm/trapperGenius_64.png' smallicon='skills/mfm/trapperGenius_32.png'>
+			<secondarybuff id='16' amount='3'/>	<!--trap affinity-->
+			<secondarybuff id='17' amount='2'/>	<!--trap sight-->
+		</buff>
+		<description text='You suddenly feel like disarming C4 explosives. Oh well, dwarven landmines will do.'/>
+	</spell>
+</spellDB>

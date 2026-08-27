@@ -1,0 +1,59 @@
+<itemDB>
+<!-- Ring Sword, More Dred - Zandorum Edition -->
+<item name="Ring Sword w/ Titanium Ring" iconFile="items/sword_ring_support1.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="28175"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id="10" amount="3"/> <!-- armor -->
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Titanium Ring to the handle."/>
+</item>
+
+<item name="Ring Sword w/ Bling Ring" iconFile="items/sword_ring_support2.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="28175"/>
+  <weapon slashing="10" piercing="8" transmutative="2"/>
+  <resistbuff transmutative="3" />
+  <targetHitEffectBuff percentage="100" name="Midas" />
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Bling Ring to the handle."/>
+</item>
+
+<!-- Ring Sword, Mo' Steam Punk - Zandorum Edition -->
+<item name="Ring Sword w/ Cog Ring" iconFile="items/sword_ring_support3.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21400"/>
+  <weapon slashing="10" piercing="8"/>
+  <secondarybuff id='23' amount='1'/>
+  <resistbuff voltaic='3'/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Cog Ring to the handle."/>
+</item>
+
+<!-- Ring Sword, Interior Dredmorating - Zandorum Edition -->
+<item name="Ring Sword w/ Decoder Ring" iconFile="items/sword_ring_support4.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21300"/>
+  <weapon slashing="10" piercing="8"/>
+  <primarybuff id="1" amount="1" /> <!-- Sagacity -->
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Decoder Ring to the handle."/>
+</item>
+
+<!-- Ring Sword, LYNX - Zandorum Edition -->
+<item name="Ring Sword w/ Rearden Ring" iconFile="items/sword_ring_support5.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="21580"/>
+  <weapon slashing="10" piercing="8"/>
+  <artifact quality="4"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Rearden Ring to the handle. This seems to be somewhat special."/>
+  <playerHitEffectBuff name="Zorkmids R1" percentage="25" />
+  </item>
+
+<item name="Ring Sword w/ Diamond Set Rearden Ring" iconFile="items/sword_ring_support6.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="22580"/>
+  <weapon slashing="10" piercing="8"/>
+  <artifact quality="7"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Diamond Set Rearden Ring to the handle. This seems to be somewhat special."/>
+  <playerHitEffectBuff name="Zorkmids R2" percentage="50" />
+  </item>
+
+<item name="Ring Sword w/ Diamond Encrusted Rearden Ring" iconFile="items/sword_ring_support7.png" level="20" type="0" special="1" craftoutput="1">
+  <price amount="27200"/>
+  <weapon slashing="10" piercing="8"/>
+  <artifact quality="10"/>
+  <description text="An opulent sword with a handle made of tanned human fingers, I've affixed a Diamond Encrusted Rearden Ring to the handle. This seems to be somewhat special."/>
+  <playerHitEffectBuff name="Zorkmids R3" percentage="75" />
+  </item>
+</itemDB>
