@@ -1,0 +1,22 @@
+* Gem Crafting should exist but should be hidden recipes and alchemy not tinkering.
+* Add Breaking down new added weapons and items where applicable.
+* Add Soylent Green turning into any other Food Item recipes (1:1) via Alchemy with the type of food requiring varying amounts of alchemy to make.
+* Add Baseball Recipe (Leather, Cloth, Wood).
+* Add Double Staff Recipe (Leather, Hefty Stick x2)(Replacing Zandromic Additions recipe).
+* Add Flask recipes.
+
+* Requiring Breakdowns:
+Razor Sword
+Razor Sword for Her
+Double Razor Sword
+Orclasher, Slasher of Orcs
+The Fatblade
+(All Addon Weapons)
+
+* Pressure Plate Breakdown:
+Inconspicious Pressure Plate
+Toxic Blinding Dart Trap
+Fiery Surpise Trap
+Very Hot Fiery Surpise Trap
+Blink Curse Trap
+Acidic Trail Trap
