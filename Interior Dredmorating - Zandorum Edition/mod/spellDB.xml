@@ -1,0 +1,32 @@
+<!--
+
+Spell Database for Interior Dredmorating. As always, don't look if you don't want spoilers...
+
+-->
+
+<spellDB>
+   <!-- Spells from Items -->
+
+<spell name="Djinn and Tonic" type="self" icon="skills/spells/djinn32.png" >
+   <effect type="summon" monsterType="Djinn"/>
+   <anim sprite="sprites/sfx/smokepuffbig/smokepuffbig" frames="6" framerate="90" sfx="small_spell" centerEffect="1" /> 
+   </spell>
+   
+  <spell name="Toy Surprise" type="self" icon="skills/spells/toy_surprise_32.png">
+  <effect type="spawnitemfromlist">
+    <option name="Plastic Ring"/>
+    <option name="Small Crossbow"/>
+    <option name="X-Ray Specs"/>
+    <option name="Decoder Ring"/>
+    <option name="Aluminum Ring"/>
+    <option name="Ring of Ash"/>
+    <option name="Pumice Ring"/>
+    <option name="Plastic Ingot"/>
+    <option name="Voltaic Cell"/>
+    <option name="Shoddy Dwarven IED"/>
+    <option name="Brass Mechanisms"/>
+    <option name="Wooden Sword"/>
+    <option name="Softball"/>
+  </effect>
+   </spell> 
+</spellDB>

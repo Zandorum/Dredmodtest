@@ -1,0 +1,36 @@
+<itemDB>
+
+  <item name="Grinch Club Sandwich" iconFile="items/food_grinch.png" level="8">
+	<price amount="120"/>
+    <food hp="60" effect="Unpleasant Poison"/> <!-- say... -->
+    <description text="A triple-decker toadstool sandwich with arsenic sauce. Who would eat such a thing? Yes they would, actually."/>
+  </item>
+  
+  <item name="Frosted Sugar Smiths" iconFile="items/food_cereal.png" level="10">
+    <price amount="260"/>
+    <food hp="7" effect="Toy Surprise"/> <!-- say... -->
+    <description text="Silly Diggle, Sugar Smiths are for Dwarves! Now with more marshmallows and sugar-frosted crunchy bits. Try not to choke on the toy surprise."/>
+  </item>
+
+<item name="Gin" iconFile="items/booze_djinn.png" level="10">
+	<price amount="188"/>
+	<food mp="12" effect="Djinn and Tonic"/> <!-- say... -->
+	<description text="Letting the gin out of the bottle? What's next, cat out of the bag? Friends don't let friends drink and summon. "/>
+	</item> 
+
+<item name="X-Ray Specs" iconFile="items/helm_x_spec.png" special="1" >
+	<price amount="200"/>
+	<armour level="2" type="head"/>
+	<secondarybuff id="4" amount="1"/> <!-- critical -->
+	<secondarybuff id="17" amount="1"/> <!-- trap sight -->
+	<secondarybuff id="18" amount="1"/> <!-- sight radius -->
+	<description text="Turns out naked skeletons aren't nearly as sexy as you'd hoped." />
+	</item>
+
+<item name="Decoder Ring" iconFile="items/ring_decoder.png" special="1" >
+	<price amount="300"/>
+	<armour type="ring" level="1" randoms="0" />
+	<primarybuff id="1" amount="1" /> <!-- Sagacity -->
+	<description text="This ring bears a tiny dial covered with magical symbols. Wearing it makes you feel smarter."/>
+	</item>
+</itemDB>

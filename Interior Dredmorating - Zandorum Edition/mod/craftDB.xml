@@ -1,0 +1,17 @@
+<craftDB>
+<craft hidden="1">
+	<output skill="1" name="X-Ray Specs" amount="1" />
+	<tool tag="alchemy"/>
+	<input name="Spectacles" />
+	<input name="Potion of Clear Vision" />
+	</craft>
+	
+<craft hidden="1" >
+	<output skill="1" name="Grinch Club Sandwich" amount="1" />
+	<tool tag="ingot"/>
+	<input name="Mud Wen" />
+	<input name="Mud Wen" />
+	<input name="Mud Wen" />
+	<input name="Sliced Bread" />
+	</craft>
+</craftDB>

@@ -1,0 +1,3 @@
+* Decoder ring should have a chance on kill to yield blueprints rarely.
+* Yields some oddities on quitting.
+* Can cause save corruption.
